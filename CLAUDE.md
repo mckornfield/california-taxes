@@ -19,14 +19,15 @@ Interactive Plotly charts of California taxes: where state and local revenue com
 Run in order; each reads `data/processed/`.
 1. `01_state_data_overview`, `02_state_revenue`, `03_state_spending`, `04_state_revenue_vs_spending`
 2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `09_county_maps`
-3. `10_tax_burden` (state + city + county + school-district taxes, real per person)
+3. `10_tax_burden` (state + city + county + school-district taxes, real per person and as a share of personal income)
+4. `11_city_county_explorer` (dropdown per city/county, top/bottom lists)
 
 ## Data Sources
 | Source | Script | Output |
 |---|---|---|
 | LAO historical revenues/expenditures (xlsx) | `fetch_lao_state.py` | `data/raw/lao/` |
 | DOF Budget Summary Schedule 3 (PDF) | `fetch_dof_schedule3.py` (bump the budget year in the URL when a newer one exists) | `data/raw/dof/` |
-| FRED CPIAUCSL, CAPOP | `fetch_fred.py` | `data/raw/fred/` |
+| FRED CPIAUCSL, CAPOP, CAOTOT (CA personal income) | `fetch_fred.py` | `data/raw/fred/` |
 | State Controller (SCO) cities/counties/special districts, Socrata API | `fetch_sco_local.py` (aggregates server-side) | `data/raw/sco/` |
 | Census county FIPS + CA county GeoJSON | `fetch_census_fips.py` | `data/raw/census/` |
 | Census school-district finances FY1992-2024 | `fetch_census_schools.py` (~250 MB gitignored cache; keeps CA rows only) | `data/raw/census/schools/` |
@@ -35,6 +36,7 @@ Known data issues (also in README):
 - LAO revenue taxonomy changes at FY2016-17; LAO 2018-19 rows are misaligned and are repaired from DOF Schedule 3.
 - SCO reporting format changes at FY2016-17 (series break drawn on charts).
 - SCO excludes K-12 districts and community colleges. K-12 comes from Census (FY1994 omitted, FY2019 charter-school break); community colleges are not covered anywhere. County revenue includes state aid, so do not add state and local revenue totals.
+- SCO city populations can be swapped between cities (Mt. Shasta / Mountain View); `repair_city_population` in `build_processed.py` fixes and flags them.
 - `.xlsx`/`.xls`/`.pdf` raw files are gitignored; the converted CSVs are committed.
 
 ## Running Notebooks

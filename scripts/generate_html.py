@@ -66,6 +66,9 @@ SECTIONS = [
     ("Putting it together", [
         "10_tax_burden.ipynb",
     ]),
+    ("Explore", [
+        "11_city_county_explorer.ipynb",
+    ]),
 ]
 
 

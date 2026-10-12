@@ -7,7 +7,7 @@
   local_taxes.csv         govt (City|County), fy, tax_type, amount_k
   local_spending.csv      govt, fy, group, amount_k
   local_sd_activity.csv   kind (revenue|spending), fy, activity, district_type, amount_k
-  local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k
+  local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k, population_repaired
   school_finance.csv      kind (revenue|spending), fy, group, amount_k   (K-12 districts, Census; FY1994 omitted)
   school_enrollment.csv   fy, enrollment   (fall enrollment, sum of districts)
 
@@ -172,7 +172,40 @@ def local_entities() -> pd.DataFrame:
         else:
             r["county"] = r.index.get_level_values("entity")
         frames.append(r.reset_index().assign(kind=k.title()))
-    return pd.concat(frames)[["kind", "entity", "county", "fy", "population", "revenue_total_k", "tax_k", "spending_total_k"]]
+    out = pd.concat(frames)[["kind", "entity", "county", "fy", "population", "revenue_total_k", "tax_k", "spending_total_k"]]
+    return repair_city_population(out)
+
+
+def repair_city_population(df: pd.DataFrame) -> pd.DataFrame:
+    """SCO swaps some city populations (Mt. Shasta reports ~80k and Mountain View ~3.3k in the same years).
+
+    A city can't be bigger than its county, so those city-years are flagged. The flagged city's true
+    value is interpolated from its own series; if another city that year reports a population within
+    15% of that and is abnormally small for itself (<20% of its median), the two values were swapped and are swapped back. Otherwise the interpolation is used.
+    Repaired rows are flagged in population_repaired.
+    """
+    cty = df[df.kind == "County"].set_index(["entity", "fy"]).population.rename("county_pop")
+    c = df.join(cty, on=["county", "fy"])
+    bad = ((c.kind == "City") & (c.population > c.county_pop)).to_numpy()
+    df = df.assign(population_repaired=bad)
+    city = df.kind == "City"
+    med = df.groupby(["kind", "entity"]).population.transform("median")
+    for name in df.loc[df.population_repaired, "entity"].unique():
+        m = (df.entity == name) & city
+        ser = df.loc[m].set_index("fy")
+        interp = ser.population.where(~ser.population_repaired).interpolate(limit_direction="both")
+        for fy in ser.index[ser.population_repaired]:
+            wrong = ser.population[fy]
+            near = ((df.population / interp[fy] - 1).abs() < 0.15) & (df.population < 0.2 * med)  # and abnormally small for itself
+            cand = df[city & (df.fy == fy) & (df.entity != name) & near]
+            if len(cand) == 1:  # swapped with this city: give it the wrong (large) value back
+                k = cand.index[0]
+                df.loc[(df.entity == name) & city & (df.fy == fy), "population"] = cand.population.iloc[0]
+                df.loc[k, ["population", "population_repaired"]] = [wrong, True]
+            else:
+                df.loc[(df.entity == name) & city & (df.fy == fy), "population"] = interp[fy]
+    print(f"  repaired {int(df.population_repaired.sum())} city-year populations: {sorted(df.loc[df.population_repaired, 'entity'].unique())}")
+    return df
 
 
 PARTIAL_SCHOOL_YEARS = {1994}  # Census' FY1994 file covers only 258 of ~1,080 California districts
