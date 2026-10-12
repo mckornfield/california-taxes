@@ -18,8 +18,8 @@ Interactive Plotly charts of California taxes: where state and local revenue com
 ## Notebook Pipeline
 Run in order; each reads `data/processed/`.
 1. `01_state_data_overview`, `02_state_revenue`, `03_state_spending`, `04_state_revenue_vs_spending`
-2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_county_maps`
-3. `09_tax_burden` (state + local, real per person)
+2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `09_county_maps`
+3. `10_tax_burden` (state + city + county + school-district taxes, real per person)
 
 ## Data Sources
 | Source | Script | Output |
@@ -29,11 +29,12 @@ Run in order; each reads `data/processed/`.
 | FRED CPIAUCSL, CAPOP | `fetch_fred.py` | `data/raw/fred/` |
 | State Controller (SCO) cities/counties/special districts, Socrata API | `fetch_sco_local.py` (aggregates server-side) | `data/raw/sco/` |
 | Census county FIPS + CA county GeoJSON | `fetch_census_fips.py` | `data/raw/census/` |
+| Census school-district finances FY1992-2024 | `fetch_census_schools.py` (~250 MB gitignored cache; keeps CA rows only) | `data/raw/census/schools/` |
 
 Known data issues (also in README):
 - LAO revenue taxonomy changes at FY2016-17; LAO 2018-19 rows are misaligned and are repaired from DOF Schedule 3.
 - SCO reporting format changes at FY2016-17 (series break drawn on charts).
-- SCO excludes K-12 districts and community colleges, so local taxes are understated. County revenue includes state aid, so do not add state and local revenue totals.
+- SCO excludes K-12 districts and community colleges. K-12 comes from Census (FY1994 omitted, FY2019 charter-school break); community colleges are not covered anywhere. County revenue includes state aid, so do not add state and local revenue totals.
 - `.xlsx`/`.xls`/`.pdf` raw files are gitignored; the converted CSVs are committed.
 
 ## Running Notebooks

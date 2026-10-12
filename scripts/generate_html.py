@@ -60,10 +60,11 @@ SECTIONS = [
         "05_local_revenue.ipynb",
         "06_local_taxes.ipynb",
         "07_local_spending.ipynb",
-        "08_county_maps.ipynb",
+        "08_school_districts.ipynb",
+        "09_county_maps.ipynb",
     ]),
     ("Putting it together", [
-        "09_tax_burden.ipynb",
+        "10_tax_burden.ipynb",
     ]),
 ]
 

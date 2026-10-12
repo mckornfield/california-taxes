@@ -1,0 +1,321 @@
+kind,fy,group,amount_k
+revenue,1992,Federal,2072470
+revenue,1993,Federal,2151157
+revenue,1995,Federal,2612241
+revenue,1996,Federal,2603882
+revenue,1997,Federal,2850766
+revenue,1998,Federal,3149260
+revenue,1999,Federal,3599923
+revenue,2000,Federal,4024940
+revenue,2001,Federal,4280358
+revenue,2002,Federal,5084409
+revenue,2003,Federal,5795655
+revenue,2004,Federal,6634068
+revenue,2005,Federal,7148863
+revenue,2006,Federal,7421482
+revenue,2007,Federal,7200298
+revenue,2008,Federal,7227456
+revenue,2009,Federal,9745250
+revenue,2010,Federal,9715980
+revenue,2011,Federal,9990221
+revenue,2012,Federal,8793325
+revenue,2013,Federal,7836263
+revenue,2014,Federal,7415061
+revenue,2015,Federal,7556365
+revenue,2016,Federal,7709079
+revenue,2017,Federal,7889546
+revenue,2018,Federal,7986209
+revenue,2019,Federal,8162989
+revenue,2020,Federal,7995360
+revenue,2021,Federal,14808452
+revenue,2022,Federal,16297551
+revenue,2023,Federal,15930121
+revenue,2024,Federal,16063644
+revenue,1992,State aid,16546514
+revenue,1993,State aid,17064146
+revenue,1995,State aid,15541486
+revenue,1996,State aid,17061474
+revenue,1997,State aid,20560730
+revenue,1998,State aid,22840500
+revenue,1999,State aid,23695095
+revenue,2000,State aid,26877920
+revenue,2001,State aid,31374889
+revenue,2002,State aid,31005317
+revenue,2003,State aid,33617766
+revenue,2004,State aid,31756690
+revenue,2005,State aid,34912166
+revenue,2006,State aid,37439651
+revenue,2007,State aid,42333637
+revenue,2008,State aid,43187637
+revenue,2009,State aid,40084244
+revenue,2010,State aid,34173911
+revenue,2011,State aid,37752712
+revenue,2012,State aid,36413273
+revenue,2013,State aid,35141208
+revenue,2014,State aid,38410554
+revenue,2015,State aid,42360470
+revenue,2016,State aid,50904567
+revenue,2017,State aid,51046506
+revenue,2018,State aid,49395234
+revenue,2019,State aid,54106131
+revenue,2020,State aid,52444323
+revenue,2021,State aid,55426851
+revenue,2022,State aid,61308730
+revenue,2023,State aid,78218768
+revenue,2024,State aid,73990871
+revenue,1992,Local property tax,5254454
+revenue,1993,Local property tax,5496033
+revenue,1995,Local property tax,8372920
+revenue,1996,Local property tax,8455584
+revenue,1997,Local property tax,8406871
+revenue,1998,Local property tax,9026620
+revenue,1999,Local property tax,9504356
+revenue,2000,Local property tax,10260935
+revenue,2001,Local property tax,11225137
+revenue,2002,Local property tax,12249006
+revenue,2003,Local property tax,13376070
+revenue,2004,Local property tax,14534126
+revenue,2005,Local property tax,12498074
+revenue,2006,Local property tax,13116202
+revenue,2007,Local property tax,13899019
+revenue,2008,Local property tax,15342516
+revenue,2009,Local property tax,16038031
+revenue,2010,Local property tax,14903149
+revenue,2011,Local property tax,15517833
+revenue,2012,Local property tax,15828684
+revenue,2013,Local property tax,16806765
+revenue,2014,Local property tax,17257917
+revenue,2015,Local property tax,18608632
+revenue,2016,Local property tax,20607205
+revenue,2017,Local property tax,22136728
+revenue,2018,Local property tax,23643261
+revenue,2019,Local property tax,24467615
+revenue,2020,Local property tax,25566733
+revenue,2021,Local property tax,27074788
+revenue,2022,Local property tax,27925732
+revenue,2023,Local property tax,30522876
+revenue,2024,Local property tax,32281558
+revenue,1992,Other local taxes,0
+revenue,1993,Other local taxes,0
+revenue,1995,Other local taxes,61671
+revenue,1996,Other local taxes,64718
+revenue,1997,Other local taxes,68918
+revenue,1998,Other local taxes,69808
+revenue,1999,Other local taxes,93718
+revenue,2000,Other local taxes,97702
+revenue,2001,Other local taxes,103259
+revenue,2002,Other local taxes,115947
+revenue,2003,Other local taxes,172334
+revenue,2004,Other local taxes,232169
+revenue,2005,Other local taxes,277723
+revenue,2006,Other local taxes,305493
+revenue,2007,Other local taxes,327515
+revenue,2008,Other local taxes,338027
+revenue,2009,Other local taxes,401423
+revenue,2010,Other local taxes,442447
+revenue,2011,Other local taxes,496004
+revenue,2012,Other local taxes,490975
+revenue,2013,Other local taxes,552532
+revenue,2014,Other local taxes,607540
+revenue,2015,Other local taxes,598778
+revenue,2016,Other local taxes,617265
+revenue,2017,Other local taxes,619125
+revenue,2018,Other local taxes,639478
+revenue,2019,Other local taxes,658933
+revenue,2020,Other local taxes,740641
+revenue,2021,Other local taxes,796904
+revenue,2022,Other local taxes,829832
+revenue,2023,Other local taxes,870322
+revenue,2024,Other local taxes,925328
+revenue,1992,Other local revenue,2180476
+revenue,1993,Other local revenue,3150832
+revenue,1995,Other local revenue,2708828
+revenue,1996,Other local revenue,2865980
+revenue,1997,Other local revenue,3181588
+revenue,1998,Other local revenue,3526230
+revenue,1999,Other local revenue,3466621
+revenue,2000,Other local revenue,4086229
+revenue,2001,Other local revenue,4871365
+revenue,2002,Other local revenue,4579159
+revenue,2003,Other local revenue,5007298
+revenue,2004,Other local revenue,5132324
+revenue,2005,Other local revenue,5376086
+revenue,2006,Other local revenue,5924074
+revenue,2007,Other local revenue,6316221
+revenue,2008,Other local revenue,5996184
+revenue,2009,Other local revenue,5184196
+revenue,2010,Other local revenue,5746144
+revenue,2011,Other local revenue,4833105
+revenue,2012,Other local revenue,5042369
+revenue,2013,Other local revenue,6109151
+revenue,2014,Other local revenue,6166836
+revenue,2015,Other local revenue,6270553
+revenue,2016,Other local revenue,6719051
+revenue,2017,Other local revenue,7417143
+revenue,2018,Other local revenue,8178944
+revenue,2019,Other local revenue,8645382
+revenue,2020,Other local revenue,8787031
+revenue,2021,Other local revenue,8468927
+revenue,2022,Other local revenue,9962322
+revenue,2023,Other local revenue,12239426
+revenue,2024,Other local revenue,15247258
+spending,1992,Instruction,14358922
+spending,1993,Instruction,15281147
+spending,1995,Instruction,16146416
+spending,1996,Instruction,16880730
+spending,1997,Instruction,18160435
+spending,1998,Instruction,20083913
+spending,1999,Instruction,21110543
+spending,2000,Instruction,23514388
+spending,2001,Instruction,26641811
+spending,2002,Instruction,28593157
+spending,2003,Instruction,29561563
+spending,2004,Instruction,29624968
+spending,2005,Instruction,31070450
+spending,2006,Instruction,32387671
+spending,2007,Instruction,34685013
+spending,2008,Instruction,36542347
+spending,2009,Instruction,35617964
+spending,2010,Instruction,34657275
+spending,2011,Instruction,34225248
+spending,2012,Instruction,34213049
+spending,2013,Instruction,34194878
+spending,2014,Instruction,35539425
+spending,2015,Instruction,38951948
+spending,2016,Instruction,42587272
+spending,2017,Instruction,44748095
+spending,2018,Instruction,44661882
+spending,2019,Instruction,47665561
+spending,2020,Instruction,46916806
+spending,2021,Instruction,48515145
+spending,2022,Instruction,53085151
+spending,2023,Instruction,58043104
+spending,2024,Instruction,63074783
+spending,1992,Support services,8520926
+spending,1993,Support services,8914559
+spending,1995,Support services,8603751
+spending,1996,Support services,9222569
+spending,1997,Support services,10040400
+spending,1998,Support services,10939061
+spending,1999,Support services,11539910
+spending,2000,Support services,12429070
+spending,2001,Support services,14127664
+spending,2002,Support services,15568570
+spending,2003,Support services,17030335
+spending,2004,Support services,17338877
+spending,2005,Support services,18046385
+spending,2006,Support services,19079354
+spending,2007,Support services,20655194
+spending,2008,Support services,22310865
+spending,2009,Support services,21693675
+spending,2010,Support services,20704755
+spending,2011,Support services,20266047
+spending,2012,Support services,20393761
+spending,2013,Support services,20595508
+spending,2014,Support services,21594573
+spending,2015,Support services,23501848
+spending,2016,Support services,26058021
+spending,2017,Support services,27572412
+spending,2018,Support services,27818003
+spending,2019,Support services,29204613
+spending,2020,Support services,29280747
+spending,2021,Support services,30609632
+spending,2022,Support services,34788869
+spending,2023,Support services,38068728
+spending,2024,Support services,42356621
+spending,1992,Other current spending,1777880
+spending,1993,Other current spending,1608514
+spending,1995,Other current spending,2181053
+spending,1996,Other current spending,2362407
+spending,1997,Other current spending,1792979
+spending,1998,Other current spending,1862674
+spending,1999,Other current spending,1954362
+spending,2000,Other current spending,2269603
+spending,2001,Other current spending,2570224
+spending,2002,Other current spending,2882414
+spending,2003,Other current spending,2995767
+spending,2004,Other current spending,3048006
+spending,2005,Other current spending,3132465
+spending,2006,Other current spending,3259244
+spending,2007,Other current spending,3467540
+spending,2008,Other current spending,3692956
+spending,2009,Other current spending,3759373
+spending,2010,Other current spending,3556156
+spending,2011,Other current spending,3486160
+spending,2012,Other current spending,3488344
+spending,2013,Other current spending,3461759
+spending,2014,Other current spending,3581789
+spending,2015,Other current spending,3754315
+spending,2016,Other current spending,3995951
+spending,2017,Other current spending,4211532
+spending,2018,Other current spending,4338804
+spending,2019,Other current spending,4557271
+spending,2020,Other current spending,4608427
+spending,2021,Other current spending,4356678
+spending,2022,Other current spending,5100768
+spending,2023,Other current spending,5848394
+spending,2024,Other current spending,6728564
+spending,1992,Capital outlay,2044688
+spending,1993,Capital outlay,1944760
+spending,1995,Capital outlay,2669270
+spending,1996,Capital outlay,2580639
+spending,1997,Capital outlay,3088674
+spending,1998,Capital outlay,4335730
+spending,1999,Capital outlay,4738866
+spending,2000,Capital outlay,5849441
+spending,2001,Capital outlay,6755895
+spending,2002,Capital outlay,6998522
+spending,2003,Capital outlay,7341541
+spending,2004,Capital outlay,9242549
+spending,2005,Capital outlay,10223657
+spending,2006,Capital outlay,10047331
+spending,2007,Capital outlay,10058842
+spending,2008,Capital outlay,9388155
+spending,2009,Capital outlay,8881265
+spending,2010,Capital outlay,7150441
+spending,2011,Capital outlay,6523770
+spending,2012,Capital outlay,6736656
+spending,2013,Capital outlay,6160059
+spending,2014,Capital outlay,6124103
+spending,2015,Capital outlay,6373893
+spending,2016,Capital outlay,6786142
+spending,2017,Capital outlay,7396047
+spending,2018,Capital outlay,9047943
+spending,2019,Capital outlay,10208709
+spending,2020,Capital outlay,11249818
+spending,2021,Capital outlay,10124631
+spending,2022,Capital outlay,10313609
+spending,2023,Capital outlay,11704208
+spending,2024,Capital outlay,14548539
+spending,1992,Interest and other,276832
+spending,1993,Interest and other,198078
+spending,1995,Interest and other,295173
+spending,1996,Interest and other,318304
+spending,1997,Interest and other,320864
+spending,1998,Interest and other,343992
+spending,1999,Interest and other,382288
+spending,2000,Interest and other,417370
+spending,2001,Interest and other,507029
+spending,2002,Interest and other,661593
+spending,2003,Interest and other,884263
+spending,2004,Interest and other,1106804
+spending,2005,Interest and other,1290307
+spending,2006,Interest and other,1421856
+spending,2007,Interest and other,1620945
+spending,2008,Interest and other,1784942
+spending,2009,Interest and other,1898611
+spending,2010,Interest and other,2080730
+spending,2011,Interest and other,2348728
+spending,2012,Interest and other,2419141
+spending,2013,Interest and other,2411271
+spending,2014,Interest and other,2496700
+spending,2015,Interest and other,2583369
+spending,2016,Interest and other,2718931
+spending,2017,Interest and other,2895991
+spending,2018,Interest and other,2983681
+spending,2019,Interest and other,3149718
+spending,2020,Interest and other,3363713
+spending,2021,Interest and other,3450483
+spending,2022,Interest and other,3576594
+spending,2023,Interest and other,3762107
+spending,2024,Interest and other,4033675

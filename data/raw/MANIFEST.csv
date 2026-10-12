@@ -1,6 +1,7 @@
 file,url,retrieved,sha256,bytes,note
 data/raw/census/ca_counties.geojson,https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json,2026-10-12,034e308a56f3c4b9337e736294de2e9ece8aa78ef55bd99b7c911cad3195f921,77245,California features only
 data/raw/census/ca_county_fips.csv,https://www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt,2026-10-12,6163e35329abf2c42f1031fe68477b3b665ca28265a1aad4f7b90d18cb1e6e08,851,California rows of national_county2020.txt
+data/raw/census/schools/ca_school_districts.csv,https://www2.census.gov/programs-surveys/school-finances/tables/<YYYY>/secondary-education-finance/elsec<YY>.txt,2026-10-12,76d2fc1d00a59af52e7caa7f92e108a2be4e8cd8a0bd178a1c23ce8d8acdc3b2,6036272,California rows only; FY1992-2024; $ thousands
 data/raw/dof/BS_SCH3_2026-27.pdf,https://ebudget.ca.gov/2026-27/pdf/BudgetSummary/BS_SCH3.pdf,2026-10-12,c3538f538de95c5ea652548b32c4a76b2ba8feefd21b9c1ea62dea6370b61f5f,262660,"DOF Schedule 3, Comparative Yield of State Taxes"
 data/raw/dof/schedule3_tax_yield.csv,https://ebudget.ca.gov/2026-27/pdf/BudgetSummary/BS_SCH3.pdf,2026-10-12,dbc9ea2f8aa2449b06587dad793cc3b0fef1b7ae5504c649c12859eb6f5a37af,17996,parsed from BS_SCH3_2026-27.pdf (fy = fiscal-year end year)
 data/raw/fred/CAPOP.csv,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CAPOP,2026-10-12,fa10df7be18598bd2f52269a0957965c50915be383920be0f9826420f8476f35,2621,FRED series CAPOP

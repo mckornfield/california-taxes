@@ -8,6 +8,8 @@
   local_spending.csv      govt, fy, group, amount_k
   local_sd_activity.csv   kind (revenue|spending), fy, activity, district_type, amount_k
   local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k
+  school_finance.csv      kind (revenue|spending), fy, group, amount_k   (K-12 districts, Census; FY1994 omitted)
+  school_enrollment.csv   fy, enrollment   (fall enrollment, sum of districts)
 
 fy is the fiscal-year END year (2015-16 -> 2016). Amounts are $ thousands, nominal.
 Real/per-capita values are derived in notebooks via ca_taxes.deflate.
@@ -168,9 +170,46 @@ def local_entities() -> pd.DataFrame:
     return pd.concat(frames)[["kind", "entity", "county", "fy", "population", "revenue_total_k", "tax_k", "spending_total_k"]]
 
 
+PARTIAL_SCHOOL_YEARS = {1994}  # Census' FY1994 file covers only 258 of ~1,080 California districts
+
+
+def school_finance() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Statewide K-12 district totals from the Census school-finance survey.
+
+    Revenue excludes D11 (transfers between school systems) and spending excludes Q11
+    (payments to other school systems), as Census does in its published state tables;
+    FY2022 then reproduces Census Table 1 (revenue $116.3B, expenditure $106.9B).
+    """
+    d = pd.read_csv(RAW / "census" / "schools" / "ca_school_districts.csv")
+    d = d[~d.fy.isin(PARTIAL_SCHOOL_YEARS)]
+    g = d.drop(columns=["IDCENSUS", "NAME", "CONUM"], errors="ignore").groupby("fy").sum(numeric_only=True)
+    rev = pd.DataFrame({
+        "Federal": g.TFEDREV,
+        "State aid": g.TSTREV,
+        "Local property tax": g.T06,
+        "Other local taxes": g.T99,
+        "Other local revenue": g.TLOCREV - g.D11 - g.T06 - g.T99,
+    })
+    spend = pd.DataFrame({
+        "Instruction": g.TCURINST,
+        "Support services": g.TCURSSVC,
+        "Other current spending": g.TCUROTH + g.NONELSEC,
+        "Capital outlay": g.TCAPOUT,
+        "Interest and other": g.TOTALEXP - g.Q11 - g.TCURELSC - g.NONELSEC - g.TCAPOUT,
+    })
+    for name, t in (("revenue", rev), ("spending", spend)):
+        neg = t[(t < 0).any(axis=1)]
+        print(f"  school {name}: {len(neg)} years with a negative group", "" if neg.empty else neg.round(0).to_dict("index"))
+    long = pd.concat([t.rename_axis("fy").reset_index().melt("fy", var_name="group", value_name="amount_k").assign(kind=k)
+                      for k, t in (("revenue", rev), ("spending", spend))])
+    enr = g.V33.rename("enrollment").rename_axis("fy").reset_index()
+    return long[["kind", "fy", "group", "amount_k"]], enr
+
+
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    for name, df in [("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
+    sf, se = school_finance()
+    for name, df in [("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
                      ("local_spending", local_spending()), ("local_sd_activity", local_sd_activity()),
                      ("local_entities", local_entities()), ("state_revenue", repair_with_schedule3(state_revenue())), ("state_expenditures", state_expenditures())]:
         df.to_csv(PROCESSED / f"{name}.csv", index=False)

@@ -7,11 +7,12 @@ published to GitHub Pages from `index.html`. Same pipeline as `california-prop13
 ```bash
 uv venv && uv pip install -e .
 # 1. fetch raw data (each script documents its URL; hashes go in data/raw/MANIFEST.csv)
+#    fetch_census_schools.py downloads ~250 MB into a gitignored cache (data/raw/census/schools/_cache)
 for s in scripts/fetch_*.py; do .venv/bin/python $s; done
 # 2. build tidy tables in data/processed/ (also writes revenue_reconciliation.csv)
 .venv/bin/python scripts/build_processed.py
 # 3. execute notebooks in place, then build the page
-for nb in notebooks/0*.ipynb; do .venv/bin/python -m papermill $nb $nb -k python3 --cwd notebooks; done
+for nb in notebooks/*.ipynb; do .venv/bin/python -m papermill $nb $nb -k python3 --cwd notebooks; done
 .venv/bin/python scripts/generate_html.py
 ```
 Output must be written back into the notebook (same path in and out) because `generate_html.py` reads the Plotly JSON from the executed notebooks.
@@ -23,6 +24,7 @@ Output must be written back into the notebook (same path in and out) because `ge
 | State spending by department, 1984-85 on | LAO Historical Expenditures | `fetch_lao_state.py` |
 | Tax yield by type, 1970-71 on (cross-check and repair) | DOF Schedule 3 (PDF, parsed) | `fetch_dof_schedule3.py` |
 | Cities, counties, special districts: revenue and spending, FY2002-03 on (aggregated server-side) | State Controller's Office, bythenumbers.sco.ca.gov (Socrata API) | `fetch_sco_local.py` |
+| K-12 school districts: revenue by source and spending by function, FY1992-2024 (California rows kept) | Census Annual Survey of School System Finances, district-level files | `fetch_census_schools.py` |
 | Inflation, CA population | FRED CPIAUCSL, CAPOP | `fetch_fred.py` |
 | County FIPS codes and boundaries | Census reference file, plotly/datasets GeoJSON | `fetch_census_fips.py` |
 
@@ -33,7 +35,8 @@ Excel/PDF sources: `scripts/convert_to_csv.py` converts any workbook or PDF tabl
 - LAO's revenue file changes taxonomy at 2016-17 (charts mark the break).
 - LAO's 2018-19 personal income and sales tax rows are misaligned; they are replaced from DOF Schedule 3. Every
   LAO-vs-Schedule-3 comparison and repair is logged in `data/processed/revenue_reconciliation.csv`.
-- SCO changed its local reporting categories in FY2016-17 (charts mark it); SCO data excludes school districts and community colleges. The SCO's per-entity tables are aggregated by the fetch script (full tables are millions of rows); special districts are kept by county/type/activity rather than by district.
+- SCO changed its local reporting categories in FY2016-17 (charts mark it); SCO data excludes school districts and community colleges; K-12 districts come from Census instead (community colleges are not covered). The SCO's per-entity tables are aggregated by the fetch script (full tables are millions of rows); special districts are kept by county/type/activity rather than by district.
+- Census school data: FY1994 is omitted (that year's file has only 258 of ~1,080 California districts); FY2019 is a break (over 900 charter schools with non-governmental charters were reclassified out of the surveyed systems); revenue excludes transfers between school systems and spending excludes payments to other school systems, which makes FY2022 match Census' published state table. School state aid is also counted in state spending, so do not add the two.
 - Years after FY2025 are budget estimates (shaded). Real dollars use CPI-U (US) with the latest complete FY as base.
 
 ## Layout
