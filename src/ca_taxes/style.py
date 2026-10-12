@@ -48,7 +48,7 @@ def stacked_area_toggle(df: pd.DataFrame, group: str, title: str, subtitle: str 
     for vi, (label, _, ytitle, _) in enumerate(views):
         vis = [i // n == vi for i in range(n * len(views))]
         buttons.append(dict(label=label, method="update",
-                            args=[{"visible": vis}, {"yaxis.title.text": ytitle}]))
+                            args=[{"visible": vis, "showlegend": vis}, {"yaxis.title.text": ytitle}]))  # legend follows the visible view
     fig.update_layout(updatemenus=[dict(type="buttons", direction="right", buttons=buttons,
                                         x=0, y=1.0, xanchor="left", yanchor="bottom", showactive=True)],
                       yaxis_title="$B", xaxis_title="Fiscal year (ending June 30)")

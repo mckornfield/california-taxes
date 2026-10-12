@@ -16,6 +16,27 @@ MANIFEST = RAW / "MANIFEST.csv"
 USER_AGENT = "california-taxes/0.1 (research; github.com/mckornfield/california-taxes)"
 
 
+def get_with_retry(url: str, tries: int = 8, **kw) -> requests.Response:
+    """requests.get that retries TLS/connection errors and 5xx, with backoff.
+
+    bythenumbers.sco.ca.gov intermittently presents the wrong certificate (about 40% of
+    connections fail with 'Hostname mismatch'); a retry reaches a healthy backend.
+    """
+    import time
+
+    kw.setdefault("headers", {"User-Agent": USER_AGENT})
+    for i in range(tries):
+        try:
+            r = requests.get(url, **kw)
+            if r.status_code < 500:
+                return r
+        except (requests.exceptions.SSLError, requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+            if i == tries - 1:
+                raise
+        time.sleep(min(2 ** i, 30))
+    return r
+
+
 def record(dest: Path, url: str, note: str = "") -> None:
     """Upsert a manifest row (url, retrieval date, sha256, size) for dest."""
     rel = str(dest.relative_to(ROOT))

@@ -131,7 +131,7 @@ def extract_outputs(nb_path: Path) -> str:
                     parts.append(
                         f'<div id="{div_id}" style="width:100%;height:{height}px;"></div>\n'
                         f"<script>Plotly.newPlot('{div_id}', {fig_json}, {layout_json}, "
-                        f"{{responsive: true}});</script>"
+                        f"{{responsive: true}}).then(fitMobile);</script>"
                     )
                 elif "text/html" in data:
                     parts.append("".join(data["text/html"]))
@@ -146,6 +146,48 @@ def extract_outputs(nb_path: Path) -> str:
 
 
 PLOTLY_JS = "https://cdn.plot.ly/plotly-3.0.1.min.js"
+
+# On narrow screens the right-hand legend squeezes the plot and the toggle buttons run off screen:
+# move the legend under the chart, turn button rows into a dropdown, and undo it when the screen widens.
+FIT_MOBILE_JS = """
+function fitMobile(gd) {
+  var narrow = gd.clientWidth < 640;
+  if (gd._narrow === narrow) return;
+  if (gd._h0 === undefined) {  // remember the desktop layout the first time
+    gd._h0 = parseInt(gd.style.height, 10) || 560;
+    gd._l0 = (gd.layout.margin || {}).l;
+    gd._btn = (gd.layout.updatemenus || []).map(function (m, i) { return m.type === 'buttons' ? i : -1; }).filter(function (i) { return i >= 0; });
+  }
+  var first = gd._narrow === undefined;
+  gd._narrow = narrow;
+  if (first && !narrow) return;
+  var u = {};
+  if (narrow) {
+    u['legend.orientation'] = 'h'; u['legend.x'] = 0; u['legend.y'] = -0.2; u['legend.yanchor'] = 'top';
+    u['margin.r'] = 10; u['margin.l'] = 55; u['margin.b'] = 230;
+    gd.style.height = (gd._h0 + 170) + 'px';
+  } else {
+    u['legend.orientation'] = 'v'; u['legend.x'] = 1.01; u['legend.y'] = 1; u['legend.yanchor'] = 'auto';
+    u['margin.r'] = 20; u['margin.l'] = gd._l0 || 60; u['margin.b'] = 60;
+    gd.style.height = gd._h0 + 'px';
+  }
+  // Plotly leaves the old button row in the DOM if a menu's type changes in place, so clear the menus first.
+  var menus = JSON.parse(JSON.stringify(gd.layout.updatemenus || []));
+  gd._btn.forEach(function (i) {
+    menus[i].type = narrow ? 'dropdown' : 'buttons';
+    menus[i].direction = narrow ? 'down' : 'right';
+  });
+  var p = Plotly.relayout(gd, u);
+  if (gd._btn.length) {
+    p = p.then(function () { return Plotly.relayout(gd, { updatemenus: [] }); })
+         .then(function () { return Plotly.relayout(gd, { updatemenus: menus }); });
+  }
+  p.then(function () { Plotly.Plots.resize(gd); });
+}
+window.addEventListener('resize', function () {
+  document.querySelectorAll('.js-plotly-plot').forEach(fitMobile);
+});
+"""
 
 TITLE = "California Taxes: Where the Money Comes From and Where It Goes"
 INTRO = (
@@ -178,6 +220,7 @@ def build_html(sections: list) -> str:
 <title>{TITLE}</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>\U0001F4B0</text></svg>">
 <script src="{PLOTLY_JS}"></script>
+<script>{FIT_MOBILE_JS}</script>
 <style>
   body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
          max-width: 1200px; margin: 0 auto; padding: 20px; color: #333; }}

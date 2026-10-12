@@ -17,9 +17,8 @@ import io
 import sys
 
 import pandas as pd
-import requests
 
-from ca_taxes.io import RAW, USER_AGENT, record
+from ca_taxes.io import RAW, get_with_retry, record
 
 BASE = "https://bythenumbers.sco.ca.gov/resource"
 PAGE = 50000
@@ -41,7 +40,7 @@ CATS = ("category", "subcategory_1", "subcategory_2")
 def soql(ds_id: str, select: str, group: str, order: str) -> pd.DataFrame:
     frames, offset = [], 0
     while True:
-        r = requests.get(f"{BASE}/{ds_id}.csv", headers={"User-Agent": USER_AGENT}, timeout=300, params={
+        r = get_with_retry(f"{BASE}/{ds_id}.csv", timeout=300, params={
             "$select": select, "$group": group, "$order": order, "$limit": PAGE, "$offset": offset})
         r.raise_for_status()
         df = pd.read_csv(io.StringIO(r.text), dtype=str)
@@ -96,7 +95,7 @@ def fetch_tax_lines(name: str, ds_id: str, c: dict) -> None:
     grp = f"{year},category,line_description"
     frames, offset = [], 0
     while True:
-        r = requests.get(f"{BASE}/{ds_id}.csv", headers={"User-Agent": USER_AGENT}, timeout=300, params={
+        r = get_with_retry(f"{BASE}/{ds_id}.csv", timeout=300, params={
             "$select": sel, "$where": where, "$group": grp, "$order": grp, "$limit": PAGE, "$offset": offset})
         r.raise_for_status()
         df = pd.read_csv(io.StringIO(r.text), dtype=str)
