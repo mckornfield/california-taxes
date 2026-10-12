@@ -56,6 +56,15 @@ SECTIONS = [
         "03_state_spending.ipynb",
         "04_state_revenue_vs_spending.ipynb",
     ]),
+    ("Local government", [
+        "05_local_revenue.ipynb",
+        "06_local_taxes.ipynb",
+        "07_local_spending.ipynb",
+        "08_county_maps.ipynb",
+    ]),
+    ("Putting it together", [
+        "09_tax_burden.ipynb",
+    ]),
 ]
 
 
@@ -113,9 +122,10 @@ def extract_outputs(nb_path: Path) -> str:
                     fig_json = json.dumps(fig_data, separators=(",", ":")).replace("</script>", r"<\/script>")
                     layout = _decode_bdata(plotly_data.get("layout", {}))
                     layout.setdefault("autosize", True)
+                    height = int(layout.get("height") or 560)
                     layout_json = json.dumps(layout, separators=(",", ":")).replace("</script>", r"<\/script>")
                     parts.append(
-                        f'<div id="{div_id}" style="width:100%;height:560px;"></div>\n'
+                        f'<div id="{div_id}" style="width:100%;height:{height}px;"></div>\n'
                         f"<script>Plotly.newPlot('{div_id}', {fig_json}, {layout_json}, "
                         f"{{responsive: true}});</script>"
                     )

@@ -54,8 +54,9 @@ def stacked_area_toggle(df: pd.DataFrame, group: str, title: str, subtitle: str 
                       yaxis_title="$B", xaxis_title="Fiscal year (ending June 30)")
     base_layout(fig, title, subtitle or SOURCE_NOTE)
     x1 = float(wide["nominal_b"].index.max())
-    fig.add_vrect(x0=LAST_ACTUAL_FY + 0.5, x1=x1, fillcolor="grey", opacity=0.12, line_width=0,
-                  annotation_text="estimate", annotation_position="top left")
+    if x1 > LAST_ACTUAL_FY:  # state series run into budget estimates; local data end at actuals
+        fig.add_vrect(x0=LAST_ACTUAL_FY + 0.5, x1=x1, fillcolor="grey", opacity=0.12, line_width=0,
+                      annotation_text="estimate", annotation_position="top left")
     for x, text in (breaks or {}).items():
         fig.add_vline(x=x, line_dash="dot", line_color="grey", annotation_text=text,
                       annotation_position="bottom left")

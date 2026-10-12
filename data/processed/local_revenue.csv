@@ -1,0 +1,325 @@
+govt,fy,group,amount_k
+City,2003,Charges for services,17235628.109
+City,2003,"Fees, fines, assessments & other",9536796.29
+City,2003,Intergovernmental (state & federal aid),6801174.375
+City,2003,Taxes,14114297.846
+City,2004,Charges for services,18332449.978
+City,2004,"Fees, fines, assessments & other",8121857.488
+City,2004,Intergovernmental (state & federal aid),6306058.348
+City,2004,Taxes,15329833.055
+City,2005,Charges for services,19161421.356
+City,2005,"Fees, fines, assessments & other",9069791.425
+City,2005,Intergovernmental (state & federal aid),5295569.924
+City,2005,Taxes,17973205.487
+City,2006,Charges for services,19838245.672
+City,2006,"Fees, fines, assessments & other",11361811.288
+City,2006,Intergovernmental (state & federal aid),5453878.041
+City,2006,Taxes,19137280.858
+City,2007,Charges for services,21905362.855
+City,2007,"Fees, fines, assessments & other",11712208.94
+City,2007,Intergovernmental (state & federal aid),6050511.442
+City,2007,Taxes,21429987.117
+City,2008,Charges for services,23094564.058
+City,2008,"Fees, fines, assessments & other",13226432.611
+City,2008,Intergovernmental (state & federal aid),6171945.016
+City,2008,Taxes,21909561.825999998
+City,2009,Charges for services,22685350.793
+City,2009,"Fees, fines, assessments & other",10770852.05
+City,2009,Intergovernmental (state & federal aid),6082205.695
+City,2009,Taxes,21202200.525
+City,2010,Charges for services,22549696.071
+City,2010,"Fees, fines, assessments & other",14644672.548
+City,2010,Intergovernmental (state & federal aid),6426944.676
+City,2010,Taxes,19239287.683000002
+City,2011,Charges for services,24597243.937
+City,2011,"Fees, fines, assessments & other",12693675.703
+City,2011,Intergovernmental (state & federal aid),6863562.919
+City,2011,Taxes,21024667.599
+City,2012,Charges for services,25530008.314
+City,2012,"Fees, fines, assessments & other",9871794.424
+City,2012,Intergovernmental (state & federal aid),6538468.864
+City,2012,Taxes,22151401.122
+City,2013,Charges for services,27460466.658
+City,2013,"Fees, fines, assessments & other",11048603.557
+City,2013,Intergovernmental (state & federal aid),6206683.112
+City,2013,Taxes,23923907.525000002
+City,2014,Charges for services,28461209.94
+City,2014,"Fees, fines, assessments & other",10969910.7
+City,2014,Intergovernmental (state & federal aid),6957974.402
+City,2014,Taxes,25288049.023000002
+City,2015,Charges for services,28643894.761
+City,2015,"Fees, fines, assessments & other",12425290.636
+City,2015,Intergovernmental (state & federal aid),6732545.278
+City,2015,Taxes,26872428.041
+City,2016,Charges for services,29852295.351
+City,2016,"Fees, fines, assessments & other",13120684.081
+City,2016,Intergovernmental (state & federal aid),6361980.676
+City,2016,Taxes,28684352.979
+City,2017,Charges for services,5650318.881
+City,2017,Enterprise & utility operations,27161321.788000003
+City,2017,"Fees, fines, assessments & other",5992209.347
+City,2017,Intergovernmental (state & federal aid),4958507.255
+City,2017,Internal service funds,4359596.527000001
+City,2017,Taxes,29405812.015
+City,2018,Charges for services,5980849.318
+City,2018,Enterprise & utility operations,29277352.128
+City,2018,"Fees, fines, assessments & other",6359751.169
+City,2018,Intergovernmental (state & federal aid),5368406.103999999
+City,2018,Internal service funds,4636367.81
+City,2018,Taxes,31799746.521
+City,2019,Charges for services,6219278.049
+City,2019,Enterprise & utility operations,31451872.519
+City,2019,"Fees, fines, assessments & other",8083820.264
+City,2019,Intergovernmental (state & federal aid),5960815.207
+City,2019,Internal service funds,5031743.646
+City,2019,Taxes,34539905.371
+City,2020,Charges for services,5924536.662
+City,2020,Enterprise & utility operations,31779278.752
+City,2020,"Fees, fines, assessments & other",7602262.972
+City,2020,Intergovernmental (state & federal aid),6857669.993
+City,2020,Internal service funds,5437842.193
+City,2020,Taxes,34343088.47
+City,2021,Charges for services,5762928.740999999
+City,2021,Enterprise & utility operations,31371894.266
+City,2021,"Fees, fines, assessments & other",6521240.244
+City,2021,Intergovernmental (state & federal aid),9865326.86
+City,2021,Internal service funds,5396039.1899999995
+City,2021,Taxes,37523287.391
+City,2022,Charges for services,6552655.514
+City,2022,Enterprise & utility operations,33570934.345
+City,2022,"Fees, fines, assessments & other",5539652.795
+City,2022,Intergovernmental (state & federal aid),11475644.112
+City,2022,Internal service funds,5691331.2700000005
+City,2022,Taxes,42007714.014
+City,2023,Charges for services,6766134.139
+City,2023,Enterprise & utility operations,37277168.1
+City,2023,"Fees, fines, assessments & other",9078895.949
+City,2023,Intergovernmental (state & federal aid),10587603.537
+City,2023,Internal service funds,6574649.52
+City,2023,Taxes,43920939.70599999
+City,2024,Charges for services,7303881.339
+City,2024,Enterprise & utility operations,39764719.265999995
+City,2024,"Fees, fines, assessments & other",11105867.396
+City,2024,Intergovernmental (state & federal aid),10464399.431
+City,2024,Internal service funds,7261987.867
+City,2024,Taxes,45316851.57400001
+County,2003,Charges for services,4458717.884
+County,2003,Enterprise & utility operations,5616165.148
+County,2003,"Fees, fines, assessments & other",4825292.216
+County,2003,Intergovernmental (state & federal aid),24814286.268999998
+County,2003,Taxes,6150731.469999999
+County,2004,Charges for services,4799136.705
+County,2004,Enterprise & utility operations,5894216.165
+County,2004,"Fees, fines, assessments & other",4686424.784
+County,2004,Intergovernmental (state & federal aid),24714031.529
+County,2004,Taxes,6750753.504000001
+County,2005,Charges for services,5043501.869
+County,2005,Enterprise & utility operations,6327436.336999999
+County,2005,"Fees, fines, assessments & other",4266609.032
+County,2005,Intergovernmental (state & federal aid),24353108.205000002
+County,2005,Taxes,9667756.183
+County,2006,Charges for services,5274971.6
+County,2006,Enterprise & utility operations,5585327.458
+County,2006,"Fees, fines, assessments & other",4144370.97
+County,2006,Intergovernmental (state & federal aid),25313143.237
+County,2006,Taxes,11217557.963000001
+County,2007,Charges for services,5503170.309
+County,2007,Enterprise & utility operations,5729456.853
+County,2007,"Fees, fines, assessments & other",4273316.428
+County,2007,Intergovernmental (state & federal aid),26205700.604000002
+County,2007,Taxes,12200167.524
+County,2008,Charges for services,5872845.631
+County,2008,Enterprise & utility operations,5909176.325
+County,2008,"Fees, fines, assessments & other",4340696.532
+County,2008,Intergovernmental (state & federal aid),27280368.561
+County,2008,Taxes,12888176.076
+County,2009,Charges for services,5771929.903
+County,2009,Enterprise & utility operations,6363270.104
+County,2009,"Fees, fines, assessments & other",3810105.272
+County,2009,Intergovernmental (state & federal aid),26806829.195
+County,2009,Taxes,13059414.168
+County,2010,Charges for services,5836487.174
+County,2010,Enterprise & utility operations,6521529.227
+County,2010,"Fees, fines, assessments & other",3010822.279
+County,2010,Intergovernmental (state & federal aid),27816065.932
+County,2010,Taxes,12509113.587
+County,2011,Charges for services,6022089.172
+County,2011,Enterprise & utility operations,7185125.772
+County,2011,"Fees, fines, assessments & other",3090169.651
+County,2011,Intergovernmental (state & federal aid),28766287.52
+County,2011,Taxes,12395727.649
+County,2012,Charges for services,5544836.959
+County,2012,Enterprise & utility operations,7379460.063000001
+County,2012,"Fees, fines, assessments & other",2773139.157
+County,2012,Intergovernmental (state & federal aid),28767194.57
+County,2012,Taxes,12705733.045
+County,2013,Charges for services,5381702.029
+County,2013,Enterprise & utility operations,8100418.223999999
+County,2013,"Fees, fines, assessments & other",3502995.899
+County,2013,Intergovernmental (state & federal aid),30448429.245
+County,2013,Taxes,13523081.872
+County,2014,Charges for services,5887807.255
+County,2014,Enterprise & utility operations,8536490.679000001
+County,2014,"Fees, fines, assessments & other",3219330.221
+County,2014,Intergovernmental (state & federal aid),31554738.423
+County,2014,Taxes,14128495.861
+County,2015,Charges for services,5780053.362
+County,2015,Enterprise & utility operations,9949713.656000001
+County,2015,"Fees, fines, assessments & other",3030810.213
+County,2015,Intergovernmental (state & federal aid),32690016.263
+County,2015,Taxes,15058086.574000001
+County,2016,Charges for services,6102275.728
+County,2016,Enterprise & utility operations,10260187.047999999
+County,2016,"Fees, fines, assessments & other",3427421.731
+County,2016,Intergovernmental (state & federal aid),33330344.825999998
+County,2016,Taxes,16046062.824000001
+County,2017,Charges for services,6540316.450999999
+County,2017,Enterprise & utility operations,11768213.937
+County,2017,"Fees, fines, assessments & other",3109309.947
+County,2017,Intergovernmental (state & federal aid),34625306.996
+County,2017,Internal service funds,5024221.208000001
+County,2017,Taxes,16924750.903
+County,2018,Charges for services,6683424.4520000005
+County,2018,Enterprise & utility operations,12854716.927000001
+County,2018,"Fees, fines, assessments & other",3352563.289
+County,2018,Intergovernmental (state & federal aid),36409082.115
+County,2018,Internal service funds,5189206.353
+County,2018,Taxes,18384676.117
+County,2019,Charges for services,8285670.872
+County,2019,Enterprise & utility operations,13174303.383
+County,2019,"Fees, fines, assessments & other",4777739.988
+County,2019,Intergovernmental (state & federal aid),38244301.484
+County,2019,Internal service funds,5624877.981
+County,2019,Taxes,22148812.34
+County,2020,Charges for services,9099764.449
+County,2020,Enterprise & utility operations,13931746.567999998
+County,2020,"Fees, fines, assessments & other",5201773.083
+County,2020,Intergovernmental (state & federal aid),41069542.052
+County,2020,Internal service funds,5826382.037
+County,2020,Taxes,22999922.318
+County,2021,Charges for services,9394938.001
+County,2021,Enterprise & utility operations,14068744.848000001
+County,2021,"Fees, fines, assessments & other",4326612.597
+County,2021,Intergovernmental (state & federal aid),48552384.885
+County,2021,Internal service funds,6013496.674000001
+County,2021,Taxes,24870799.282
+County,2022,Charges for services,9202963.315
+County,2022,Enterprise & utility operations,17075869.061000004
+County,2022,"Fees, fines, assessments & other",2807003.798
+County,2022,Intergovernmental (state & federal aid),49844370.15
+County,2022,Internal service funds,6302553.509000001
+County,2022,Taxes,26356358.566
+County,2023,Charges for services,9655222.058
+County,2023,Enterprise & utility operations,17814750.847999997
+County,2023,"Fees, fines, assessments & other",5812142.447
+County,2023,Intergovernmental (state & federal aid),52534055.401
+County,2023,Internal service funds,6892175.5540000005
+County,2023,Taxes,28470019.241
+County,2024,Charges for services,10342685.477
+County,2024,Enterprise & utility operations,19700981.981000002
+County,2024,"Fees, fines, assessments & other",7708082.9399999995
+County,2024,Intergovernmental (state & federal aid),56238740.131
+County,2024,Internal service funds,7618505.929
+County,2024,Taxes,30169744.052
+Special districts,2003,Charges for services,1308217.995
+Special districts,2003,Enterprise & utility operations,16455024.024
+Special districts,2003,"Fees, fines, assessments & other",2610568.368
+Special districts,2003,Intergovernmental (state & federal aid),1244293.413
+Special districts,2003,Taxes,2348049.8109999998
+Special districts,2004,Charges for services,1502026.522
+Special districts,2004,Enterprise & utility operations,17367796.885
+Special districts,2004,"Fees, fines, assessments & other",2598318.198
+Special districts,2004,Intergovernmental (state & federal aid),1328442.229
+Special districts,2004,Taxes,2588240.0100000002
+Special districts,2005,Charges for services,1654890.371
+Special districts,2005,Enterprise & utility operations,18150678.918
+Special districts,2005,"Fees, fines, assessments & other",2788007.633
+Special districts,2005,Intergovernmental (state & federal aid),1512757.934
+Special districts,2005,Taxes,2731494.417
+Special districts,2006,Charges for services,1438603.584
+Special districts,2006,Enterprise & utility operations,20381349.897
+Special districts,2006,"Fees, fines, assessments & other",3705246.3320000004
+Special districts,2006,Intergovernmental (state & federal aid),1834225.6609999998
+Special districts,2006,Taxes,2989497.772
+Special districts,2007,Charges for services,1579589.172
+Special districts,2007,Enterprise & utility operations,22809212.021
+Special districts,2007,"Fees, fines, assessments & other",3326907.624
+Special districts,2007,Intergovernmental (state & federal aid),1812644.124
+Special districts,2007,Taxes,3365799.004
+Special districts,2008,Charges for services,1695926.3969999999
+Special districts,2008,Enterprise & utility operations,24347629.458
+Special districts,2008,"Fees, fines, assessments & other",3480786.521
+Special districts,2008,Intergovernmental (state & federal aid),1816436.101
+Special districts,2008,Taxes,3617533.0349999997
+Special districts,2009,Charges for services,1944624.7049999998
+Special districts,2009,Enterprise & utility operations,24480935.969
+Special districts,2009,"Fees, fines, assessments & other",3436563.859
+Special districts,2009,Intergovernmental (state & federal aid),2084054.36
+Special districts,2009,Taxes,3714323.309
+Special districts,2010,Charges for services,1685377.348
+Special districts,2010,Enterprise & utility operations,24711034.985999998
+Special districts,2010,"Fees, fines, assessments & other",3036564.128
+Special districts,2010,Intergovernmental (state & federal aid),2481291.003
+Special districts,2010,Taxes,3563601.489
+Special districts,2011,Charges for services,1749414.7689999999
+Special districts,2011,Enterprise & utility operations,25087681.099999998
+Special districts,2011,"Fees, fines, assessments & other",3057834.758
+Special districts,2011,Intergovernmental (state & federal aid),2411067.751
+Special districts,2011,Taxes,3510625.0329999994
+Special districts,2012,Charges for services,1754736.5250000001
+Special districts,2012,Enterprise & utility operations,26407277.467
+Special districts,2012,"Fees, fines, assessments & other",2878027.643
+Special districts,2012,Intergovernmental (state & federal aid),2766371.65
+Special districts,2012,Taxes,3598572.0679999995
+Special districts,2013,Charges for services,1870214.767
+Special districts,2013,Enterprise & utility operations,27945978.662
+Special districts,2013,"Fees, fines, assessments & other",3406672.392
+Special districts,2013,Intergovernmental (state & federal aid),3942551.4529999997
+Special districts,2013,Taxes,3880000.8589999997
+Special districts,2014,Charges for services,2058481.997
+Special districts,2014,Enterprise & utility operations,30045956.284999996
+Special districts,2014,"Fees, fines, assessments & other",4271238.744
+Special districts,2014,Intergovernmental (state & federal aid),4916316.863
+Special districts,2014,Taxes,4041543.2670000005
+Special districts,2015,Charges for services,1845411.604
+Special districts,2015,Enterprise & utility operations,31457266.742000002
+Special districts,2015,"Fees, fines, assessments & other",4035854.8940000003
+Special districts,2015,Intergovernmental (state & federal aid),7803430.9629999995
+Special districts,2015,Taxes,4256087.965
+Special districts,2016,Charges for services,1920030.686
+Special districts,2016,Enterprise & utility operations,32564447.490000002
+Special districts,2016,"Fees, fines, assessments & other",5058811.882999999
+Special districts,2016,Intergovernmental (state & federal aid),8382926.585
+Special districts,2016,Taxes,4540333.939
+Special districts,2017,Enterprise & utility operations,38391311.321
+Special districts,2017,"Fees, fines, assessments & other",82164.879
+Special districts,2017,Internal service funds,43052.462
+Special districts,2017,Other,17224593.102
+Special districts,2018,Enterprise & utility operations,50546150.765
+Special districts,2018,"Fees, fines, assessments & other",87207.40599999999
+Special districts,2018,Internal service funds,63724.71
+Special districts,2018,Other,19006366.477
+Special districts,2019,Enterprise & utility operations,53612386.877
+Special districts,2019,"Fees, fines, assessments & other",51644.897000000004
+Special districts,2019,Internal service funds,86360.25200000001
+Special districts,2019,Other,23529862.353
+Special districts,2020,Enterprise & utility operations,55158873.595
+Special districts,2020,"Fees, fines, assessments & other",26718.602
+Special districts,2020,Internal service funds,110017.485
+Special districts,2020,Other,24377252.437
+Special districts,2021,Enterprise & utility operations,53918195.083
+Special districts,2021,"Fees, fines, assessments & other",72494.287
+Special districts,2021,Internal service funds,133049.041
+Special districts,2021,Other,25673280.976999998
+Special districts,2022,Enterprise & utility operations,62504436.13199999
+Special districts,2022,"Fees, fines, assessments & other",92369.276
+Special districts,2022,Internal service funds,146581.698
+Special districts,2022,Other,27721778.022
+Special districts,2023,Enterprise & utility operations,66633191.827999994
+Special districts,2023,"Fees, fines, assessments & other",38416.661
+Special districts,2023,Internal service funds,181306.649
+Special districts,2023,Other,28371322.904
+Special districts,2024,Enterprise & utility operations,77181182.117
+Special districts,2024,"Fees, fines, assessments & other",45838.481
+Special districts,2024,Internal service funds,219030.677
+Special districts,2024,Other,28634344.104000002

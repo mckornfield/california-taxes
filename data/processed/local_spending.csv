@@ -1,0 +1,407 @@
+govt,fy,group,amount_k
+City,2003,Community development & housing,3939433.24
+City,2003,Enterprise & utility operations,8565783.796
+City,2003,General government,4305425.109
+City,2003,Health & sanitation,6254934.854
+City,2003,Other,136132.232
+City,2003,"Parks, recreation & libraries",4247355.483
+City,2003,Public safety,11068145.661
+City,2003,Transportation & public works,8144845.748
+City,2004,Community development & housing,3976789.938
+City,2004,Enterprise & utility operations,8994171.584
+City,2004,General government,4529505.244
+City,2004,Health & sanitation,6288677.502
+City,2004,Other,245429.799
+City,2004,"Parks, recreation & libraries",4144712.278
+City,2004,Public safety,11651134.576
+City,2004,Transportation & public works,8438311.555
+City,2005,Community development & housing,3941849.1
+City,2005,Enterprise & utility operations,8559048.526
+City,2005,General government,4920701.686
+City,2005,Health & sanitation,6376629.547
+City,2005,Other,238623.206
+City,2005,"Parks, recreation & libraries",4252140.902
+City,2005,Public safety,12477526.344
+City,2005,Transportation & public works,8292268.525
+City,2006,Community development & housing,4145631.047
+City,2006,Enterprise & utility operations,9506142.092
+City,2006,General government,5319696.101
+City,2006,Health & sanitation,6257152.054
+City,2006,Other,341234.1
+City,2006,"Parks, recreation & libraries",4336761.361
+City,2006,Public safety,12910426.02
+City,2006,Transportation & public works,9053559.425
+City,2007,Community development & housing,5125460.816
+City,2007,Enterprise & utility operations,10391054.936
+City,2007,General government,6245209.633
+City,2007,Health & sanitation,7350024.014
+City,2007,Other,277132.885
+City,2007,"Parks, recreation & libraries",4834404.693
+City,2007,Public safety,14807946.687
+City,2007,Transportation & public works,10324426.457
+City,2008,Community development & housing,5147033.551
+City,2008,Enterprise & utility operations,11366909.423
+City,2008,General government,7400151.593
+City,2008,Health & sanitation,7868378.418
+City,2008,Other,531930.364
+City,2008,"Parks, recreation & libraries",5195560.075
+City,2008,Public safety,15688904.257
+City,2008,Transportation & public works,11025484.795
+City,2009,Community development & housing,4929856.482
+City,2009,Enterprise & utility operations,11438492.467
+City,2009,General government,6903810.309
+City,2009,Health & sanitation,7851700.76
+City,2009,Other,203199.295
+City,2009,"Parks, recreation & libraries",4985270.208
+City,2009,Public safety,15994543.24
+City,2009,Transportation & public works,11109652.247
+City,2010,Community development & housing,4408570.825
+City,2010,Enterprise & utility operations,11306921.636
+City,2010,General government,6039331.774
+City,2010,Health & sanitation,7401882.916
+City,2010,Other,317303.265
+City,2010,"Parks, recreation & libraries",4536953.815
+City,2010,Public safety,15183170.423
+City,2010,Transportation & public works,11715234.422
+City,2011,Community development & housing,4947567.35
+City,2011,Enterprise & utility operations,12389693.994
+City,2011,General government,5764472.191
+City,2011,Health & sanitation,8068453.309
+City,2011,Other,475320.298
+City,2011,"Parks, recreation & libraries",4669904.689
+City,2011,Public safety,15497119.961
+City,2011,Transportation & public works,11051514.0
+City,2012,Community development & housing,4672230.055
+City,2012,Enterprise & utility operations,12744605.395
+City,2012,General government,6335111.993
+City,2012,Health & sanitation,8175039.309
+City,2012,Other,486798.526
+City,2012,"Parks, recreation & libraries",4645614.982
+City,2012,Public safety,15805868.538
+City,2012,Transportation & public works,11499503.589
+City,2013,Community development & housing,5070954.762
+City,2013,Enterprise & utility operations,13033054.932
+City,2013,General government,6573403.25
+City,2013,Health & sanitation,8727295.281
+City,2013,Other,535189.702
+City,2013,"Parks, recreation & libraries",4664370.348
+City,2013,Public safety,15960949.191
+City,2013,Transportation & public works,13247092.23
+City,2014,Community development & housing,4715327.8
+City,2014,Enterprise & utility operations,13956817.677
+City,2014,General government,6953665.93
+City,2014,Health & sanitation,8981981.422
+City,2014,Other,411180.252
+City,2014,"Parks, recreation & libraries",4698108.029
+City,2014,Public safety,16666553.286
+City,2014,Transportation & public works,12877214.798
+City,2015,Community development & housing,5095229.225
+City,2015,Enterprise & utility operations,14266687.397
+City,2015,General government,6808833.61
+City,2015,Health & sanitation,9179435.184
+City,2015,Other,247148.988
+City,2015,"Parks, recreation & libraries",5225197.568
+City,2015,Public safety,17601415.022
+City,2015,Transportation & public works,13274586.688
+City,2016,Community development & housing,5507771.941
+City,2016,Enterprise & utility operations,13455035.57
+City,2016,General government,7637135.349
+City,2016,Health & sanitation,9882710.09
+City,2016,Other,171114.545
+City,2016,"Parks, recreation & libraries",5588711.452
+City,2016,Public safety,18479141.166
+City,2016,Transportation & public works,13554577.303
+City,2017,Community development & housing,2950202.492
+City,2017,Debt service & capital outlay,7072458.624
+City,2017,Enterprise & utility operations,26544708.59
+City,2017,General government,4705375.293
+City,2017,Health & sanitation,1645044.182
+City,2017,Internal service funds,4424469.253
+City,2017,Other,17301.543
+City,2017,"Parks, recreation & libraries",4090813.135
+City,2017,Public assistance & social services,1120582.489
+City,2017,Public safety,18734837.610999998
+City,2017,Transportation & public works,3936206.024
+City,2018,Community development & housing,4625872.535
+City,2018,Debt service & capital outlay,8742533.863
+City,2018,Enterprise & utility operations,27087106.294
+City,2018,General government,4926214.647
+City,2018,Health & sanitation,3198599.342
+City,2018,Internal service funds,4693571.336999999
+City,2018,"Parks, recreation & libraries",4377343.027
+City,2018,Public safety,19511950.67
+City,2018,Transportation & public works,3921358.6010000007
+City,2019,Community development & housing,4980704.373
+City,2019,Debt service & capital outlay,8414236.386
+City,2019,Enterprise & utility operations,28765609.492
+City,2019,General government,5253726.255
+City,2019,Health & sanitation,3602318.503
+City,2019,Internal service funds,5035204.884
+City,2019,"Parks, recreation & libraries",4560880.344
+City,2019,Public safety,20393926.136
+City,2019,Transportation & public works,4279291.848999999
+City,2020,Community development & housing,5732248.325999999
+City,2020,Debt service & capital outlay,8831240.185
+City,2020,Enterprise & utility operations,30348214.695
+City,2020,General government,6215189.863999999
+City,2020,Health & sanitation,4018151.827
+City,2020,Internal service funds,5277749.498
+City,2020,"Parks, recreation & libraries",4604967.744
+City,2020,Public safety,21694053.742
+City,2020,Transportation & public works,4502655.286
+City,2021,Community development & housing,6616191.715
+City,2021,Debt service & capital outlay,8831468.01
+City,2021,Enterprise & utility operations,30563524.219
+City,2021,General government,6288053.806999999
+City,2021,Health & sanitation,4731984.632
+City,2021,Internal service funds,5639313.573
+City,2021,"Parks, recreation & libraries",4259568.505
+City,2021,Public safety,22998916.418
+City,2021,Transportation & public works,4478783.512
+City,2022,Community development & housing,7067880.046999999
+City,2022,Debt service & capital outlay,9238088.909
+City,2022,Enterprise & utility operations,32906480.494
+City,2022,General government,7208464.082
+City,2022,Health & sanitation,4982973.524
+City,2022,Internal service funds,5749657.186000001
+City,2022,"Parks, recreation & libraries",4859523.676
+City,2022,Public safety,23410938.411000002
+City,2022,Transportation & public works,4692086.133
+City,2023,Community development & housing,7602912.76
+City,2023,Debt service & capital outlay,10590893.594
+City,2023,Enterprise & utility operations,34869603.498
+City,2023,General government,7098632.004000001
+City,2023,Health & sanitation,5473733.645
+City,2023,Internal service funds,6428112.2129999995
+City,2023,"Parks, recreation & libraries",5402219.014
+City,2023,Public safety,24141628.472
+City,2023,Transportation & public works,4947183.321
+City,2024,Community development & housing,9102883.17
+City,2024,Debt service & capital outlay,12266896.936999999
+City,2024,Enterprise & utility operations,36263447.678
+City,2024,General government,7674477.662
+City,2024,Health & sanitation,5532414.409
+City,2024,Internal service funds,7117810.991
+City,2024,"Parks, recreation & libraries",5980811.804
+City,2024,Public safety,26217409.596
+City,2024,Transportation & public works,5674316.973999999
+County,2003,Community development & housing,10796.174
+County,2003,Debt service & capital outlay,749789.904
+County,2003,Enterprise & utility operations,5784673.904
+County,2003,General government,4324358.848999999
+County,2003,Health & sanitation,6925241.461
+County,2003,"Parks, recreation & libraries",668003.056
+County,2003,Public assistance & social services,12595693.016
+County,2003,Public safety,11219788.219
+County,2003,Transportation & public works,1683880.045
+County,2004,Community development & housing,11734.375
+County,2004,Debt service & capital outlay,751976.312
+County,2004,Enterprise & utility operations,6000913.926
+County,2004,General government,4573360.087
+County,2004,Health & sanitation,7189821.620999999
+County,2004,"Parks, recreation & libraries",694586.899
+County,2004,Public assistance & social services,12521120.974
+County,2004,Public safety,11775409.196
+County,2004,Transportation & public works,1391912.212
+County,2005,Community development & housing,11776.859
+County,2005,Debt service & capital outlay,936562.8049999999
+County,2005,Enterprise & utility operations,6640177.552
+County,2005,General government,4436944.375
+County,2005,Health & sanitation,7059040.06
+County,2005,"Parks, recreation & libraries",719976.392
+County,2005,Public assistance & social services,12918851.851
+County,2005,Public safety,12338803.03
+County,2005,Transportation & public works,1335639.7130000002
+County,2006,Community development & housing,12393.338
+County,2006,Debt service & capital outlay,908274.377
+County,2006,Enterprise & utility operations,6393322.595
+County,2006,General government,5300404.138
+County,2006,Health & sanitation,7350379.1389999995
+County,2006,"Parks, recreation & libraries",778565.731
+County,2006,Public assistance & social services,13292035.856
+County,2006,Public safety,13181357.189
+County,2006,Transportation & public works,1508052.2110000001
+County,2007,Community development & housing,13420.217
+County,2007,Debt service & capital outlay,1125119.9239999999
+County,2007,Enterprise & utility operations,6791343.196
+County,2007,General government,5338863.526000001
+County,2007,Health & sanitation,7815957.708000001
+County,2007,"Parks, recreation & libraries",862397.0430000001
+County,2007,Public assistance & social services,13656563.579
+County,2007,Public safety,14444902.894
+County,2007,Transportation & public works,1667447.126
+County,2008,Community development & housing,14932.884
+County,2008,Debt service & capital outlay,1137229.095
+County,2008,Enterprise & utility operations,7123887.965
+County,2008,General government,6040131.816
+County,2008,Health & sanitation,8425209.196
+County,2008,"Parks, recreation & libraries",928969.0619999999
+County,2008,Public assistance & social services,14376971.388
+County,2008,Public safety,15674401.114
+County,2008,Transportation & public works,1809482.787
+County,2009,Community development & housing,15144.028
+County,2009,Debt service & capital outlay,1124883.5119999999
+County,2009,Enterprise & utility operations,7508439.276000001
+County,2009,General government,5601607.688
+County,2009,Health & sanitation,8861307.263
+County,2009,"Parks, recreation & libraries",928536.988
+County,2009,Public assistance & social services,14843366.791
+County,2009,Public safety,16061010.543
+County,2009,Transportation & public works,1707617.0440000002
+County,2010,Community development & housing,14414.621
+County,2010,Debt service & capital outlay,1085436.706
+County,2010,Enterprise & utility operations,7527552.222
+County,2010,General government,5283409.022
+County,2010,Health & sanitation,8526770.461000001
+County,2010,"Parks, recreation & libraries",896451.8439999999
+County,2010,Public assistance & social services,15203164.321999999
+County,2010,Public safety,15561248.114
+County,2010,Transportation & public works,1605624.32
+County,2011,Community development & housing,13032.777
+County,2011,Debt service & capital outlay,1170411.4989999998
+County,2011,Enterprise & utility operations,7937637.902
+County,2011,General government,5165953.011
+County,2011,Health & sanitation,8652050.446
+County,2011,"Parks, recreation & libraries",865120.081
+County,2011,Public assistance & social services,15561022.699
+County,2011,Public safety,15520699.569
+County,2011,Transportation & public works,1718124.36
+County,2012,Community development & housing,11873.083
+County,2012,Debt service & capital outlay,1014128.6000000001
+County,2012,Enterprise & utility operations,8376722.055
+County,2012,General government,4977790.9399999995
+County,2012,Health & sanitation,9066315.513
+County,2012,"Parks, recreation & libraries",823014.975
+County,2012,Public assistance & social services,15129776.393000001
+County,2012,Public safety,15758641.226
+County,2012,Transportation & public works,1643047.351
+County,2013,Community development & housing,11834.955
+County,2013,Debt service & capital outlay,1117490.875
+County,2013,Enterprise & utility operations,8966854.383
+County,2013,General government,5115929.924
+County,2013,Health & sanitation,9588475.809
+County,2013,"Parks, recreation & libraries",858861.279
+County,2013,Public assistance & social services,15430910.577
+County,2013,Public safety,16217781.68
+County,2013,Transportation & public works,1649906.747
+County,2014,Community development & housing,11911.428
+County,2014,Debt service & capital outlay,1256206.185
+County,2014,Enterprise & utility operations,9360129.322
+County,2014,General government,5639367.514
+County,2014,Health & sanitation,9956713.828
+County,2014,"Parks, recreation & libraries",911429.776
+County,2014,Public assistance & social services,16256724.372
+County,2014,Public safety,16930456.575
+County,2014,Transportation & public works,1675534.789
+County,2015,Community development & housing,12144.933
+County,2015,Debt service & capital outlay,1218545.5929999999
+County,2015,Enterprise & utility operations,10004620.375
+County,2015,General government,5713435.231
+County,2015,Health & sanitation,9717495.099
+County,2015,"Parks, recreation & libraries",959417.782
+County,2015,Public assistance & social services,16980897.783
+County,2015,Public safety,17810311.653
+County,2015,Transportation & public works,1738767.282
+County,2016,Community development & housing,12433.264
+County,2016,Debt service & capital outlay,1296010.2759999998
+County,2016,Enterprise & utility operations,10383860.584
+County,2016,General government,5882306.901000001
+County,2016,Health & sanitation,10148385.264999999
+County,2016,"Parks, recreation & libraries",1036403.233
+County,2016,Public assistance & social services,17712807.843
+County,2016,Public safety,18639658.001000002
+County,2016,Transportation & public works,1741684.4279999998
+County,2017,Debt service & capital outlay,3094827.005
+County,2017,Enterprise & utility operations,12309609.402
+County,2017,General government,4281438.461999999
+County,2017,Health & sanitation,10881212.208
+County,2017,Internal service funds,5101875.833000001
+County,2017,"Parks, recreation & libraries",1160487.509
+County,2017,Public assistance & social services,18319835.168
+County,2017,Public safety,19483730.141
+County,2017,Transportation & public works,1716459.31
+County,2018,Debt service & capital outlay,3804707.2229999998
+County,2018,Enterprise & utility operations,13452912.815
+County,2018,General government,4277240.702
+County,2018,Health & sanitation,12076345.819
+County,2018,Internal service funds,5332779.578
+County,2018,"Parks, recreation & libraries",1268252.093
+County,2018,Public assistance & social services,19236059.404
+County,2018,Public safety,20195603.803999998
+County,2018,Transportation & public works,1749621.3239999998
+County,2019,Debt service & capital outlay,4167272.356
+County,2019,Enterprise & utility operations,14038151.667
+County,2019,General government,4513534.051
+County,2019,Health & sanitation,13948902.518000001
+County,2019,Internal service funds,5789035.543
+County,2019,"Parks, recreation & libraries",1519038.926
+County,2019,Public assistance & social services,20026009.766
+County,2019,Public safety,23971210.335
+County,2019,Transportation & public works,2023181.028
+County,2020,Debt service & capital outlay,4714387.387
+County,2020,Enterprise & utility operations,14974476.844999999
+County,2020,General government,5411453.106
+County,2020,Health & sanitation,15418349.615
+County,2020,Internal service funds,5868175.896
+County,2020,"Parks, recreation & libraries",1601394.7829999998
+County,2020,Public assistance & social services,21343374.232
+County,2020,Public safety,25278700.887
+County,2020,Transportation & public works,2237921.211
+County,2021,Debt service & capital outlay,5167966.512
+County,2021,Enterprise & utility operations,15746221.324
+County,2021,General government,6537656.673
+County,2021,Health & sanitation,17465149.119
+County,2021,Internal service funds,6253480.71
+County,2021,"Parks, recreation & libraries",1560708.844
+County,2021,Public assistance & social services,23203674.91
+County,2021,Public safety,26482099.628999997
+County,2021,Transportation & public works,2288692.7
+County,2022,Debt service & capital outlay,6047735.118
+County,2022,Enterprise & utility operations,16582848.443
+County,2022,General government,5621404.788
+County,2022,Health & sanitation,17859733.115000002
+County,2022,Internal service funds,6271871.349
+County,2022,"Parks, recreation & libraries",1666286.809
+County,2022,Public assistance & social services,23309278.321
+County,2022,Public safety,26932633.351
+County,2022,Transportation & public works,2395624.033
+County,2023,Debt service & capital outlay,6579493.797
+County,2023,Enterprise & utility operations,18561631.384999998
+County,2023,General government,6212781.903
+County,2023,Health & sanitation,18723535.262
+County,2023,Internal service funds,6920251.561
+County,2023,"Parks, recreation & libraries",1823365.336
+County,2023,Public assistance & social services,25450776.621
+County,2023,Public safety,28697315.301
+County,2023,Transportation & public works,2716178.4299999997
+County,2024,Debt service & capital outlay,7107079.094
+County,2024,Enterprise & utility operations,20723978.697
+County,2024,General government,6506498.848999999
+County,2024,Health & sanitation,21439179.628
+County,2024,Internal service funds,7493472.194
+County,2024,"Parks, recreation & libraries",1938073.9989999998
+County,2024,Public assistance & social services,27210485.068
+County,2024,Public safety,30897963.088
+County,2024,Transportation & public works,2970257.448
+Special districts,2003,All spending,24076999.673
+Special districts,2004,All spending,24824279.017
+Special districts,2005,All spending,26228531.408
+Special districts,2006,All spending,29038720.299
+Special districts,2007,All spending,30457807.083
+Special districts,2008,All spending,32744520.539
+Special districts,2009,All spending,35132561.032
+Special districts,2010,All spending,35297822.292
+Special districts,2011,All spending,35580308.426
+Special districts,2012,All spending,37576021.371
+Special districts,2013,All spending,40816142.425
+Special districts,2014,All spending,45715276.895
+Special districts,2015,All spending,48889014.032
+Special districts,2016,All spending,51467181.757
+Special districts,2017,All spending,54226963.772
+Special districts,2018,All spending,68843759.442
+Special districts,2019,All spending,73204149.991
+Special districts,2020,All spending,76285411.834
+Special districts,2021,All spending,75652587.914
+Special districts,2022,All spending,83871045.478
+Special districts,2023,All spending,92032458.217
+Special districts,2024,All spending,100913470.057

@@ -1,6 +1,6 @@
 # California Taxes
 
-Historical California tax revenue and spending (state now, local next), as interactive Plotly charts
+Historical California tax revenue and spending, state and local (cities, counties, special districts), as interactive Plotly charts
 published to GitHub Pages from `index.html`. Same pipeline as `california-prop13` and `homelessness-stats`.
 
 ## Reproduce everything
@@ -22,7 +22,9 @@ Output must be written back into the notebook (same path in and out) because `ge
 | State revenue by source, 1950-51 on | LAO Historical Revenues (+ Archive) | `fetch_lao_state.py` |
 | State spending by department, 1984-85 on | LAO Historical Expenditures | `fetch_lao_state.py` |
 | Tax yield by type, 1970-71 on (cross-check and repair) | DOF Schedule 3 (PDF, parsed) | `fetch_dof_schedule3.py` |
+| Cities, counties, special districts: revenue and spending, FY2002-03 on (aggregated server-side) | State Controller's Office, bythenumbers.sco.ca.gov (Socrata API) | `fetch_sco_local.py` |
 | Inflation, CA population | FRED CPIAUCSL, CAPOP | `fetch_fred.py` |
+| County FIPS codes and boundaries | Census reference file, plotly/datasets GeoJSON | `fetch_census_fips.py` |
 
 Excel/PDF sources: `scripts/convert_to_csv.py` converts any workbook or PDF table to CSV, and
 `ca_taxes.io` has the same helpers for use inside fetch scripts.
@@ -31,6 +33,7 @@ Excel/PDF sources: `scripts/convert_to_csv.py` converts any workbook or PDF tabl
 - LAO's revenue file changes taxonomy at 2016-17 (charts mark the break).
 - LAO's 2018-19 personal income and sales tax rows are misaligned; they are replaced from DOF Schedule 3. Every
   LAO-vs-Schedule-3 comparison and repair is logged in `data/processed/revenue_reconciliation.csv`.
+- SCO changed its local reporting categories in FY2016-17 (charts mark it); SCO data excludes school districts and community colleges. The SCO's per-entity tables are aggregated by the fetch script (full tables are millions of rows); special districts are kept by county/type/activity rather than by district.
 - Years after FY2025 are budget estimates (shaded). Real dollars use CPI-U (US) with the latest complete FY as base.
 
 ## Layout

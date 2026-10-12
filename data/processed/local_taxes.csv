@@ -1,0 +1,295 @@
+govt,fy,tax_type,amount_k
+City,2003,Business license tax,835949.825
+City,2003,Franchise fees,638480.337
+City,2003,Hotel (transient occupancy) tax,905623.1359999999
+City,2003,Other taxes,2146807.398
+City,2003,Property tax,4017167.702
+City,2003,Property tax in lieu of VLF,0.0
+City,2003,Sales & use tax,4076484.444
+City,2003,Utility users tax,1493785.004
+City,2004,Business license tax,872255.056
+City,2004,Franchise fees,747092.498
+City,2004,Hotel (transient occupancy) tax,984449.375
+City,2004,Other taxes,2543358.276
+City,2004,Property tax,4296198.897
+City,2004,Property tax in lieu of VLF,0.0
+City,2004,Sales & use tax,4319802.152
+City,2004,Utility users tax,1566676.801
+City,2005,Business license tax,918667.477
+City,2005,Franchise fees,794864.517
+City,2005,Hotel (transient occupancy) tax,1100080.9849999999
+City,2005,Other taxes,2807920.816
+City,2005,Property tax,4617719.0370000005
+City,2005,Property tax in lieu of VLF,1551969.717
+City,2005,Sales & use tax,4573269.092
+City,2005,Utility users tax,1608713.846
+City,2006,Business license tax,985490.422
+City,2006,Franchise fees,738198.928
+City,2006,Hotel (transient occupancy) tax,1091141.861
+City,2006,Other taxes,3100881.391
+City,2006,Property tax,4902190.508
+City,2006,Property tax in lieu of VLF,1892331.118
+City,2006,Sales & use tax,4713535.613
+City,2006,Utility users tax,1713511.017
+City,2007,Business license tax,1070504.607
+City,2007,Franchise fees,908843.171
+City,2007,Hotel (transient occupancy) tax,1339474.851
+City,2007,Other taxes,3036664.809
+City,2007,Property tax,5920125.647
+City,2007,Property tax in lieu of VLF,2167767.518
+City,2007,Sales & use tax,5232351.039
+City,2007,Utility users tax,1754255.475
+City,2008,Business license tax,1100181.799
+City,2008,Franchise fees,940654.851
+City,2008,Hotel (transient occupancy) tax,1430353.801
+City,2008,Other taxes,2710181.025
+City,2008,Property tax,6287563.387
+City,2008,Property tax in lieu of VLF,2405219.105
+City,2008,Sales & use tax,5219156.15
+City,2008,Utility users tax,1816251.708
+City,2009,Business license tax,1075822.034
+City,2009,Franchise fees,980376.264
+City,2009,Hotel (transient occupancy) tax,1271907.841
+City,2009,Other taxes,2277575.107
+City,2009,Property tax,6575537.732
+City,2009,Property tax in lieu of VLF,2508125.505
+City,2009,Sales & use tax,4672906.172
+City,2009,Utility users tax,1839949.87
+City,2010,Business license tax,999617.881
+City,2010,Franchise fees,811484.927
+City,2010,Hotel (transient occupancy) tax,1056202.674
+City,2010,Other taxes,2169886.006
+City,2010,Property tax,6070579.9690000005
+City,2010,Property tax in lieu of VLF,2299748.719
+City,2010,Sales & use tax,3990537.228
+City,2010,Utility users tax,1841230.279
+City,2011,Business license tax,1029249.611
+City,2011,Franchise fees,989734.029
+City,2011,Hotel (transient occupancy) tax,1349145.6090000002
+City,2011,Other taxes,2453310.319
+City,2011,Property tax,6352343.423
+City,2011,Property tax in lieu of VLF,2392676.159
+City,2011,Sales & use tax,4601917.646
+City,2011,Utility users tax,1856290.803
+City,2012,Business license tax,1080777.769
+City,2012,Franchise fees,1031221.858
+City,2012,Hotel (transient occupancy) tax,1505406.182
+City,2012,Other taxes,2797795.23
+City,2012,Property tax,6479803.585
+City,2012,Property tax in lieu of VLF,2386900.344
+City,2012,Sales & use tax,5024164.757999999
+City,2012,Utility users tax,1845331.396
+City,2013,Business license tax,1123052.668
+City,2013,Franchise fees,1030609.096
+City,2013,Hotel (transient occupancy) tax,1678979.2650000001
+City,2013,Other taxes,3280362.141
+City,2013,Property tax,7148884.457
+City,2013,Property tax in lieu of VLF,2415104.223
+City,2013,Sales & use tax,5373287.132999999
+City,2013,Utility users tax,1873628.542
+City,2014,Business license tax,1237533.248
+City,2014,Franchise fees,1096341.687
+City,2014,Hotel (transient occupancy) tax,1866589.216
+City,2014,Other taxes,3649498.3830000004
+City,2014,Property tax,7245061.156
+City,2014,Property tax in lieu of VLF,2526575.768
+City,2014,Sales & use tax,5754861.766
+City,2014,Utility users tax,1911587.799
+City,2015,Business license tax,1336027.846
+City,2015,Franchise fees,1165060.007
+City,2015,Hotel (transient occupancy) tax,2105228.299
+City,2015,Other taxes,3956782.596
+City,2015,Property tax,7689654.655
+City,2015,Property tax in lieu of VLF,2668539.215
+City,2015,Sales & use tax,6042352.189
+City,2015,Utility users tax,1908783.234
+City,2016,Business license tax,1460469.21
+City,2016,Franchise fees,1185969.689
+City,2016,Hotel (transient occupancy) tax,2310774.019
+City,2016,Other taxes,4237843.7
+City,2016,Property tax,8215873.108
+City,2016,Property tax in lieu of VLF,2827265.506
+City,2016,Sales & use tax,6553172.146
+City,2016,Utility users tax,1892985.601
+City,2017,Business license tax,1680906.976
+City,2017,Franchise fees,1197148.786
+City,2017,Hotel (transient occupancy) tax,2436019.699
+City,2017,Other taxes,3748943.536
+City,2017,Property tax,8873733.763
+City,2017,Property tax in lieu of VLF,2997783.07
+City,2017,Sales & use tax,6568980.372
+City,2017,Utility users tax,1902295.813
+City,2018,Business license tax,1834251.9510000001
+City,2018,Franchise fees,1262344.8
+City,2018,Hotel (transient occupancy) tax,2585451.532
+City,2018,Other taxes,4298853.488
+City,2018,Property tax,9631007.325
+City,2018,Property tax in lieu of VLF,3259482.017
+City,2018,Sales & use tax,7005395.05
+City,2018,Utility users tax,1922960.358
+City,2019,Business license tax,2258733.4080000003
+City,2019,Franchise fees,1301719.025
+City,2019,Hotel (transient occupancy) tax,2748778.1289999997
+City,2019,Other taxes,4456733.436
+City,2019,Property tax,10700159.044
+City,2019,Property tax in lieu of VLF,3477765.654
+City,2019,Sales & use tax,7726240.615
+City,2019,Utility users tax,1869776.06
+City,2020,Business license tax,2182265.739
+City,2020,Franchise fees,1332252.903
+City,2020,Hotel (transient occupancy) tax,2052851.8699999999
+City,2020,Other taxes,4866933.361
+City,2020,Property tax,11036270.556
+City,2020,Property tax in lieu of VLF,3697346.227
+City,2020,Sales & use tax,7273442.316
+City,2020,Utility users tax,1901725.4980000001
+City,2021,Business license tax,2205271.679
+City,2021,Franchise fees,1371466.0119999999
+City,2021,Hotel (transient occupancy) tax,1299716.1600000001
+City,2021,Other taxes,6927567.153
+City,2021,Property tax,12002456.091
+City,2021,Property tax in lieu of VLF,3873105.947
+City,2021,Sales & use tax,7935922.642
+City,2021,Utility users tax,1907781.707
+City,2022,Business license tax,2637853.947
+City,2022,Franchise fees,1475940.849
+City,2022,Hotel (transient occupancy) tax,2532105.39
+City,2022,Other taxes,7644529.122
+City,2022,Property tax,12363045.091
+City,2022,Property tax in lieu of VLF,4078811.724
+City,2022,Sales & use tax,9212861.76
+City,2022,Utility users tax,2062566.131
+City,2023,Business license tax,2748763.833
+City,2023,Franchise fees,1718363.3239999998
+City,2023,Hotel (transient occupancy) tax,2981574.028
+City,2023,Other taxes,7034742.228
+City,2023,Property tax,13333666.457
+City,2023,Property tax in lieu of VLF,4373363.421
+City,2023,Sales & use tax,9407047.832999999
+City,2023,Utility users tax,2323418.5820000004
+City,2024,Business license tax,2811076.068
+City,2024,Franchise fees,1763455.677
+City,2024,Hotel (transient occupancy) tax,3019232.378
+City,2024,Other taxes,7429358.441
+City,2024,Property tax,13949923.151999999
+City,2024,Property tax in lieu of VLF,4650366.3
+City,2024,Sales & use tax,9401813.931
+City,2024,Utility users tax,2291625.627
+County,2003,Hotel (transient occupancy) tax,96117.267
+County,2003,Other taxes,580797.977
+County,2003,Property tax,4908686.745999999
+County,2003,Sales & use tax,488306.561
+County,2003,Utility users tax,76822.919
+County,2004,Hotel (transient occupancy) tax,99337.032
+County,2004,Other taxes,846988.817
+County,2004,Property tax,5229239.497
+County,2004,Sales & use tax,498766.588
+County,2004,Utility users tax,76421.57
+County,2005,Hotel (transient occupancy) tax,107184.167
+County,2005,Other taxes,984727.825
+County,2005,Property tax,7956358.451
+County,2005,Sales & use tax,540993.96
+County,2005,Utility users tax,78491.78
+County,2006,Hotel (transient occupancy) tax,113591.303
+County,2006,Other taxes,1006857.112
+County,2006,Property tax,9426069.190000001
+County,2006,Sales & use tax,586500.414
+County,2006,Utility users tax,84539.944
+County,2007,Hotel (transient occupancy) tax,124346.958
+County,2007,Other taxes,820385.8690000001
+County,2007,Property tax,10531044.395
+County,2007,Sales & use tax,636902.77
+County,2007,Utility users tax,87487.532
+County,2008,Hotel (transient occupancy) tax,131355.465
+County,2008,Other taxes,679985.7899999999
+County,2008,Property tax,11374031.411
+County,2008,Sales & use tax,613483.277
+County,2008,Utility users tax,89320.133
+County,2009,Hotel (transient occupancy) tax,120382.861
+County,2009,Other taxes,656764.832
+County,2009,Property tax,11612026.912
+County,2009,Sales & use tax,578191.208
+County,2009,Utility users tax,92048.355
+County,2010,Hotel (transient occupancy) tax,112211.862
+County,2010,Other taxes,632294.578
+County,2010,Property tax,11170594.496
+County,2010,Sales & use tax,503918.708
+County,2010,Utility users tax,90093.943
+County,2011,Hotel (transient occupancy) tax,119336.019
+County,2011,Other taxes,658792.195
+County,2011,Property tax,11007083.569
+County,2011,Sales & use tax,523243.39300000004
+County,2011,Utility users tax,87272.473
+County,2012,Hotel (transient occupancy) tax,130233.574
+County,2012,Other taxes,702881.877
+County,2012,Property tax,11237051.817
+County,2012,Sales & use tax,548027.236
+County,2012,Utility users tax,87538.541
+County,2013,Hotel (transient occupancy) tax,138274.242
+County,2013,Other taxes,1214596.349
+County,2013,Property tax,11477693.401999999
+County,2013,Sales & use tax,607671.758
+County,2013,Utility users tax,84846.121
+County,2014,Hotel (transient occupancy) tax,149625.608
+County,2014,Other taxes,1211679.948
+County,2014,Property tax,12038369.913
+County,2014,Sales & use tax,644543.0619999999
+County,2014,Utility users tax,84277.33
+County,2015,Hotel (transient occupancy) tax,174419.172
+County,2015,Other taxes,1306051.142
+County,2015,Property tax,12816825.651
+County,2015,Sales & use tax,669650.18
+County,2015,Utility users tax,91140.429
+County,2016,Hotel (transient occupancy) tax,187378.765
+County,2016,Other taxes,1408530.942
+County,2016,Property tax,13499912.913
+County,2016,Sales & use tax,862376.689
+County,2016,Utility users tax,87863.515
+County,2017,Hotel (transient occupancy) tax,202365.652
+County,2017,Other taxes,972207.7449999999
+County,2017,Property tax,10399895.995
+County,2017,Property tax in lieu of VLF,4547916.047
+County,2017,Sales & use tax,722741.318
+County,2017,Utility users tax,79624.146
+County,2018,Hotel (transient occupancy) tax,220228.69400000002
+County,2018,Other taxes,1098531.81
+County,2018,Property tax,11410312.718999999
+County,2018,Property tax in lieu of VLF,4806282.61
+County,2018,Sales & use tax,770009.5
+County,2018,Utility users tax,79310.784
+County,2019,Hotel (transient occupancy) tax,237327.159
+County,2019,Other taxes,1243433.016
+County,2019,Property tax,14620595.263
+County,2019,Property tax in lieu of VLF,5111651.142
+County,2019,Sales & use tax,860569.7679999999
+County,2019,Utility users tax,75235.992
+County,2020,Hotel (transient occupancy) tax,203946.62600000002
+County,2020,Other taxes,1173539.427
+County,2020,Property tax,15298241.389999999
+County,2020,Property tax in lieu of VLF,5390221.74
+County,2020,Sales & use tax,860649.8910000001
+County,2020,Utility users tax,73323.244
+County,2021,Hotel (transient occupancy) tax,236526.561
+County,2021,Other taxes,1429674.314
+County,2021,Property tax,16460324.326999998
+County,2021,Property tax in lieu of VLF,5643649.478999999
+County,2021,Sales & use tax,1023196.363
+County,2021,Utility users tax,77428.238
+County,2022,Hotel (transient occupancy) tax,328614.458
+County,2022,Other taxes,1665481.631
+County,2022,Property tax,17040395.781
+County,2022,Property tax in lieu of VLF,5931196.938
+County,2022,Sales & use tax,1305596.524
+County,2022,Utility users tax,85073.23400000001
+County,2023,Hotel (transient occupancy) tax,337246.099
+County,2023,Other taxes,1531458.742
+County,2023,Property tax,18836993.444000002
+County,2023,Property tax in lieu of VLF,6266551.528999999
+County,2023,Sales & use tax,1401304.014
+County,2023,Utility users tax,96465.413
+County,2024,Hotel (transient occupancy) tax,345884.52
+County,2024,Other taxes,1607328.358
+County,2024,Property tax,20029524.332
+County,2024,Property tax in lieu of VLF,6799218.829999999
+County,2024,Sales & use tax,1296965.991
+County,2024,Utility users tax,90822.021

@@ -3,6 +3,11 @@
   macro.csv               fy, cpi (FY avg, Jul-Jun), cpi_factor (to base-year $), population
   state_revenue.csv       (repaired against DOF Sch. 3) fy, fund, category, source, tax_type, group, amount_k, series
   state_expenditures.csv  fy, area (stable), agency, department, fund, exp_type, debt_service, amount_k
+  local_revenue.csv       govt (City|County|Special districts), fy, group, amount_k   (statewide)
+  local_taxes.csv         govt (City|County), fy, tax_type, amount_k
+  local_spending.csv      govt, fy, group, amount_k
+  local_sd_activity.csv   kind (revenue|spending), fy, activity, district_type, amount_k
+  local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k
 
 fy is the fiscal-year END year (2015-16 -> 2016). Amounts are $ thousands, nominal.
 Real/per-capita values are derived in notebooks via ca_taxes.deflate.
@@ -10,6 +15,7 @@ Real/per-capita values are derived in notebooks via ca_taxes.deflate.
 import pandas as pd
 
 from ca_taxes.io import PROCESSED, RAW
+from ca_taxes.local import is_tax_category, revenue_group, spending_group, tax_type
 from ca_taxes.state import classify, spending_area
 
 
@@ -91,9 +97,82 @@ def state_expenditures() -> pd.DataFrame:
     return e[["fy", "area", "agency", "department", "fund", "exp_type", "debt_service", "amount_k"]]
 
 
+def _sco(name: str) -> pd.DataFrame:
+    d = pd.read_csv(RAW / "sco" / f"{name}.csv", dtype={"fiscal_year": int})
+    d["amount_k"] = d["value"].astype(float) / 1000
+    return d.rename(columns={"fiscal_year": "fy"})
+
+
+GOVT = {"city": "City", "county": "County", "sd": "Special districts"}
+
+
+def local_revenue() -> pd.DataFrame:
+    out = []
+    for k, g in GOVT.items():
+        d = _sco(f"{k}_revenues_statewide")
+        d["group"] = d.category.map(revenue_group)
+        out.append(d.groupby(["fy", "group"], as_index=False).amount_k.sum().assign(govt=g))
+    return pd.concat(out)[["govt", "fy", "group", "amount_k"]]
+
+
+def local_taxes() -> pd.DataFrame:
+    out = []
+    for k in ("city", "county"):
+        d = _sco(f"{k}_revenues_tax_lines")
+        d = d[d.category.map(is_tax_category)]
+        d["tax_type"] = d.line_description.map(tax_type)
+        out.append(d.groupby(["fy", "tax_type"], as_index=False).amount_k.sum().assign(govt=GOVT[k]))
+    return pd.concat(out)[["govt", "fy", "tax_type", "amount_k"]]
+
+
+def local_spending() -> pd.DataFrame:
+    out = []
+    for k in ("city", "county"):
+        d = _sco(f"{k}_expenditures_statewide")
+        d["group"] = [spending_group(k, c, s) for c, s in zip(d.category, d.subcategory_1.fillna(""))]
+        other = d.loc[d.group == "Other"].groupby("fy").amount_k.sum() / d.groupby("fy").amount_k.sum()
+        print(f"  {k} spending left in 'Other': max {other.max():.1%} of a year")
+        out.append(d.groupby(["fy", "group"], as_index=False).amount_k.sum().assign(govt=GOVT[k]))
+    sd = _sco("sd_expenditures_by_type")
+    out.append(sd.groupby("fy", as_index=False).amount_k.sum().assign(govt="Special districts", group="All spending"))
+    return pd.concat(out)[["govt", "fy", "group", "amount_k"]]
+
+
+def local_sd_activity() -> pd.DataFrame:
+    out = []
+    for kind, name in (("revenue", "sd_revenues_by_type"), ("spending", "sd_expenditures_by_type")):
+        d = _sco(name)
+        out.append(d.groupby(["fy", "activity", "district_type"], as_index=False).amount_k.sum().assign(kind=kind))
+    return pd.concat(out)[["kind", "fy", "activity", "district_type", "amount_k"]]
+
+
+def local_entities() -> pd.DataFrame:
+    frames = []
+    for k in ("city", "county"):
+        rev = _sco(f"{k}_revenues_by_entity")
+        rev["is_tax"] = rev.category.map(is_tax_category)
+        rev["is_internal"] = rev.category.str.contains("Internal Service", case=False)
+        spend = _sco(f"{k}_expenditures_by_entity")
+        spend["is_internal"] = spend.category.str.contains("Internal Service", case=False)
+        keys = ["entity", "fy"]
+        r = rev[~rev.is_internal].groupby(keys).amount_k.sum().rename("revenue_total_k").to_frame()
+        r["tax_k"] = rev[rev.is_tax].groupby(keys).amount_k.sum()
+        r["spending_total_k"] = spend[~spend.is_internal].groupby(keys).amount_k.sum()
+        pop = rev.assign(p=pd.to_numeric(rev.estimated_population, errors="coerce")).groupby(keys).p.max()
+        r["population"] = pop
+        if "county" in rev.columns:
+            r["county"] = rev.dropna(subset=["county"]).groupby(keys).county.first()
+        else:
+            r["county"] = r.index.get_level_values("entity")
+        frames.append(r.reset_index().assign(kind=k.title()))
+    return pd.concat(frames)[["kind", "entity", "county", "fy", "population", "revenue_total_k", "tax_k", "spending_total_k"]]
+
+
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
-    for name, df in [("macro", macro()), ("state_revenue", repair_with_schedule3(state_revenue())), ("state_expenditures", state_expenditures())]:
+    for name, df in [("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
+                     ("local_spending", local_spending()), ("local_sd_activity", local_sd_activity()),
+                     ("local_entities", local_entities()), ("state_revenue", repair_with_schedule3(state_revenue())), ("state_expenditures", state_expenditures())]:
         df.to_csv(PROCESSED / f"{name}.csv", index=False)
         print(name, df.shape)
 
