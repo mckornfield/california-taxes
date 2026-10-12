@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "california-taxes"
+version = "0.1.0"
+description = "Historical California tax revenue and spending, state and local"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+    "numpy>=2.0.0",
+    "pandas>=2.0.0",
+    "plotly>=5.24.0",
+    "requests>=2.32.0",
+    "papermill>=2.6.0",
+    "nbconvert>=7.0.0",
+    "openpyxl>=3.1.0",
+    "xlrd>=2.0.1",
+    "pdfplumber>=0.11.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ca_taxes"]

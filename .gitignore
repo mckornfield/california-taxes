@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/**/*.pdf
+.playwright-mcp/

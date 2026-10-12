@@ -1,0 +1,11 @@
+file,url,retrieved,sha256,bytes,note
+data/raw/dof/BS_SCH3_2026-27.pdf,https://ebudget.ca.gov/2026-27/pdf/BudgetSummary/BS_SCH3.pdf,2026-10-12,c3538f538de95c5ea652548b32c4a76b2ba8feefd21b9c1ea62dea6370b61f5f,262660,"DOF Schedule 3, Comparative Yield of State Taxes"
+data/raw/dof/schedule3_tax_yield.csv,https://ebudget.ca.gov/2026-27/pdf/BudgetSummary/BS_SCH3.pdf,2026-10-12,dbc9ea2f8aa2449b06587dad793cc3b0fef1b7ae5504c649c12859eb6f5a37af,17996,parsed from BS_SCH3_2026-27.pdf (fy = fiscal-year end year)
+data/raw/fred/CAPOP.csv,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CAPOP,2026-10-12,fa10df7be18598bd2f52269a0957965c50915be383920be0f9826420f8476f35,2621,FRED series CAPOP
+data/raw/fred/CPIAUCSL.csv,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL,2026-10-12,f8ecddf53a9a9a74dda92c2c4204e6039466fcb744bc74171b73b5f6aac48119,17744,FRED series CPIAUCSL
+data/raw/lao/Historical_Expenditures.xlsx,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Expenditures.xlsx,2026-10-12,6ba97e8126d67a43020e2e5d12c745642e9630fba02af38d9eb941a0a78952ae,5747167,
+data/raw/lao/Historical_Revenues.xlsx,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Revenues.xlsx,2026-10-12,a9817bd64b9c6c61afc07713a3a544970640a6dc783f96e1b8f5cbd2a01a5faa,141938,
+data/raw/lao/Historical_Revenues_Archive.xlsx,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Revenues_Archive.xlsx,2026-10-12,f5b7a58b7b1be384fc9e7ce0d8a6a3e42dc71976eb6aa0d3c090b0aab72ed864,188243,
+data/raw/lao/expenditures.csv,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Expenditures.xlsx,2026-10-12,f1673dcac8d27a6409ed7ae7baa29a8e0a537669975c6b02e0b069578e6bdde3,8422120,sheet 'Pivot Table Data' of Historical_Expenditures.xlsx
+data/raw/lao/revenues.csv,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Revenues.xlsx,2026-10-12,313f48294520585f76847b83dc30751e7ef6f73da75975867934e94b4400e42d,270661,sheet 'Pivot Table Raw Data' of Historical_Revenues.xlsx
+data/raw/lao/revenues_archive.csv,https://lao.ca.gov/sections/state-budget/econ_fiscal/Historical_Revenues_Archive.xlsx,2026-10-12,746b8d9dc54253a15f0ce0696c0b0a58d066504a0797213b2b269aaf972af394,267093,sheet 'Pivot Table Raw Data' of Historical_Revenues_Archive.xlsx

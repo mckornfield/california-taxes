@@ -1,0 +1,524 @@
+fy,tax_type,amount_k,estimate
+1971,Sales & use tax,1808052,False
+1971,Personal income tax,1264383,False
+1971,Corporation tax,532091,False
+1971,Tobacco taxes,239721,False
+1971,Estate & gift tax,185699,False
+1971,Insurance tax,158423,False
+1971,Alcohol taxes,106556,False
+1971,Motor fuel taxes,674635,False
+1971,Vehicle fees,513202,False
+1972,Sales & use tax,2015993,False
+1972,Personal income tax,1785618,False
+1972,Corporation tax,662522,False
+1972,Tobacco taxes,247424,False
+1972,Estate & gift tax,220192,False
+1972,Insurance tax,170179,False
+1972,Alcohol taxes,112091,False
+1972,Motor fuel taxes,712426,False
+1972,Vehicle fees,547845,False
+1973,Sales & use tax,2198523,False
+1973,Personal income tax,1884058,False
+1973,Corporation tax,866117,False
+1973,Tobacco taxes,253602,False
+1973,Estate & gift tax,260119,False
+1973,Insurance tax,179674,False
+1973,Alcohol taxes,114884,False
+1973,Motor fuel taxes,746196,False
+1973,Vehicle fees,596922,False
+1974,Sales & use tax,2675738,False
+1974,Personal income tax,1829385,False
+1974,Corporation tax,1057191,False
+1974,Tobacco taxes,258921,False
+1974,Estate & gift tax,231934,False
+1974,Insurance tax,201697,False
+1974,Alcohol taxes,119312,False
+1974,Motor fuel taxes,742702,False
+1974,Vehicle fees,644448,False
+1975,Sales & use tax,3376078,False
+1975,Personal income tax,2579676,False
+1975,Corporation tax,1253673,False
+1975,Tobacco taxes,261975,False
+1975,Estate & gift tax,242627,False
+1975,Insurance tax,202991,False
+1975,Alcohol taxes,120749,False
+1975,Motor fuel taxes,752234,False
+1975,Vehicle fees,664453,False
+1976,Sales & use tax,3742524,False
+1976,Personal income tax,3086611,False
+1976,Corporation tax,1286515,False
+1976,Tobacco taxes,268610,False
+1976,Estate & gift tax,316648,False
+1976,Insurance tax,241224,False
+1976,Alcohol taxes,125313,False
+1976,Motor fuel taxes,766555,False
+1976,Vehicle fees,749936,False
+1977,Sales & use tax,4314201,False
+1977,Personal income tax,3761356,False
+1977,Corporation tax,1641500,False
+1977,Tobacco taxes,269384,False
+1977,Estate & gift tax,367964,False
+1977,Insurance tax,322476,False
+1977,Alcohol taxes,127485,False
+1977,Motor fuel taxes,810321,False
+1977,Vehicle fees,807782,False
+1978,Sales & use tax,5030438,False
+1978,Personal income tax,4667887,False
+1978,Corporation tax,2082208,False
+1978,Tobacco taxes,273658,False
+1978,Estate & gift tax,365092,False
+1978,Insurance tax,387560,False
+1978,Alcohol taxes,132060,False
+1978,Motor fuel taxes,850181,False
+1978,Vehicle fees,924410,False
+1979,Sales & use tax,5780919,False
+1979,Personal income tax,4761571,False
+1979,Corporation tax,2381223,False
+1979,Tobacco taxes,268816,False
+1979,Estate & gift tax,416955,False
+1979,Insurance tax,420184,False
+1979,Alcohol taxes,140059,False
+1979,Motor fuel taxes,896591,False
+1979,Vehicle fees,1021856,False
+1980,Sales & use tax,6623521,False
+1980,Personal income tax,6506015,False
+1980,Corporation tax,2510039,False
+1980,Tobacco taxes,290043,False
+1980,Estate & gift tax,465611,False
+1980,Insurance tax,446228,False
+1980,Alcohol taxes,138940,False
+1980,Motor fuel taxes,852752,False
+1980,Vehicle fees,1096640,False
+1981,Sales & use tax,7131429,False
+1981,Personal income tax,6628694,False
+1981,Corporation tax,2730624,False
+1981,Tobacco taxes,278161,False
+1981,Estate & gift tax,530185,False
+1981,Insurance tax,460926,False
+1981,Alcohol taxes,142860,False
+1981,Motor fuel taxes,839994,False
+1981,Vehicle fees,1127293,False
+1982,Sales & use tax,7689023,False
+1982,Personal income tax,7483007,False
+1982,Corporation tax,2648735,False
+1982,Tobacco taxes,276824,False
+1982,Estate & gift tax,482300,False
+1982,Insurance tax,454984,False
+1982,Alcohol taxes,139523,False
+1982,Motor fuel taxes,833446,False
+1982,Vehicle fees,1373354,False
+1983,Sales & use tax,7795488,False
+1983,Personal income tax,7701099,False
+1983,Corporation tax,2536011,False
+1983,Tobacco taxes,271621,False
+1983,Estate & gift tax,517875,False
+1983,Insurance tax,736929,False
+1983,Alcohol taxes,136209,False
+1983,Motor fuel taxes,928633,False
+1983,Vehicle fees,1614993,False
+1984,Sales & use tax,8797865,False
+1984,Personal income tax,9290279,False
+1984,Corporation tax,3231281,False
+1984,Tobacco taxes,263231,False
+1984,Estate & gift tax,236452,False
+1984,Insurance tax,457490,False
+1984,Alcohol taxes,137433,False
+1984,Motor fuel taxes,1213167,False
+1984,Vehicle fees,1906290,False
+1985,Sales & use tax,9797564,False
+1985,Personal income tax,10807706,False
+1985,Corporation tax,3664593,False
+1985,Tobacco taxes,262868,False
+1985,Estate & gift tax,296805,False
+1985,Insurance tax,643139,False
+1985,Alcohol taxes,135786,False
+1985,Motor fuel taxes,1159637,False
+1985,Vehicle fees,2137326,False
+1986,Sales & use tax,10317930,False
+1986,Personal income tax,11413040,False
+1986,Corporation tax,3843024,False
+1986,Tobacco taxes,258141,False
+1986,Estate & gift tax,252810,False
+1986,Insurance tax,839939,False
+1986,Alcohol taxes,132262,False
+1986,Motor fuel taxes,1194172,False
+1986,Vehicle fees,2515295,False
+1987,Sales & use tax,10904022,False
+1987,Personal income tax,13924527,False
+1987,Corporation tax,4800843,False
+1987,Tobacco taxes,255076,False
+1987,Estate & gift tax,273089,False
+1987,Insurance tax,1008804,False
+1987,Alcohol taxes,131288,False
+1987,Motor fuel taxes,1245881,False
+1987,Vehicle fees,2692835,False
+1988,Sales & use tax,11650531,False
+1988,Personal income tax,12950346,False
+1988,Corporation tax,4776388,False
+1988,Tobacco taxes,250572,False
+1988,Estate & gift tax,304148,False
+1988,Insurance tax,1158321,False
+1988,Alcohol taxes,128734,False
+1988,Motor fuel taxes,1293254,False
+1988,Vehicle fees,2966334,False
+1989,Sales & use tax,12650893,False
+1989,Personal income tax,15889179,False
+1989,Corporation tax,5138009,False
+1989,Tobacco taxes,559617,False
+1989,Estate & gift tax,335091,False
+1989,Insurance tax,1317630,False
+1989,Alcohol taxes,128264,False
+1989,Motor fuel taxes,1320512,False
+1989,Vehicle fees,3142484,False
+1990,Sales & use tax,13917771,False
+1990,Personal income tax,16906568,False
+1990,Corporation tax,4965389,False
+1990,Tobacco taxes,787076,False
+1990,Estate & gift tax,388527,False
+1990,Insurance tax,1167684,False
+1990,Alcohol taxes,128524,False
+1990,Motor fuel taxes,1349146,False
+1990,Vehicle fees,3305711,False
+1991,Sales & use tax,13839573,False
+1991,Personal income tax,16852079,False
+1991,Corporation tax,4544783,False
+1991,Tobacco taxes,745074,False
+1991,Estate & gift tax,498774,False
+1991,Insurance tax,1287152,False
+1991,Alcohol taxes,129640,False
+1991,Motor fuel taxes,1999771,False
+1991,Vehicle fees,3513159,False
+1992,Sales & use tax,17458521,False
+1992,Personal income tax,17242816,False
+1992,Corporation tax,4538451,False
+1992,Tobacco taxes,726064,False
+1992,Estate & gift tax,446696,False
+1992,Insurance tax,1167307,False
+1992,Alcohol taxes,321352,False
+1992,Motor fuel taxes,2457229,False
+1992,Vehicle fees,4369862,False
+1993,Sales & use tax,16598863,False
+1993,Personal income tax,17358751,False
+1993,Corporation tax,4659950,False
+1993,Tobacco taxes,677846,False
+1993,Estate & gift tax,458433,False
+1993,Insurance tax,1188181,False
+1993,Alcohol taxes,292107,False
+1993,Motor fuel taxes,2412574,False
+1993,Vehicle fees,4470321,False
+1994,Sales & use tax,16857369,False
+1994,Personal income tax,17402976,False
+1994,Corporation tax,4809273,False
+1994,Tobacco taxes,664322,False
+1994,Estate & gift tax,552139,False
+1994,Insurance tax,1196921,False
+1994,Alcohol taxes,275797,False
+1994,Motor fuel taxes,2547633,False
+1994,Vehicle fees,4518795,False
+1995,Sales & use tax,16273800,False
+1995,Personal income tax,18608181,False
+1995,Corporation tax,5685618,False
+1995,Tobacco taxes,674727,False
+1995,Estate & gift tax,595238,False
+1995,Insurance tax,998868,False
+1995,Alcohol taxes,268957,False
+1995,Motor fuel taxes,2685731,False
+1995,Vehicle fees,4749594,False
+1996,Sales & use tax,17466584,False
+1996,Personal income tax,20877687,False
+1996,Corporation tax,5862420,False
+1996,Tobacco taxes,666779,False
+1996,Estate & gift tax,659338,False
+1996,Insurance tax,1131737,False
+1996,Alcohol taxes,269227,False
+1996,Motor fuel taxes,2757289,False
+1996,Vehicle fees,5009319,False
+1997,Sales & use tax,18424355,False
+1997,Personal income tax,23275990,False
+1997,Corporation tax,5788414,False
+1997,Tobacco taxes,665415,False
+1997,Estate & gift tax,599255,False
+1997,Insurance tax,1199554,False
+1997,Alcohol taxes,271065,False
+1997,Motor fuel taxes,2824589,False
+1997,Vehicle fees,5260355,False
+1998,Sales & use tax,19548574,False
+1998,Personal income tax,27927940,False
+1998,Corporation tax,5836881,False
+1998,Tobacco taxes,644297,False
+1998,Estate & gift tax,780197,False
+1998,Insurance tax,1221285,False
+1998,Alcohol taxes,270947,False
+1998,Motor fuel taxes,2853846,False
+1998,Vehicle fees,5660574,False
+1999,Sales & use tax,21013674,False
+1999,Personal income tax,30894865,False
+1999,Corporation tax,5724237,False
+1999,Tobacco taxes,976513,False
+1999,Estate & gift tax,890489,False
+1999,Insurance tax,1253972,False
+1999,Alcohol taxes,273112,False
+1999,Motor fuel taxes,3025226,False
+1999,Vehicle fees,5610374,False
+2000,Sales & use tax,23451570,False
+2000,Personal income tax,39578237,False
+2000,Corporation tax,6638898,False
+2000,Tobacco taxes,1216651,False
+2000,Estate & gift tax,928146,False
+2000,Insurance tax,1299777,False
+2000,Alcohol taxes,282166,False
+2000,Motor fuel taxes,3069694,False
+2000,Vehicle fees,5263245,False
+2001,Sales & use tax,24287928,False
+2001,Personal income tax,44618532,False
+2001,Corporation tax,6899322,False
+2001,Tobacco taxes,1150869,False
+2001,Estate & gift tax,934709,False
+2001,Insurance tax,1496556,False
+2001,Alcohol taxes,288450,False
+2001,Motor fuel taxes,3142142,False
+2001,Vehicle fees,5286542,False
+2002,Sales & use tax,23816406,False
+2002,Personal income tax,33046665,False
+2002,Corporation tax,5333036,False
+2002,Tobacco taxes,1102807,False
+2002,Estate & gift tax,915627,False
+2002,Insurance tax,1596002,False
+2002,Alcohol taxes,292627,False
+2002,Motor fuel taxes,3295903,False
+2002,Vehicle fees,3836904,False
+2003,Sales & use tax,24899025,False
+2003,Personal income tax,32709761,False
+2003,Corporation tax,6803559,False
+2003,Tobacco taxes,1055505,False
+2003,Estate & gift tax,647372,False
+2003,Insurance tax,1879784,False
+2003,Alcohol taxes,290564,False
+2003,Motor fuel taxes,3202512,False
+2003,Vehicle fees,3889602,False
+2004,Sales & use tax,26506911,False
+2004,Personal income tax,36398983,False
+2004,Corporation tax,6925916,False
+2004,Tobacco taxes,1081588,False
+2004,Estate & gift tax,397848,False
+2004,Insurance tax,2114980,False
+2004,Alcohol taxes,312826,False
+2004,Motor fuel taxes,3324883,False
+2004,Vehicle fees,4415126,False
+2005,Sales & use tax,29967136,False
+2005,Personal income tax,42992007,False
+2005,Corporation tax,8670065,False
+2005,Tobacco taxes,1096224,False
+2005,Estate & gift tax,213036,False
+2005,Insurance tax,2232955,False
+2005,Alcohol taxes,314252,False
+2005,Motor fuel taxes,3366142,False
+2005,Vehicle fees,4873705,False
+2006,Sales & use tax,32201082,False
+2006,Personal income tax,51219823,False
+2006,Corporation tax,10316467,False
+2006,Tobacco taxes,1088703,False
+2006,Estate & gift tax,3786,False
+2006,Insurance tax,2202327,False
+2006,Alcohol taxes,318276,False
+2006,Motor fuel taxes,3393381,False
+2006,Vehicle fees,5078529,False
+2007,Sales & use tax,32669175,False
+2007,Personal income tax,53348766,False
+2007,Corporation tax,11157898,False
+2007,Tobacco taxes,1078536,False
+2007,Estate & gift tax,6348,False
+2007,Insurance tax,2178336,False
+2007,Alcohol taxes,333789,False
+2007,Motor fuel taxes,3399694,False
+2007,Vehicle fees,5147341,False
+2008,Sales & use tax,31972874,False
+2008,Personal income tax,55745970,False
+2008,Corporation tax,11849097,False
+2008,Tobacco taxes,1037287,False
+2008,Estate & gift tax,6303,False
+2008,Insurance tax,2172936,False
+2008,Alcohol taxes,327260,False
+2008,Motor fuel taxes,3351268,False
+2008,Vehicle fees,5212811,False
+2009,Sales & use tax,28972302,False
+2009,Personal income tax,44355959,False
+2009,Corporation tax,9535679,False
+2009,Tobacco taxes,1000456,False
+2009,Estate & gift tax,245,False
+2009,Insurance tax,2053850,False
+2009,Alcohol taxes,323934,False
+2009,Motor fuel taxes,3162299,False
+2009,Vehicle fees,5566642,False
+2010,Sales & use tax,31197154,False
+2010,Personal income tax,45650901,False
+2010,Corporation tax,9114589,False
+2010,Tobacco taxes,922986,False
+2010,Estate & gift tax,0,False
+2010,Insurance tax,2180786,False
+2010,Alcohol taxes,311242,False
+2010,Motor fuel taxes,3149144,False
+2010,Vehicle fees,6726967,False
+2011,Sales & use tax,30996372,False
+2011,Personal income tax,50507989,False
+2011,Corporation tax,9613594,False
+2011,Tobacco taxes,905245,False
+2011,Estate & gift tax,0,False
+2011,Insurance tax,2307022,False
+2011,Alcohol taxes,334178,False
+2011,Motor fuel taxes,5705528,False
+2011,Vehicle fees,6558121,False
+2012,Sales & use tax,28542238,False
+2012,Personal income tax,55449292,False
+2012,Corporation tax,7233000,False
+2012,Tobacco taxes,895677,False
+2012,Estate & gift tax,0,False
+2012,Insurance tax,2416073,False
+2012,Alcohol taxes,346000,False
+2012,Motor fuel taxes,5544530,False
+2012,Vehicle fees,5907866,False
+2013,Sales & use tax,31007290,False
+2013,Personal income tax,66809000,False
+2013,Corporation tax,7782947,False
+2013,Tobacco taxes,868703,False
+2013,Estate & gift tax,0,False
+2013,Insurance tax,2242379,False
+2013,Alcohol taxes,357000,False
+2013,Motor fuel taxes,5492850,False
+2013,Vehicle fees,5864814,False
+2014,Sales & use tax,34163864,False
+2014,Personal income tax,68306264,False
+2014,Corporation tax,9092696,False
+2014,Tobacco taxes,833127,False
+2014,Estate & gift tax,0,False
+2014,Insurance tax,2362738,False
+2014,Alcohol taxes,354297,False
+2014,Motor fuel taxes,6065748,False
+2014,Vehicle fees,6226553,False
+2015,Sales & use tax,35263084,False
+2015,Personal income tax,77929551,False
+2015,Corporation tax,9416779,False
+2015,Tobacco taxes,832379,False
+2015,Estate & gift tax,0,False
+2015,Insurance tax,2444573,False
+2015,Alcohol taxes,357373,False
+2015,Motor fuel taxes,5713698,False
+2015,Vehicle fees,6510898,False
+2016,Sales & use tax,35936588,False
+2016,Personal income tax,80541269,False
+2016,Corporation tax,10459561,False
+2016,Tobacco taxes,840034,False
+2016,Estate & gift tax,0,False
+2016,Insurance tax,2561932,False
+2016,Alcohol taxes,368699,False
+2016,Motor fuel taxes,5003317,False
+2016,Vehicle fees,6833037,False
+2017,Sales & use tax,35360401,False
+2017,Personal income tax,85021043,False
+2017,Corporation tax,11019780,False
+2017,Tobacco taxes,1235605,False
+2017,Estate & gift tax,0,False
+2017,Insurance tax,2422105,False
+2017,Alcohol taxes,368345,False
+2017,Motor fuel taxes,4845821,False
+2017,Vehicle fees,7192680,False
+2018,Sales & use tax,36137388,False
+2018,Personal income tax,95865692,False
+2018,Corporation tax,12312596,False
+2018,Tobacco taxes,2145003,False
+2018,Estate & gift tax,0,False
+2018,Insurance tax,2569271,False
+2018,Alcohol taxes,376059,False
+2018,Motor fuel taxes,6355007,False
+2018,Vehicle fees,8578311,False
+2018,Cannabis taxes,83869,False
+2019,Sales & use tax,37903457,False
+2019,Personal income tax,100958015,False
+2019,Corporation tax,14062543,False
+2019,Tobacco taxes,2052204,False
+2019,Estate & gift tax,0,False
+2019,Insurance tax,2722787,False
+2019,Alcohol taxes,377662,False
+2019,Motor fuel taxes,7561080,False
+2019,Vehicle fees,9880258,False
+2019,Cannabis taxes,261149,False
+2020,Sales & use tax,37083771,False
+2020,Personal income tax,101866478,False
+2020,Corporation tax,13953804,False
+2020,Tobacco taxes,1966609,False
+2020,Estate & gift tax,0,False
+2020,Insurance tax,3134591,False
+2020,Alcohol taxes,382745,False
+2020,Motor fuel taxes,7801021,False
+2020,Vehicle fees,9769018,False
+2020,Cannabis taxes,490915,False
+2021,Sales & use tax,41874019,False
+2021,Personal income tax,131966930,False
+2021,Corporation tax,22590587,False
+2021,Tobacco taxes,1969042,False
+2021,Estate & gift tax,0,False
+2021,Insurance tax,3139292,False
+2021,Alcohol taxes,414634,False
+2021,Motor fuel taxes,7814218,False
+2021,Vehicle fees,10682014,False
+2021,Cannabis taxes,770380,False
+2022,Sales & use tax,47830300,False
+2022,Personal income tax,142090334,False
+2022,Corporation tax,45128400,False
+2022,Tobacco taxes,1831959,False
+2022,Estate & gift tax,0,False
+2022,Insurance tax,3494540,False
+2022,Alcohol taxes,431363,False
+2022,Motor fuel taxes,8459159,False
+2022,Vehicle fees,10757060,False
+2022,Cannabis taxes,812980,False
+2023,Sales & use tax,48897975,False
+2023,Personal income tax,103498100,False
+2023,Corporation tax,36336922,False
+2023,Tobacco taxes,1621734,False
+2023,Estate & gift tax,0,False
+2023,Insurance tax,3707199,False
+2023,Alcohol taxes,420539,False
+2023,Motor fuel taxes,8657370,False
+2023,Vehicle fees,11345317,False
+2023,Cannabis taxes,537343,False
+2024,Sales & use tax,48665214,False
+2024,Personal income tax,117945208,False
+2024,Corporation tax,35456402,False
+2024,Tobacco taxes,1382010,False
+2024,Estate & gift tax,0,False
+2024,Insurance tax,3966362,False
+2024,Alcohol taxes,418350,False
+2024,Motor fuel taxes,9238899,False
+2024,Vehicle fees,11941272,False
+2024,Cannabis taxes,629373,False
+2025,Sales & use tax,48879567,True
+2025,Personal income tax,133648105,True
+2025,Corporation tax,41338259,True
+2025,Tobacco taxes,1222243,True
+2025,Estate & gift tax,0,True
+2025,Insurance tax,4298323,True
+2025,Alcohol taxes,414268,True
+2025,Motor fuel taxes,9407121,True
+2025,Vehicle fees,12628103,True
+2025,Cannabis taxes,589795,True
+2026,Sales & use tax,50018107,True
+2026,Personal income tax,142296320,True
+2026,Corporation tax,41701838,True
+2026,Tobacco taxes,1140053,True
+2026,Estate & gift tax,0,True
+2026,Insurance tax,4369552,True
+2026,Alcohol taxes,416922,True
+2026,Motor fuel taxes,9611584,True
+2026,Vehicle fees,12803624,True
+2026,Cannabis taxes,612426,True
+2027,Sales & use tax,50952950,True
+2027,Personal income tax,146823274,True
+2027,Corporation tax,43527691,True
+2027,Tobacco taxes,1100041,True
+2027,Estate & gift tax,0,True
+2027,Insurance tax,4612163,True
+2027,Alcohol taxes,419012,True
+2027,Motor fuel taxes,9797584,True
+2027,Vehicle fees,13201833,True
+2027,Cannabis taxes,598457,True

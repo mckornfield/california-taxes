@@ -1,0 +1,524 @@
+fy,tax_type,s3_k,estimate,lao_k,ratio,repaired
+1971,Sales & use tax,1808052,False,1808052.193,1.0000001067447175,False
+1971,Personal income tax,1264383,False,1264382.921,0.9999999375189322,False
+1971,Corporation tax,532091,False,532091.096,1.0000001804202665,False
+1971,Tobacco taxes,239721,False,239720.7,0.9999987485451838,False
+1971,Estate & gift tax,185699,False,185699.317,1.0000017070635814,False
+1971,Insurance tax,158423,False,158422.599,0.9999974688018785,False
+1971,Alcohol taxes,106556,False,127161.00900000002,1.193372583430309,False
+1971,Motor fuel taxes,674635,False,674635.361,1.0000005351041674,False
+1971,Vehicle fees,513202,False,513200.871,0.9999978000865156,False
+1972,Sales & use tax,2015993,False,2015993.478,1.0000002371039978,False
+1972,Personal income tax,1785618,False,1785617.985,0.9999999915995471,False
+1972,Corporation tax,662522,False,662521.906,0.999999858117919,False
+1972,Tobacco taxes,247424,False,247423.772,0.9999990785049147,False
+1972,Estate & gift tax,220192,False,220192.30700000003,1.0000013942377564,False
+1972,Insurance tax,170179,False,170178.55,0.999997355725442,False
+1972,Alcohol taxes,112091,False,132172.847,1.1791566405866662,False
+1972,Motor fuel taxes,712426,False,712425.5430000001,0.9999993585298684,False
+1972,Vehicle fees,547845,False,547844.577,0.9999992278837994,False
+1973,Sales & use tax,2198523,False,2198523.462,1.000000210141081,False
+1973,Personal income tax,1884058,False,1884057.63,0.9999998036153875,False
+1973,Corporation tax,866117,False,866117.178,1.0000002055149593,False
+1973,Tobacco taxes,253602,False,253601.718,0.9999988880213878,False
+1973,Estate & gift tax,260119,False,260119.127,1.0000004882380757,False
+1973,Insurance tax,179674,False,179673.98,0.9999998886872893,False
+1973,Alcohol taxes,114884,False,135616.72,1.1804665575711153,False
+1973,Motor fuel taxes,746196,False,746196.223,1.000000298849096,False
+1973,Vehicle fees,596922,False,596921.727,0.999999542653814,False
+1974,Sales & use tax,2675738,False,2675737.822,0.9999999334762971,False
+1974,Personal income tax,1829385,False,1831964.098,1.0014098169603447,False
+1974,Corporation tax,1057191,False,1057190.882,0.9999998883834614,False
+1974,Tobacco taxes,258921,False,258920.803,0.9999992391501655,False
+1974,Estate & gift tax,231934,False,231934.026,1.0000001121008564,False
+1974,Insurance tax,201697,False,201697.478,1.0000023698914708,False
+1974,Alcohol taxes,119312,False,140463.948,1.1772826538822583,False
+1974,Motor fuel taxes,742702,False,742701.865,0.999999818231269,False
+1974,Vehicle fees,644448,False,644448.0530000001,1.0000000822409256,False
+1975,Sales & use tax,3376078,False,3376152.51,1.0000220699877194,False
+1975,Personal income tax,2579676,False,2581584.058,1.0007396502506518,False
+1975,Corporation tax,1253673,False,1253673.257,1.0000002049976349,False
+1975,Tobacco taxes,261975,False,261974.522,0.9999981753984158,False
+1975,Estate & gift tax,242627,False,242626.664,0.999998615158247,False
+1975,Insurance tax,202991,False,202991.054,1.0000002660216463,False
+1975,Alcohol taxes,120749,False,120748.672,0.9999972836213965,False
+1975,Motor fuel taxes,752234,False,752233.989,0.9999999853768906,False
+1975,Vehicle fees,664453,False,664894.76,1.000664847626544,False
+1976,Sales & use tax,3742524,False,3742524.389,1.0000001039405493,False
+1976,Personal income tax,3086611,False,3089962.557,1.0010858371851847,False
+1976,Corporation tax,1286515,False,1286514.878,0.999999905170169,False
+1976,Tobacco taxes,268610,False,268610.332,1.000001235992703,False
+1976,Estate & gift tax,316648,False,316647.997,0.9999999905257573,False
+1976,Insurance tax,241224,False,241223.896,0.9999995688654529,False
+1976,Alcohol taxes,125313,False,125312.654,0.9999972389137599,False
+1976,Motor fuel taxes,766555,False,766554.794,0.999999731265206,False
+1976,Vehicle fees,749936,False,750343.826,1.000543814405496,False
+1977,Sales & use tax,4314201,False,4313909.096,0.9999323388038712,False
+1977,Personal income tax,3761356,False,3761356.097,1.000000025788572,False
+1977,Corporation tax,1641500,False,1641500.12,1.0000000731038685,False
+1977,Tobacco taxes,269384,False,269384.44200000004,1.0000016407804473,False
+1977,Estate & gift tax,367964,False,367963.935,0.9999998233522844,False
+1977,Insurance tax,322476,False,322475.675,0.9999989921730609,False
+1977,Alcohol taxes,127485,False,127484.583,0.9999967290269444,False
+1977,Motor fuel taxes,810321,False,810321.027,1.0000000333201287,False
+1977,Vehicle fees,807782,False,807782.663,1.0000008207659987,False
+1978,Sales & use tax,5030438,False,5030434.285,0.9999992614957187,False
+1978,Personal income tax,4667887,False,4667887.272,1.0000000582704764,False
+1978,Corporation tax,2082208,False,2082207.624,0.9999998194224593,False
+1978,Tobacco taxes,273658,False,273657.519,0.9999982423316693,False
+1978,Estate & gift tax,365092,False,365091.535,0.9999987263484271,False
+1978,Insurance tax,387560,False,387559.798,0.9999994787903809,False
+1978,Alcohol taxes,132060,False,132060.117,1.0000008859609268,False
+1978,Motor fuel taxes,850181,False,850181.352,1.0000004140294831,False
+1978,Vehicle fees,924410,False,924410.708,1.0000007658939216,False
+1979,Sales & use tax,5780919,False,5780918.754,0.9999999574462122,False
+1979,Personal income tax,4761571,False,4761570.976,0.9999999949596466,False
+1979,Corporation tax,2381223,False,2381223.084,1.0000000352759904,False
+1979,Tobacco taxes,268816,False,268815.663,0.9999987463543837,False
+1979,Estate & gift tax,416955,False,416954.739,0.9999993740331691,False
+1979,Insurance tax,420184,False,420184.303,1.0000007211126554,False
+1979,Alcohol taxes,140059,False,140058.983,0.9999998786225806,False
+1979,Motor fuel taxes,896591,False,896591.276,1.0000003078326685,False
+1979,Vehicle fees,1021856,False,1021856.8269999999,1.0000008093116837,False
+1980,Sales & use tax,6623521,False,6623521.313999999,1.0000000474068096,False
+1980,Personal income tax,6506015,False,6506014.963,0.999999994312955,False
+1980,Corporation tax,2510039,False,2510039.059,1.0000000235056108,False
+1980,Tobacco taxes,290043,False,290043.36,1.000001241195271,False
+1980,Estate & gift tax,465611,False,465610.699,0.9999993535376097,False
+1980,Insurance tax,446228,False,446228.193,1.0000004325143201,False
+1980,Alcohol taxes,138940,False,138940.266,1.0000019144954657,False
+1980,Motor fuel taxes,852752,False,852751.166,0.9999990219899806,False
+1980,Vehicle fees,1096640,False,1096640.1979999999,1.0000001805515026,False
+1981,Sales & use tax,7131429,False,7131429.0,1.0,False
+1981,Personal income tax,6628694,False,6628694.0,1.0,False
+1981,Corporation tax,2730624,False,2730624.0,1.0,False
+1981,Tobacco taxes,278161,False,278161.0,1.0,False
+1981,Estate & gift tax,530185,False,530180.0,0.9999905693295736,False
+1981,Insurance tax,460926,False,460926.0,1.0,False
+1981,Alcohol taxes,142860,False,142860.0,1.0,False
+1981,Motor fuel taxes,839994,False,839995.0,1.000001190484694,False
+1981,Vehicle fees,1127293,False,1127293.0,1.0,False
+1982,Sales & use tax,7689023,False,7689023.0,1.0,False
+1982,Personal income tax,7483007,False,7493005.0,1.0013360938991505,False
+1982,Corporation tax,2648735,False,2648735.0,1.0,False
+1982,Tobacco taxes,276824,False,276824.0,1.0,False
+1982,Estate & gift tax,482300,False,495251.0,1.0268525813808833,False
+1982,Insurance tax,454984,False,484196.0,1.0642044555412937,False
+1982,Alcohol taxes,139523,False,139523.0,1.0,False
+1982,Motor fuel taxes,833446,False,833347.0,0.9998812160595888,False
+1982,Vehicle fees,1373354,False,1372556.0,0.9994189407829299,False
+1983,Sales & use tax,7795488,False,7795488.0,1.0,False
+1983,Personal income tax,7701099,False,7712691.0,1.0015052397066964,False
+1983,Corporation tax,2536011,False,2536011.0,1.0,False
+1983,Tobacco taxes,271621,False,271621.0,1.0,False
+1983,Estate & gift tax,517875,False,517875.0,1.0,False
+1983,Insurance tax,736929,False,736929.0,1.0,False
+1983,Alcohol taxes,136209,False,136209.0,1.0,False
+1983,Motor fuel taxes,928633,False,928633.0,1.0,False
+1983,Vehicle fees,1614993,False,1616162.0,1.0007238421466842,False
+1984,Sales & use tax,8797865,False,8797865.0,1.0,False
+1984,Personal income tax,9290279,False,9297451.0,1.0007719897324936,False
+1984,Corporation tax,3231281,False,3231281.0,1.0,False
+1984,Tobacco taxes,263231,False,263231.0,1.0,False
+1984,Estate & gift tax,236452,False,236452.0,1.0,False
+1984,Insurance tax,457490,False,457489.0,0.9999978141598723,False
+1984,Alcohol taxes,137433,False,137433.0,1.0,False
+1984,Motor fuel taxes,1213167,False,1213162.0,0.9999958785558789,False
+1984,Vehicle fees,1906290,False,1906852.0,1.000294813485881,False
+1985,Sales & use tax,9797564,False,9797564.0,1.0,False
+1985,Personal income tax,10807706,False,10805734.0,0.9998175375977104,False
+1985,Corporation tax,3664593,False,3664593.0,1.0,False
+1985,Tobacco taxes,262868,False,263327.0,1.0017461235296803,False
+1985,Estate & gift tax,296805,False,296805.0,1.0,False
+1985,Insurance tax,643139,False,643139.0,1.0,False
+1985,Alcohol taxes,135786,False,135786.0,1.0,False
+1985,Motor fuel taxes,1159637,False,1159637.0,1.0,False
+1985,Vehicle fees,2137326,False,2133083.0,0.9980148091587339,False
+1986,Sales & use tax,10317930,False,10317930.0,1.0,False
+1986,Personal income tax,11413040,False,11418720.0,1.000497676342149,False
+1986,Corporation tax,3843024,False,3843024.0,1.0,False
+1986,Tobacco taxes,258141,False,262131.0,1.0154566690297162,False
+1986,Estate & gift tax,252810,False,252811.0,1.0000039555397333,False
+1986,Insurance tax,839939,False,839939.0,1.0,False
+1986,Alcohol taxes,132262,False,132261.0,0.9999924392493686,False
+1986,Motor fuel taxes,1194172,False,1193588.0,0.9995109582204239,False
+1986,Vehicle fees,2515295,False,2519854.0,1.001812511057351,False
+1987,Sales & use tax,10904022,False,10904022.0,1.0,False
+1987,Personal income tax,13924527,False,13922074.0,0.9998238360268898,False
+1987,Corporation tax,4800843,False,4800843.0,1.0,False
+1987,Tobacco taxes,255076,False,255075.0,0.9999960795998055,False
+1987,Estate & gift tax,273089,False,273090.0,1.0000036618098862,False
+1987,Insurance tax,1008804,False,1008804.0,1.0,False
+1987,Alcohol taxes,131288,False,131288.0,1.0,False
+1987,Motor fuel taxes,1245881,False,1249586.0,1.0029737992633325,False
+1987,Vehicle fees,2692835,False,2689851.0,0.9988918741772147,False
+1988,Sales & use tax,11650531,False,11650531.0,1.0,False
+1988,Personal income tax,12950346,False,12947185.0,0.9997559138574367,False
+1988,Corporation tax,4776388,False,4776388.0,1.0,False
+1988,Tobacco taxes,250572,False,250572.0,1.0,False
+1988,Estate & gift tax,304148,False,304148.0,1.0,False
+1988,Insurance tax,1158321,False,1158321.0,1.0,False
+1988,Alcohol taxes,128734,False,128734.0,1.0,False
+1988,Motor fuel taxes,1293254,False,1279732.0,0.9895442040001423,False
+1988,Vehicle fees,2966334,False,2974115.0,1.0026231031299915,False
+1989,Sales & use tax,12650893,False,12650893.0,1.0,False
+1989,Personal income tax,15889179,False,15886361.0,0.9998226465948933,False
+1989,Corporation tax,5138009,False,5138009.0,1.0,False
+1989,Tobacco taxes,559617,False,559616.0,0.9999982130635774,False
+1989,Estate & gift tax,335091,False,335092.0,1.0000029842639762,False
+1989,Insurance tax,1317630,False,1317630.0,1.0,False
+1989,Alcohol taxes,128264,False,128264.0,1.0,False
+1989,Motor fuel taxes,1320512,False,1320512.0,1.0,False
+1989,Vehicle fees,3142484,False,3139011.0,0.9988948233308428,False
+1990,Sales & use tax,13917771,False,13917812.0,1.0000029458740196,False
+1990,Personal income tax,16906568,False,16903654.0,0.999827640949955,False
+1990,Corporation tax,4965389,False,4964842.0,0.9998898374326765,False
+1990,Tobacco taxes,787076,False,787076.0,1.0,False
+1990,Estate & gift tax,388527,False,388527.0,1.0,False
+1990,Insurance tax,1167684,False,1167684.0,1.0,False
+1990,Alcohol taxes,128524,False,128523.0,0.9999922193520276,False
+1990,Motor fuel taxes,1349146,False,1349002.0,0.9998932658140779,False
+1990,Vehicle fees,3305711,False,3302144.0,0.9989209583051876,False
+1991,Sales & use tax,13839573,False,13839426.0,0.9999893782850092,False
+1991,Personal income tax,16852079,False,16848927.0,0.9998129607628827,False
+1991,Corporation tax,4544783,False,4545384.0,1.0001322395370693,False
+1991,Tobacco taxes,745074,False,746401.0,1.0017810311458997,False
+1991,Estate & gift tax,498774,False,498774.0,1.0,False
+1991,Insurance tax,1287152,False,1286198.0,0.9992588287941129,False
+1991,Alcohol taxes,129640,False,129640.0,1.0,False
+1991,Motor fuel taxes,1999771,False,1988490.0,0.9943588540887932,False
+1991,Vehicle fees,3513159,False,3510279.0,0.9991802249770079,False
+1992,Sales & use tax,17458521,False,17582575.0,1.0071056419956765,False
+1992,Personal income tax,17242816,False,17240204.0,0.9998485166228068,False
+1992,Corporation tax,4538451,False,4537964.0,0.9998926946660877,False
+1992,Tobacco taxes,726064,False,719370.0,0.99078042706979,False
+1992,Estate & gift tax,446696,False,446696.0,1.0,False
+1992,Insurance tax,1167307,False,1167307.0,1.0,False
+1992,Alcohol taxes,321352,False,321352.0,1.0,False
+1992,Motor fuel taxes,2457229,False,2458115.0,1.0003605687544792,False
+1992,Vehicle fees,4369862,False,4370467.0,1.0001384483079787,False
+1993,Sales & use tax,16598863,False,16611816.0,1.000780354654412,False
+1993,Personal income tax,17358751,False,17233571.0,0.992788651672001,False
+1993,Corporation tax,4659950,False,4777319.0,1.025186750930804,False
+1993,Tobacco taxes,677846,False,691281.0,1.0198201361371166,False
+1993,Estate & gift tax,458433,False,466346.0,1.0172609737955165,False
+1993,Insurance tax,1188181,False,1188181.0,1.0,False
+1993,Alcohol taxes,292107,False,292107.0,1.0,False
+1993,Motor fuel taxes,2412574,False,2468279.0,1.0230894472045209,False
+1993,Vehicle fees,4470321,False,4457458.0,0.9971225779983137,False
+1994,Sales & use tax,16857369,False,16204633.0,0.9612788923348596,False
+1994,Personal income tax,17402976,False,17590000.0,1.0107466676963757,False
+1994,Corporation tax,4809273,False,4787474.0,0.9954672982798024,False
+1994,Tobacco taxes,664322,False,665229.0,1.0013653017663122,False
+1994,Estate & gift tax,552139,False,552000.0,0.9997482517989129,False
+1994,Insurance tax,1196921,False,1197000.0,1.0000660026852233,False
+1994,Alcohol taxes,275797,False,276000.0,1.0007360486154673,False
+1994,Motor fuel taxes,2547633,False,2525511.0,0.9913166456864078,False
+1994,Vehicle fees,4518795,False,4501493.0,0.9961711031370089,False
+1995,Sales & use tax,16273800,False,16283952.0,1.0006238247981418,False
+1995,Personal income tax,18608181,False,18500000.0,0.9941863742619442,False
+1995,Corporation tax,5685618,False,5716603.0,1.0054497154047282,False
+1995,Tobacco taxes,674727,False,674741.0,1.000020749132612,False
+1995,Estate & gift tax,595238,False,599000.0,1.0063201610112258,False
+1995,Insurance tax,998868,False,998868.0,1.0,False
+1995,Alcohol taxes,268957,False,268957.0,1.0,False
+1995,Motor fuel taxes,2685731,False,2620090.0,0.9755593542316785,False
+1995,Vehicle fees,4749594,False,4727876.0,0.9954273986365992,False
+1996,Sales & use tax,17466584,False,17525022.0,1.003345702857525,False
+1996,Personal income tax,20877687,False,20875045.0,0.9998734534146431,False
+1996,Corporation tax,5862420,False,5862327.0,0.9999841362440767,False
+1996,Tobacco taxes,666779,False,666811.0,1.0000479919133627,False
+1996,Estate & gift tax,659338,False,659337.0,0.9999984833272161,False
+1996,Insurance tax,1131737,False,1131737.0,1.0,False
+1996,Alcohol taxes,269227,False,269227.0,1.0,False
+1996,Motor fuel taxes,2757289,False,2774306.0,1.0061716417829252,False
+1996,Vehicle fees,5009319,False,4990012.0,0.9961457834887337,False
+1997,Sales & use tax,18424355,False,18434781.0,1.0005658814107738,False
+1997,Personal income tax,23275990,False,23273258.0,0.9998826258303084,False
+1997,Corporation tax,5788414,False,5788774.0,1.0000621932017992,False
+1997,Tobacco taxes,665415,False,665423.0,1.0000120225723796,False
+1997,Estate & gift tax,599255,False,599254.0,0.9999983312613161,False
+1997,Insurance tax,1199554,False,1199553.0,0.9999991663568293,False
+1997,Alcohol taxes,271065,False,271065.0,1.0,False
+1997,Motor fuel taxes,2824589,False,2806276.0,0.9935165788721828,False
+1997,Vehicle fees,5260355,False,5224709.0,0.9932236512554761,False
+1998,Sales & use tax,19548574,False,19554527.0,1.0003045234910741,False
+1998,Personal income tax,27927940,False,27925096.0,0.9998981664956312,False
+1998,Corporation tax,5836881,False,5837426.0,1.0000933717853764,False
+1998,Tobacco taxes,644297,False,644303.0,1.0000093124754577,False
+1998,Estate & gift tax,780197,False,780197.0,1.0,False
+1998,Insurance tax,1221285,False,1221285.0,1.0,False
+1998,Alcohol taxes,270947,False,270948.0,1.0000036907587093,False
+1998,Motor fuel taxes,2853846,False,2853823.0,0.9999919407003741,False
+1998,Vehicle fees,5660574,False,5616802.0,0.9922672153036071,False
+1999,Sales & use tax,21013674,False,21011061.0,0.9998756523966251,False
+1999,Personal income tax,30894865,False,30891480.0,0.9998904348667651,False
+1999,Corporation tax,5724237,False,5724035.0,0.9999647114541205,False
+1999,Tobacco taxes,976513,False,976548.0,1.00003584181675,False
+1999,Estate & gift tax,890489,False,890488.0,0.9999988770215017,False
+1999,Insurance tax,1253972,False,1253972.0,1.0,False
+1999,Alcohol taxes,273112,False,273113.0,1.0000036615015084,False
+1999,Motor fuel taxes,3025226,False,3026114.0,1.00029353178903,False
+1999,Vehicle fees,5610374,False,5577621.0,0.9941620647750044,False
+2000,Sales & use tax,23451570,False,23457385.0,1.0002479578126326,False
+2000,Personal income tax,39578237,False,39574649.0,0.9999093441175765,False
+2000,Corporation tax,6638898,False,6638762.0,0.9999795146724653,False
+2000,Tobacco taxes,1216651,False,1216646.0,0.9999958903580403,False
+2000,Estate & gift tax,928146,False,928148.0,1.000002154833399,False
+2000,Insurance tax,1299777,False,1299777.0,1.0,False
+2000,Alcohol taxes,282166,False,282165.0,0.9999964559869013,False
+2000,Motor fuel taxes,3069694,False,3041370.0,0.9907730216757762,False
+2000,Vehicle fees,5263245,False,5241110.0,0.9957944196023556,False
+2001,Sales & use tax,24287928,False,24298292.0,1.0004267140449363,False
+2001,Personal income tax,44618532,False,44614297.0,0.9999050842820199,False
+2001,Corporation tax,6899322,False,6899302.0,0.9999971011644333,False
+2001,Tobacco taxes,1150869,False,1150856.0,0.9999887041878789,False
+2001,Estate & gift tax,934709,False,934708.0,0.9999989301483135,False
+2001,Insurance tax,1496556,False,1496556.0,1.0,False
+2001,Alcohol taxes,288450,False,288451.0,1.0000034668053388,False
+2001,Motor fuel taxes,3142142,False,3142142.0,1.0,False
+2001,Vehicle fees,5286542,False,5258754.0,0.9947436339293247,False
+2002,Sales & use tax,23816406,False,23816406.0,1.0,False
+2002,Personal income tax,33046665,False,33046665.0,1.0,False
+2002,Corporation tax,5333036,False,5333036.0,1.0,False
+2002,Tobacco taxes,1102807,False,1102807.0,1.0,False
+2002,Estate & gift tax,915627,False,915627.0,1.0,False
+2002,Insurance tax,1596002,False,1596002.0,1.0,False
+2002,Alcohol taxes,292627,False,292627.0,1.0,False
+2002,Motor fuel taxes,3295903,False,3295903.0,1.0,False
+2002,Vehicle fees,3836904,False,3836904.0,1.0,False
+2003,Sales & use tax,24899025,False,24899025.0,1.0,False
+2003,Personal income tax,32709761,False,32709761.0,1.0,False
+2003,Corporation tax,6803559,False,6803559.0,1.0,False
+2003,Tobacco taxes,1055505,False,1055505.0,1.0,False
+2003,Estate & gift tax,647372,False,647372.0,1.0,False
+2003,Insurance tax,1879784,False,1879784.0,1.0,False
+2003,Alcohol taxes,290564,False,290564.0,1.0,False
+2003,Motor fuel taxes,3202512,False,3202511.0,0.99999968774512,False
+2003,Vehicle fees,3889602,False,3889602.0,1.0,False
+2004,Sales & use tax,26506911,False,26506911.0,1.0,False
+2004,Personal income tax,36398983,False,36398983.0,1.0,False
+2004,Corporation tax,6925916,False,7019216.0,1.0134711423008884,False
+2004,Tobacco taxes,1081588,False,1081588.0,1.0,False
+2004,Estate & gift tax,397848,False,397848.0,1.0,False
+2004,Insurance tax,2114980,False,2114980.0,1.0,False
+2004,Alcohol taxes,312826,False,312826.0,1.0,False
+2004,Motor fuel taxes,3324883,False,3324883.0,1.0,False
+2004,Vehicle fees,4415126,False,4415126.0,1.0,False
+2005,Sales & use tax,29967136,False,29967136.0,1.0,False
+2005,Personal income tax,42992007,False,42992007.0,1.0,False
+2005,Corporation tax,8670065,False,8670065.0,1.0,False
+2005,Tobacco taxes,1096224,False,1096224.0,1.0,False
+2005,Estate & gift tax,213036,False,213036.0,1.0,False
+2005,Insurance tax,2232955,False,2232955.0,1.0,False
+2005,Alcohol taxes,314252,False,314252.0,1.0,False
+2005,Motor fuel taxes,3366142,False,3366141.0,0.9999997029240002,False
+2005,Vehicle fees,4873705,False,4873705.0,1.0,False
+2006,Sales & use tax,32201082,False,32201082.0,1.0,False
+2006,Personal income tax,51219823,False,51219823.0,1.0,False
+2006,Corporation tax,10316467,False,10316467.0,1.0,False
+2006,Tobacco taxes,1088703,False,1088703.0,1.0,False
+2006,Estate & gift tax,3786,False,3786.0,1.0,False
+2006,Insurance tax,2202327,False,2202327.0,1.0,False
+2006,Alcohol taxes,318276,False,318276.0,1.0,False
+2006,Motor fuel taxes,3393381,False,3393381.0,1.0,False
+2006,Vehicle fees,5078529,False,5078529.0,1.0,False
+2007,Sales & use tax,32669175,False,32669175.0,1.0,False
+2007,Personal income tax,53348766,False,53348766.0,1.0,False
+2007,Corporation tax,11157898,False,11157898.0,1.0,False
+2007,Tobacco taxes,1078536,False,1078536.0,1.0,False
+2007,Estate & gift tax,6348,False,6348.0,1.0,False
+2007,Insurance tax,2178336,False,2178336.0,1.0,False
+2007,Alcohol taxes,333789,False,333789.0,1.0,False
+2007,Motor fuel taxes,3399694,False,3432527.0,1.0096576338929326,False
+2007,Vehicle fees,5147341,False,5147341.0,1.0,False
+2008,Sales & use tax,31972874,False,31972874.0,1.0,False
+2008,Personal income tax,55745970,False,55745970.0,1.0,False
+2008,Corporation tax,11849097,False,11849097.0,1.0,False
+2008,Tobacco taxes,1037287,False,1037287.0,1.0,False
+2008,Estate & gift tax,6303,False,6303.0,1.0,False
+2008,Insurance tax,2172936,False,2172936.0,1.0,False
+2008,Alcohol taxes,327260,False,327260.0,1.0,False
+2008,Motor fuel taxes,3351268,False,3418413.0,1.0200356999201496,False
+2008,Vehicle fees,5212811,False,5212811.0,1.0,False
+2009,Sales & use tax,28972302,False,28972302.0,1.0,False
+2009,Personal income tax,44355959,False,44355959.0,1.0,False
+2009,Corporation tax,9535679,False,9535679.0,1.0,False
+2009,Tobacco taxes,1000456,False,1000456.0,1.0,False
+2009,Estate & gift tax,245,False,245.0,1.0,False
+2009,Insurance tax,2053850,False,2053850.0,1.0,False
+2009,Alcohol taxes,323934,False,323934.0,1.0,False
+2009,Motor fuel taxes,3162299,False,3180112.0,1.0056329271836724,False
+2009,Vehicle fees,5566642,False,5566642.0,1.0,False
+2010,Sales & use tax,31197154,False,31197154.0,1.0,False
+2010,Personal income tax,45650901,False,45650901.0,1.0,False
+2010,Corporation tax,9114589,False,9114589.0,1.0,False
+2010,Tobacco taxes,922986,False,922986.0,1.0,False
+2010,Estate & gift tax,0,False,0.0,,False
+2010,Insurance tax,2180786,False,2180786.0,1.0,False
+2010,Alcohol taxes,311242,False,311242.0,1.0,False
+2010,Motor fuel taxes,3149144,False,3163694.0,1.004620303168099,False
+2010,Vehicle fees,6726967,False,6726967.0,1.0,False
+2011,Sales & use tax,30996372,False,30996372.0,1.0,False
+2011,Personal income tax,50507989,False,50507989.0,1.0,False
+2011,Corporation tax,9613594,False,9613594.0,1.0,False
+2011,Tobacco taxes,905245,False,905245.0,1.0,False
+2011,Estate & gift tax,0,False,0.0,,False
+2011,Insurance tax,2307022,False,2307022.0,1.0,False
+2011,Alcohol taxes,334178,False,334178.0,1.0,False
+2011,Motor fuel taxes,5705528,False,5705527.0,0.9999998247313833,False
+2011,Vehicle fees,6558121,False,6558121.0,1.0,False
+2012,Sales & use tax,28542238,False,28542238.0,1.0,False
+2012,Personal income tax,55449292,False,55449292.0,1.0,False
+2012,Corporation tax,7233000,False,7233000.0,1.0,False
+2012,Tobacco taxes,895677,False,895677.0,1.0,False
+2012,Estate & gift tax,0,False,0.0,,False
+2012,Insurance tax,2416073,False,2416073.0,1.0,False
+2012,Alcohol taxes,346000,False,346000.0,1.0,False
+2012,Motor fuel taxes,5544530,False,5544530.0,1.0,False
+2012,Vehicle fees,5907866,False,5907866.0,1.0,False
+2013,Sales & use tax,31007290,False,31007290.0,1.0,False
+2013,Personal income tax,66809000,False,66168000.0,0.9904054842910386,False
+2013,Corporation tax,7782947,False,7783000.0,1.0000068097598507,False
+2013,Tobacco taxes,868703,False,868703.0,1.0,False
+2013,Estate & gift tax,0,False,0.0,,False
+2013,Insurance tax,2242379,False,2242379.0,1.0,False
+2013,Alcohol taxes,357000,False,357000.0,1.0,False
+2013,Motor fuel taxes,5492850,False,5492850.0,1.0,False
+2013,Vehicle fees,5864814,False,5864814.0,1.0,False
+2014,Sales & use tax,34163864,False,34163864.0,1.0,False
+2014,Personal income tax,68306264,False,68306264.0,1.0,False
+2014,Corporation tax,9092696,False,9092696.0,1.0,False
+2014,Tobacco taxes,833127,False,833126.0,0.9999987997028064,False
+2014,Estate & gift tax,0,False,0.0,,False
+2014,Insurance tax,2362738,False,2632738.0,1.1142742022179353,True
+2014,Alcohol taxes,354297,False,354297.0,1.0,False
+2014,Motor fuel taxes,6065748,False,6063356.0,0.9996056545705493,False
+2014,Vehicle fees,6226553,False,5732162.0,0.920599567690181,True
+2015,Sales & use tax,35263084,False,36727372.0,1.041524672090507,False
+2015,Personal income tax,77929551,False,77999964.0,1.0009035468457916,False
+2015,Corporation tax,9416779,False,9416779.0,1.0,False
+2015,Tobacco taxes,832379,False,832379.0,1.0,False
+2015,Estate & gift tax,0,False,0.0,,False
+2015,Insurance tax,2444573,False,2444573.0,1.0,False
+2015,Alcohol taxes,357373,False,357373.0,1.0,False
+2015,Motor fuel taxes,5713698,False,5711160.0,0.9995558043144738,False
+2015,Vehicle fees,6510898,False,5978864.0,0.9182856189729895,True
+2016,Sales & use tax,35936588,False,37568942.0,1.0454231770695648,False
+2016,Personal income tax,80541269,False,80541269.0,1.0,False
+2016,Corporation tax,10459561,False,10459561.0,1.0,False
+2016,Tobacco taxes,840034,False,840034.0,1.0,False
+2016,Estate & gift tax,0,False,0.0,,False
+2016,Insurance tax,2561932,False,2561932.0,1.0,False
+2016,Alcohol taxes,368699,False,368699.0,1.0,False
+2016,Motor fuel taxes,5003317,False,5000539.0,0.9994447683406827,False
+2016,Vehicle fees,6833037,False,6296479.0,0.9214759118090535,True
+2017,Sales & use tax,35360401,False,35650891.0,1.0082151217685569,False
+2017,Personal income tax,85021043,False,85021043.0,1.0,False
+2017,Corporation tax,11019780,False,11019780.0,1.0,False
+2017,Tobacco taxes,1235605,False,1235605.0,1.0,False
+2017,Estate & gift tax,0,False,0.0,,False
+2017,Insurance tax,2422105,False,2422105.0,1.0,False
+2017,Alcohol taxes,368345,False,368345.0,1.0,False
+2017,Motor fuel taxes,4845821,False,4845821.0,1.0,False
+2017,Vehicle fees,7192680,False,7163291.0,0.995914040385503,False
+2018,Sales & use tax,36137388,False,36293363.0,1.0043161669570584,False
+2018,Personal income tax,95865692,False,95865692.0,1.0,False
+2018,Corporation tax,12312596,False,12312596.0,1.0,False
+2018,Tobacco taxes,2145003,False,2145003.0,1.0,False
+2018,Estate & gift tax,0,False,0.0,,False
+2018,Insurance tax,2569271,False,2569271.0,1.0,False
+2018,Alcohol taxes,376059,False,376059.0,1.0,False
+2018,Motor fuel taxes,6355007,False,6355007.0,1.0,False
+2018,Vehicle fees,8578311,False,8546493.0,0.9962908782393177,False
+2018,Cannabis taxes,83869,False,83869.0,1.0,False
+2019,Sales & use tax,37903457,False,139389767.0,3.67749482586773,True
+2019,Personal income tax,100958015,False,273415.0,0.002708204989965383,True
+2019,Corporation tax,14062543,False,14075461.0,1.0009186105244265,False
+2019,Tobacco taxes,2052204,False,2052204.0,1.0,False
+2019,Estate & gift tax,0,False,0.0,,False
+2019,Insurance tax,2722787,False,2726966.0,1.0015348244280584,False
+2019,Alcohol taxes,377662,False,377662.0,1.0,False
+2019,Motor fuel taxes,7561080,False,7561080.0,1.0,False
+2019,Vehicle fees,9880258,False,9571258.0,0.9687255130382223,False
+2019,Cannabis taxes,261149,False,261149.0,1.0,False
+2020,Sales & use tax,37083771,False,37083771.0,1.0,False
+2020,Personal income tax,101866478,False,101866478.0,1.0,False
+2020,Corporation tax,13953804,False,13953804.0,1.0,False
+2020,Tobacco taxes,1966609,False,1966609.0,1.0,False
+2020,Estate & gift tax,0,False,0.0,,False
+2020,Insurance tax,3134591,False,3134591.0,1.0,False
+2020,Alcohol taxes,382745,False,382745.0,1.0,False
+2020,Motor fuel taxes,7801021,False,7801021.0,1.0,False
+2020,Vehicle fees,9769018,False,6000209.0,0.6142079992072899,True
+2020,Cannabis taxes,490915,False,490915.0,1.0,False
+2021,Sales & use tax,41874019,False,41874019.0,1.0,False
+2021,Personal income tax,131966930,False,131966930.0,1.0,False
+2021,Corporation tax,22590587,False,22590587.0,1.0,False
+2021,Tobacco taxes,1969042,False,1969042.0,1.0,False
+2021,Estate & gift tax,0,False,0.0,,False
+2021,Insurance tax,3139292,False,3139292.0,1.0,False
+2021,Alcohol taxes,414634,False,414634.0,1.0,False
+2021,Motor fuel taxes,7814218,False,7814218.0,1.0,False
+2021,Vehicle fees,10682014,False,10638892.0,0.9959631208122364,False
+2021,Cannabis taxes,770380,False,770380.0,1.0,False
+2022,Sales & use tax,47830300,False,47830300.0,1.0,False
+2022,Personal income tax,142090334,False,142090334.0,1.0,False
+2022,Corporation tax,45128400,False,45128400.0,1.0,False
+2022,Tobacco taxes,1831959,False,1831959.0,1.0,False
+2022,Estate & gift tax,0,False,0.0,,False
+2022,Insurance tax,3494540,False,3494540.0,1.0,False
+2022,Alcohol taxes,431363,False,431363.0,1.0,False
+2022,Motor fuel taxes,8459159,False,8459159.0,1.0,False
+2022,Vehicle fees,10757060,False,10710017.0,0.9956267790641681,False
+2022,Cannabis taxes,812980,False,812980.0,1.0,False
+2023,Sales & use tax,48897975,False,48897975.0,1.0,False
+2023,Personal income tax,103498100,False,103498100.0,1.0,False
+2023,Corporation tax,36336922,False,36336922.0,1.0,False
+2023,Tobacco taxes,1621734,False,1621734.0,1.0,False
+2023,Estate & gift tax,0,False,0.0,,False
+2023,Insurance tax,3707199,False,3707199.0,1.0,False
+2023,Alcohol taxes,420539,False,420539.0,1.0,False
+2023,Motor fuel taxes,8657370,False,8657370.0,1.0,False
+2023,Vehicle fees,11345317,False,11295406.0,0.9956007399352526,False
+2023,Cannabis taxes,537343,False,537343.0,1.0,False
+2024,Sales & use tax,48665214,False,48665214.0,1.0,False
+2024,Personal income tax,117945208,False,117945208.0,1.0,False
+2024,Corporation tax,35456402,False,35456402.0,1.0,False
+2024,Tobacco taxes,1382010,False,1382010.0,1.0,False
+2024,Estate & gift tax,0,False,0.0,,False
+2024,Insurance tax,3966362,False,3966362.0,1.0,False
+2024,Alcohol taxes,418350,False,418350.0,1.0,False
+2024,Motor fuel taxes,9238899,False,9238899.0,1.0,False
+2024,Vehicle fees,11941272,False,11892212.0,0.9958915599611163,False
+2024,Cannabis taxes,629373,False,629373.0,1.0,False
+2025,Sales & use tax,48879567,True,48831851.0,0.999023804773066,False
+2025,Personal income tax,133648105,True,134958765.0,1.0098067982333159,False
+2025,Corporation tax,41338259,True,41757286.0,1.0101365420348254,False
+2025,Tobacco taxes,1222243,True,1220548.0,0.9986132053936901,False
+2025,Estate & gift tax,0,True,0.0,,False
+2025,Insurance tax,4298323,True,4298323.0,1.0,False
+2025,Alcohol taxes,414268,True,414268.0,1.0,False
+2025,Motor fuel taxes,9407121,True,9407121.0,1.0,False
+2025,Vehicle fees,12628103,True,12459877.0,0.9866784425182468,False
+2025,Cannabis taxes,589795,True,596838.0,1.0119414372790545,False
+2026,Sales & use tax,50018107,True,50144801.0,1.0025329627128832,False
+2026,Personal income tax,142296320,True,151289570.0,1.0632008614137034,False
+2026,Corporation tax,41701838,True,43661941.0,1.047002796375546,False
+2026,Tobacco taxes,1140053,True,1146182.0,1.00537606584957,False
+2026,Estate & gift tax,0,True,0.0,,False
+2026,Insurance tax,4369552,True,4510369.0,1.0322268736016873,False
+2026,Alcohol taxes,416922,True,413142.0,0.9909335559169341,False
+2026,Motor fuel taxes,9611584,True,9469282.0,0.9851947400137168,False
+2026,Vehicle fees,12803624,True,12722732.0,0.9936821012550822,False
+2026,Cannabis taxes,612426,True,622714.0,1.0167987642588656,False
+2027,Sales & use tax,50952950,True,51838056.0,1.0173710452486069,False
+2027,Personal income tax,146823274,True,149979546.0,1.021497082267761,False
+2027,Corporation tax,43527691,True,45166625.0,1.0376526749374324,False
+2027,Tobacco taxes,1100041,True,1100245.0,1.0001854476333154,False
+2027,Estate & gift tax,0,True,0.0,,False
+2027,Insurance tax,4612163,True,4727503.0,1.0250077891869824,False
+2027,Alcohol taxes,419012,True,415352.0,0.9912651666300727,False
+2027,Motor fuel taxes,9797584,True,9692428.0,0.9892671499422715,False
+2027,Vehicle fees,13201833,True,13130382.0,0.994587797012733,False
+2027,Cannabis taxes,598457,True,613688.0,1.0254504500741073,False
