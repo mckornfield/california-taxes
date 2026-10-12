@@ -1,6 +1,6 @@
 """Turn data/raw into tidy data/processed CSVs.
 
-  macro.csv               fy, cpi (FY avg, Jul-Jun), cpi_factor (to base-year $), population
+  macro.csv               fy, cpi (FY avg, Jul-Jun), cpi_factor (to base-year $), population_k, base_fy, income_m (CA personal income, $M, FY avg)
   state_revenue.csv       (repaired against DOF Sch. 3) fy, fund, category, source, tax_type, group, amount_k, series
   state_expenditures.csv  fy, area (stable), agency, department, fund, exp_type, debt_service, amount_k
   local_revenue.csv       govt (City|County|Special districts), fy, group, amount_k   (statewide)
@@ -42,6 +42,11 @@ def macro() -> pd.DataFrame:
     out["cpi_factor"] = out["cpi_factor"].ffill()  # budget years beyond CPI data: carry base factor
     out["population_k"] = [(pop[y - 1] + pop[y]) / 2 for y in out.index]
     out["base_fy"] = base
+    # Personal income: BEA quarterly SAAR; a Jul-Jun fiscal year averages its four quarters (Jul, Oct, Jan, Apr starts)
+    inc = pd.read_csv(RAW / "fred" / "CAOTOT.csv", parse_dates=["observation_date"])
+    inc["fy"] = inc.observation_date.dt.year + (inc.observation_date.dt.month >= 7)
+    ig = inc.groupby("fy").CAOTOT.agg(["mean", "count"])
+    out["income_m"] = ig[ig["count"] == 4]["mean"].reindex(out.index)
     return out.rename_axis("fy").reset_index()
 
 
