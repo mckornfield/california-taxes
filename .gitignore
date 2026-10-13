@@ -9,3 +9,4 @@ data/raw/**/*.xls
 data/raw/**/*.pdf
 .playwright-mcp/
 data/raw/**/_cache/
+data/raw/**/*.zip

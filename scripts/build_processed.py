@@ -10,6 +10,14 @@
   local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k, population_repaired
   school_finance.csv      kind (revenue|spending), fy, group, amount_k   (K-12 districts, Census; FY1994 omitted)
   school_enrollment.csv   fy, enrollment   (fall enrollment, sum of districts)
+  boe_assessed.csv        lien_year, county, land_k, improvements_k, personal_k, exemptions_k, net_k   (BOE Table 5, 2000+)
+  boe_summary.csv         lien_year, agency, net_k, levies_k, avg_rate_pct   (BOE Table 4, statewide, 2009+)
+  boe_allocations.csv     lien_year, county, recipient, amount_k, net_taxable_k   (BOE, 2012+)
+  boe_single_family.csv   lien_year, county, parcels, assessed_k   (secured single-family homes, 2015+)
+  housing_index.csv       lien_year, hpi   (FHFA California house price index, Q1, 1980Q1=100)
+  federal_collections.csv fy, total_k, business_income_k, individual_employment_k, other_k, us_total_k   (IRS, federal FY)
+  federal_benefits.csv    year, channel, kind (benefit|pay), federal_only, amount_k   (BEA, calendar year)
+  federal_govt_receipts.csv  fy, recipient, amount_k   (federal money received by CA governments; overlaps, not additive)
 
 fy is the fiscal-year END year (2015-16 -> 2016). Amounts are $ thousands, nominal.
 Real/per-capita values are derived in notebooks via ca_taxes.deflate.
@@ -208,6 +216,111 @@ def repair_city_population(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def _boe(name: str) -> pd.DataFrame:
+    d = pd.read_csv(RAW / "boe" / f"{name}.csv")
+    d = d.rename(columns={"AssessmentYearFrom": "lien_year"})
+    return d.drop(columns=["AssessmentYearTo"], errors="ignore")
+
+
+def boe_tables() -> dict[str, pd.DataFrame]:
+    """BOE roll tables. Dollars in the source are whole dollars; converted to $ thousands."""
+    a = _boe("Assessed_Property_Values")
+    a = a[~a.County.str.lower().str.startswith("total")]  # Table 5 carries a statewide "Total"/"Totals" row in 2000-2018; summing it with the counties doubles everything
+    assessed = pd.DataFrame({"lien_year": a.lien_year, "county": a.County, "land_k": a.LandAssessedValue / 1e3,
+                             "improvements_k": a.ImprovementsAssessedValue / 1e3,
+                             "personal_k": a.PersonalPropertyAssessedValue / 1e3,
+                             "exemptions_k": a.Exemptions / 1e3, "net_k": a.NetTotal / 1e3})
+    t = _boe("Summaries_of_Assessed_Values_by_Property_Class")
+    summary = pd.DataFrame({"lien_year": t.lien_year, "agency": t.Agency, "net_k": t.NetOfAllExemptions / 1e3,
+                            "levies_k": t.PropertyTaxLevies / 1e3, "avg_rate_pct": t.StateAverageTaxRates})
+    chk = assessed.groupby("lien_year").net_k.sum()
+    tot = summary[summary.agency.str.startswith("Totals")].set_index("lien_year").net_k  # net of all exemptions; Table 5 is net of 'other' exemptions
+    gap = (chk.reindex(tot.index) / tot - 1).abs().max()
+    assert assessed.groupby("lien_year").county.nunique().eq(58).all() and gap < 0.02, f"BOE county sums vs statewide summary differ by {gap:.1%}"
+    al = _boe("Property_Tax_Allocations")
+    rec = {"CityPropertyTaxAllocationsandLevies": "City", "CountyPropertyTaxAllocationsandLevies": "County",
+           "SchoolPropertyTaxAllocationsandLevies": "Schools", "OtherDistrictsPropertyTaxAllocationsandLevies": "Other districts"}
+    alloc = al.melt(id_vars=["lien_year", "County", "NetTaxableAssessedValue"], value_vars=list(rec), var_name="recipient", value_name="amount_k")
+    alloc["recipient"] = alloc.recipient.map(rec)
+    alloc["amount_k"] /= 1e3
+    alloc = alloc.rename(columns={"County": "county", "NetTaxableAssessedValue": "net_taxable_k"})
+    alloc["net_taxable_k"] /= 1e3
+    sf = _boe("Secured_Residential_Vacant_Land_Single_Family_Condominiums")
+    single = pd.DataFrame({"lien_year": sf.lien_year, "county": sf.County, "parcels": sf.SingleFamilyNumberofParcels,
+                           "assessed_k": sf.SingleFamilyAssessedValue / 1e3})
+    h = pd.read_csv(RAW / "fred" / "CASTHPI.csv", parse_dates=["observation_date"])
+    h = h[h.observation_date.dt.month == 1]  # Q1, closest to the Jan 1 lien date
+    housing = pd.DataFrame({"lien_year": h.observation_date.dt.year, "hpi": h.CASTHPI})
+    return {"boe_assessed": assessed, "boe_summary": summary, "boe_allocations": alloc, "boe_single_family": single, "housing_index": housing}
+
+
+def federal_collections() -> pd.DataFrame:
+    d = pd.read_csv(RAW / "irs" / "ca_gross_collections.csv")
+    d["other_k"] = d.total_k - d.business_income_k - d.individual_employment_k  # excise, estate, gift, other
+    return d
+
+
+BEA_LINES = {  # SAINC35 line code -> (channel, federal program?)
+    2110: ("Social Security", True), 2210: ("Medicare", True), 2221: ("Medicaid (federal + state share)", False),
+    2310: ("Supplemental Security Income", True), 2330: ("SNAP (food stamps)", True), 2320: ("Earned Income Tax Credit", True),
+    2400: ("Unemployment insurance (state + federal)", False), 2500: ("Veterans' benefits", True), 2230: ("Military medical insurance", True),
+}
+
+
+def federal_benefits() -> pd.DataFrame:
+    """Government transfers to Californians (BEA SAINC35) and federal pay (SAINC6), calendar years, $ thousands.
+
+    Only programs that are federal by design are flagged federal_only (Social Security, Medicare, SSI, SNAP,
+    EITC, veterans, military medical). Medicaid and unemployment insurance are shared with the state;
+    'Other government benefits' is the remainder of BEA's transfers from governments and mixes all levels.
+    """
+    def load(name):
+        d = pd.read_csv(RAW / "bea" / f"{name}.csv", encoding="latin-1").dropna(subset=["Description"])
+        yrs = [c for c in d.columns if c.isdigit()]
+        d = d.melt(id_vars=["LineCode"], value_vars=yrs, var_name="year", value_name="v")
+        d["year"] = d.year.astype(int)
+        d["v"] = pd.to_numeric(d.v, errors="coerce")
+        return d.dropna(subset=["v"])
+    t = load("SAINC35_CA")
+    t = t[t.LineCode.isin(list(BEA_LINES) + [2000])]
+    wide = t.pivot(index="year", columns="LineCode", values="v")
+    out = []
+    for code, (name, fed) in BEA_LINES.items():
+        out.append(wide[code].rename("amount_k").reset_index().assign(channel=name, kind="benefit", federal_only=fed))
+    other = (wide[2000] - wide[list(BEA_LINES)].sum(axis=1)).rename("amount_k").reset_index().assign(
+        channel="Other government benefits (mixed levels)", kind="benefit", federal_only=False)
+    out.append(other)
+    n, sic = load("SAINC6N_CA"), load("SAINC6S_CA")
+    for code_n, code_s, name in ((2001, 910, "Federal civilian pay"), (2002, 920, "Military pay")):
+        a = n[n.LineCode == code_n].set_index("year").v
+        b = sic[sic.LineCode == code_s].set_index("year").v
+        s_ = pd.concat([b[b.index < a.index.min()], a])  # NAICS series from 1998; SIC before (the two overlap 1998-2001)
+        out.append(s_.rename("amount_k").reset_index().assign(channel=name, kind="pay", federal_only=True))
+    return pd.concat(out)[["year", "channel", "kind", "federal_only", "amount_k"]].dropna()
+
+
+def _is_federal(row) -> bool:
+    cat, s1, s2 = (str(row.get(c, "")) for c in ("category", "subcategory_1", "subcategory_2"))
+    return ("ederal" in s1) or ("ederal" in s2) or cat in ("Aid From Other Governmental Agencies - Federal",
+                                                          "Intergovernmental - Federal", "Intergovernmental \u2013 Federal")
+
+
+def federal_govt_receipts(school_fin: pd.DataFrame) -> pd.DataFrame:
+    """Federal money received by each level of California government. NOT additive: state spending of
+    federal funds is partly passed through to counties and schools, and counties' federal aid is largely
+    administered programs (public assistance, health) that also run through the state."""
+    parts = []
+    e = pd.read_csv(PROCESSED / "state_expenditures.csv") if (PROCESSED / "state_expenditures.csv").exists() else state_expenditures()
+    parts.append(e[e.fund == "Federal Funds"].groupby("fy", as_index=False).amount_k.sum().assign(recipient="State government (federal funds spent)"))
+    for k, name in (("county", "Counties"), ("city", "Cities")):
+        d = _sco(f"{k}_revenues_statewide")
+        d = d[d.apply(_is_federal, axis=1)]
+        parts.append(d.groupby("fy", as_index=False).amount_k.sum().assign(recipient=name))
+    sc = school_fin[(school_fin.kind == "revenue") & (school_fin.group == "Federal")]
+    parts.append(sc.groupby("fy", as_index=False).amount_k.sum().assign(recipient="School districts"))
+    return pd.concat(parts)[["fy", "recipient", "amount_k"]]
+
+
 PARTIAL_SCHOOL_YEARS = {1994}  # Census' FY1994 file covers only 258 of ~1,080 California districts
 
 
@@ -247,7 +360,12 @@ def school_finance() -> tuple[pd.DataFrame, pd.DataFrame]:
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
     sf, se = school_finance()
-    for name, df in [("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
+    state_exp = state_expenditures()
+    state_exp.to_csv(PROCESSED / "state_expenditures.csv", index=False)  # federal_govt_receipts reads it
+    boe = boe_tables()
+    for name, df in [*boe.items(), ("federal_collections", federal_collections()), ("federal_benefits", federal_benefits()),
+                     ("federal_govt_receipts", federal_govt_receipts(sf)),
+                     ("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
                      ("local_spending", local_spending()), ("local_sd_activity", local_sd_activity()),
                      ("local_entities", local_entities()), ("state_revenue", repair_with_schedule3(state_revenue())), ("state_expenditures", state_expenditures())]:
         df.to_csv(PROCESSED / f"{name}.csv", index=False)

@@ -66,8 +66,14 @@ SECTIONS = [
     ("Putting it together", [
         "10_tax_burden.ipynb",
     ]),
+    ("Property tax and Proposition 13", [
+        "11_property_assessed_values.ipynb",
+    ]),
+    ("Federal dollars", [
+        "12_federal_dollars.ipynb",
+    ]),
     ("Explore", [
-        "11_city_county_explorer.ipynb",
+        "13_city_county_explorer.ipynb",
     ]),
 ]
 
@@ -150,12 +156,28 @@ PLOTLY_JS = "https://cdn.plot.ly/plotly-3.0.1.min.js"
 # On narrow screens the right-hand legend squeezes the plot and the toggle buttons run off screen:
 # move the legend under the chart, turn button rows into a dropdown, and undo it when the screen widens.
 FIT_MOBILE_JS = """
+function wrapText(t, n) {  // break at spaces so a line has at most ~n characters
+  var words = t.split(' '), lines = [], cur = '';
+  words.forEach(function (w) {
+    if ((cur + ' ' + w).trim().length > n && cur) { lines.push(cur); cur = w; } else { cur = (cur + ' ' + w).trim(); }
+  });
+  lines.push(cur);
+  return lines;
+}
+function mobileTitle(t0, width) {  // 'Title<br><sup>Subtitle</sup>' -> wrapped lines
+  var parts = t0.split('<br><sup>'), head = wrapText(parts[0], Math.floor(width / 9)), sub = [];
+  if (parts[1]) sub = wrapText(parts[1].replace('</sup>', ''), Math.floor(width / 6.3));
+  var text = head.join('<br>') + (sub.length ? '<br><sup>' + sub.join('</sup><br><sup>') + '</sup>' : '');
+  return { text: text, lines: head.length + sub.length };
+}
 function fitMobile(gd) {
   var narrow = gd.clientWidth < 640;
   if (gd._narrow === narrow) return;
   if (gd._h0 === undefined) {  // remember the desktop layout the first time
     gd._h0 = parseInt(gd.style.height, 10) || 560;
     gd._l0 = (gd.layout.margin || {}).l;
+    gd._t0 = (gd.layout.margin || {}).t;
+    gd._title0 = (gd.layout.title || {}).text;
     gd._btn = (gd.layout.updatemenus || []).map(function (m, i) { return m.type === 'buttons' ? i : -1; }).filter(function (i) { return i >= 0; });
   }
   var first = gd._narrow === undefined;
@@ -165,10 +187,16 @@ function fitMobile(gd) {
   if (narrow) {
     u['legend.orientation'] = 'h'; u['legend.x'] = 0; u['legend.y'] = -0.2; u['legend.yanchor'] = 'top';
     u['margin.r'] = 10; u['margin.l'] = 55; u['margin.b'] = 230;
+    if (gd._title0) {
+      var mt = mobileTitle(gd._title0, gd.clientWidth);
+      u['title.text'] = mt.text; u['title.y'] = 0.98; u['title.pad.t'] = 8;
+      u['margin.t'] = (gd._t0 || 90) + Math.max(0, mt.lines - 2) * 17;
+    }
     gd.style.height = (gd._h0 + 170) + 'px';
   } else {
     u['legend.orientation'] = 'v'; u['legend.x'] = 1.01; u['legend.y'] = 1; u['legend.yanchor'] = 'auto';
     u['margin.r'] = 20; u['margin.l'] = gd._l0 || 60; u['margin.b'] = 60;
+    if (gd._title0) { u['title.text'] = gd._title0; u['title.y'] = 0.97; u['title.pad.t'] = 0; u['margin.t'] = gd._t0 || 90; }
     gd.style.height = gd._h0 + 'px';
   }
   // Plotly leaves the old button row in the DOM if a menu's type changes in place, so clear the menus first.

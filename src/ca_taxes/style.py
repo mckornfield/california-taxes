@@ -61,3 +61,36 @@ def stacked_area_toggle(df: pd.DataFrame, group: str, title: str, subtitle: str 
         fig.add_vline(x=x, line_dash="dot", line_color="grey", annotation_text=text,
                       annotation_position="bottom left")
     return fig
+
+
+def line_toggle(df: pd.DataFrame, group: str, title: str, subtitle: str = "",
+                order: list[str] | None = None, breaks: dict[float, str] | None = None,
+                default: int = 0, dashes: dict[str, str] | None = None) -> go.Figure:
+    """Overlaid (not stacked) lines of `group` over fy with a nominal / real / real-per-person toggle.
+
+    For series that overlap, where stacking would imply they add up. df needs the add_views columns.
+    `default` is the index of the view shown first; `dashes` maps a group to a Plotly dash style.
+    """
+    b = base_fy()
+    views = [("Nominal ($B)", "nominal_b", "$B", ",.1f"), (f"Real, {b} dollars ($B)", "real_b", "$B", ",.1f"),
+             (f"Real per person ({b} $)", "real_pc", "$ per person", ",.0f")]
+    wide = {v: df.pivot_table(index="fy", columns=group, values=v, aggfunc="sum") for _, v, _, _ in views}
+    cols = order or list(wide["nominal_b"].sum().sort_values(ascending=False).index)
+    fig = go.Figure()
+    for vi, (_, key, _, fmt) in enumerate(views):
+        for ci, c in enumerate(cols):
+            fig.add_trace(go.Scatter(x=wide[key].index, y=wide[key][c], name=c, mode="lines+markers",
+                                     line=dict(color=PALETTE[ci % len(PALETTE)], dash=(dashes or {}).get(c, "solid")), marker=dict(size=4),
+                                     legendgroup=c, showlegend=(vi == default), visible=(vi == default), hovertemplate=f"%{{y:$%{fmt}}}"))
+    n = len(cols)
+    buttons = [dict(label=label, method="update",
+                    args=[{"visible": [i // n == vi for i in range(n * len(views))],
+                           "showlegend": [i // n == vi for i in range(n * len(views))]}, {"yaxis.title.text": yt}])
+               for vi, (label, _, yt, _) in enumerate(views)]
+    fig.update_layout(updatemenus=[dict(type="buttons", direction="right", buttons=buttons, x=0, y=1.0,
+                                        xanchor="left", yanchor="bottom", showactive=True, active=default)],
+                      yaxis_title=views[default][2], xaxis_title="Fiscal year (ending June 30)")
+    base_layout(fig, title, subtitle or SOURCE_NOTE)
+    for x, text in (breaks or {}).items():
+        fig.add_vline(x=x, line_dash="dot", line_color="grey", annotation_text=text, annotation_position="bottom left")
+    return fig

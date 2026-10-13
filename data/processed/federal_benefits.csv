@@ -1,0 +1,807 @@
+year,channel,kind,federal_only,amount_k
+1948,Social Security,benefit,True,44345.0
+1949,Social Security,benefit,True,55091.0
+1950,Social Security,benefit,True,80536.0
+1951,Social Security,benefit,True,157308.0
+1952,Social Security,benefit,True,184233.0
+1953,Social Security,benefit,True,251495.0
+1954,Social Security,benefit,True,306837.0
+1955,Social Security,benefit,True,413494.0
+1956,Social Security,benefit,True,473429.0
+1957,Social Security,benefit,True,605772.0
+1958,Social Security,benefit,True,694501.0
+1959,Social Security,benefit,True,832564.0
+1960,Social Security,benefit,True,913201.0
+1961,Social Security,benefit,True,1043535.0
+1962,Social Security,benefit,True,1192803.0
+1963,Social Security,benefit,True,1291808.0
+1964,Social Security,benefit,True,1377843.0
+1965,Social Security,benefit,True,1574510.0
+1966,Social Security,benefit,True,1743519.0
+1967,Social Security,benefit,True,1888595.0
+1968,Social Security,benefit,True,2236314.0
+1969,Social Security,benefit,True,2417483.0
+1970,Social Security,benefit,True,2892425.0
+1971,Social Security,benefit,True,3389866.0
+1972,Social Security,benefit,True,3809413.0
+1973,Social Security,benefit,True,4712142.0
+1974,Social Security,benefit,True,5375236.0
+1975,Social Security,benefit,True,6167826.0
+1976,Social Security,benefit,True,7049814.0
+1977,Social Security,benefit,True,7895685.0
+1978,Social Security,benefit,True,8684896.0
+1979,Social Security,benefit,True,9730493.0
+1980,Social Security,benefit,True,11234797.0
+1981,Social Security,benefit,True,13181795.0
+1982,Social Security,benefit,True,14484796.0
+1983,Social Security,benefit,True,15412879.0
+1984,Social Security,benefit,True,16293456.0
+1985,Social Security,benefit,True,17301592.0
+1986,Social Security,benefit,True,18338242.0
+1987,Social Security,benefit,True,19118801.0
+1988,Social Security,benefit,True,20486080.0
+1989,Social Security,benefit,True,21717571.0
+1990,Social Security,benefit,True,23304651.0
+1991,Social Security,benefit,True,25302303.0
+1992,Social Security,benefit,True,26943343.0
+1993,Social Security,benefit,True,28500820.0
+1994,Social Security,benefit,True,29806914.0
+1995,Social Security,benefit,True,31131750.0
+1996,Social Security,benefit,True,32488002.0
+1997,Social Security,benefit,True,33770149.0
+1998,Social Security,benefit,True,34916560.0
+1999,Social Security,benefit,True,35967812.0
+2000,Social Security,benefit,True,38170225.0
+2001,Social Security,benefit,True,40376270.0
+2002,Social Security,benefit,True,42383651.0
+2003,Social Security,benefit,True,43906204.0
+2004,Social Security,benefit,True,45823703.0
+2005,Social Security,benefit,True,48157090.0
+2006,Social Security,benefit,True,50826493.0
+2007,Social Security,benefit,True,53651364.0
+2008,Social Security,benefit,True,56489331.0
+2009,Social Security,benefit,True,61985897.0
+2010,Social Security,benefit,True,64408921.0
+2011,Social Security,benefit,True,66691127.0
+2012,Social Security,benefit,True,71520611.0
+2013,Social Security,benefit,True,75232405.0
+2014,Social Security,benefit,True,78820446.0
+2015,Social Security,benefit,True,82561197.0
+2016,Social Security,benefit,True,85046485.0
+2017,Social Security,benefit,True,87899665.0
+2018,Social Security,benefit,True,92319442.0
+2019,Social Security,benefit,True,97810109.0
+2020,Social Security,benefit,True,102257547.0
+2021,Social Security,benefit,True,105576405.0
+2022,Social Security,benefit,True,114591069.0
+2023,Social Security,benefit,True,128558753.0
+2024,Social Security,benefit,True,137687214.0
+2025,Social Security,benefit,True,150836339.0
+1966,Medicare,benefit,True,125293.0
+1967,Medicare,benefit,True,584084.0
+1968,Medicare,benefit,True,707682.0
+1969,Medicare,benefit,True,801966.0
+1970,Medicare,benefit,True,858526.0
+1971,Medicare,benefit,True,952794.0
+1972,Medicare,benefit,True,1052157.0
+1973,Medicare,benefit,True,1198752.0
+1974,Medicare,benefit,True,1467782.0
+1975,Medicare,benefit,True,1813749.0
+1976,Medicare,benefit,True,2238166.0
+1977,Medicare,benefit,True,2646647.0
+1978,Medicare,benefit,True,3023048.0
+1979,Medicare,benefit,True,3662877.0
+1980,Medicare,benefit,True,4313769.0
+1981,Medicare,benefit,True,5304232.0
+1982,Medicare,benefit,True,5995287.0
+1983,Medicare,benefit,True,6755306.0
+1984,Medicare,benefit,True,7628874.0
+1985,Medicare,benefit,True,8226729.0
+1986,Medicare,benefit,True,8894479.0
+1987,Medicare,benefit,True,9654916.0
+1988,Medicare,benefit,True,10226464.0
+1989,Medicare,benefit,True,11656895.0
+1990,Medicare,benefit,True,11865037.0
+1991,Medicare,benefit,True,13142044.0
+1992,Medicare,benefit,True,14721202.0
+1993,Medicare,benefit,True,16663550.0
+1994,Medicare,benefit,True,18466412.0
+1995,Medicare,benefit,True,19963038.0
+1996,Medicare,benefit,True,21421467.0
+1997,Medicare,benefit,True,22580169.0
+1998,Medicare,benefit,True,22667759.0
+1999,Medicare,benefit,True,23100145.0
+2000,Medicare,benefit,True,23951225.0
+2001,Medicare,benefit,True,26031896.0
+2002,Medicare,benefit,True,28225558.0
+2003,Medicare,benefit,True,29913394.0
+2004,Medicare,benefit,True,31969125.0
+2005,Medicare,benefit,True,34996194.0
+2006,Medicare,benefit,True,42667701.0
+2007,Medicare,benefit,True,45125689.0
+2008,Medicare,benefit,True,50079329.0
+2009,Medicare,benefit,True,53618978.0
+2010,Medicare,benefit,True,56082901.0
+2011,Medicare,benefit,True,58638933.0
+2012,Medicare,benefit,True,60700512.0
+2013,Medicare,benefit,True,62723476.0
+2014,Medicare,benefit,True,66903702.0
+2015,Medicare,benefit,True,71602543.0
+2016,Medicare,benefit,True,75127219.0
+2017,Medicare,benefit,True,77998895.0
+2018,Medicare,benefit,True,82686533.0
+2019,Medicare,benefit,True,89387476.0
+2020,Medicare,benefit,True,94611070.0
+2021,Medicare,benefit,True,100933456.0
+2022,Medicare,benefit,True,106800922.0
+2023,Medicare,benefit,True,115816560.0
+2024,Medicare,benefit,True,124925196.0
+2025,Medicare,benefit,True,134894451.0
+1970,Medicaid (federal + state share),benefit,False,1114677.0
+1971,Medicaid (federal + state share),benefit,False,1169587.0
+1972,Medicaid (federal + state share),benefit,False,1231357.0
+1973,Medicaid (federal + state share),benefit,False,1282076.0
+1974,Medicaid (federal + state share),benefit,False,1457846.0
+1975,Medicaid (federal + state share),benefit,False,1749904.0
+1976,Medicaid (federal + state share),benefit,False,2052285.0
+1977,Medicaid (federal + state share),benefit,False,2270640.0
+1978,Medicaid (federal + state share),benefit,False,2537001.0
+1979,Medicaid (federal + state share),benefit,False,2763838.0
+1980,Medicaid (federal + state share),benefit,False,2807414.0
+1981,Medicaid (federal + state share),benefit,False,3753390.0
+1982,Medicaid (federal + state share),benefit,False,3755093.0
+1983,Medicaid (federal + state share),benefit,False,3769346.0
+1984,Medicaid (federal + state share),benefit,False,3709593.0
+1985,Medicaid (federal + state share),benefit,False,4237268.0
+1986,Medicaid (federal + state share),benefit,False,4716084.0
+1987,Medicaid (federal + state share),benefit,False,5044708.0
+1988,Medicaid (federal + state share),benefit,False,5756825.0
+1989,Medicaid (federal + state share),benefit,False,6150840.0
+1990,Medicaid (federal + state share),benefit,False,7222046.0
+1991,Medicaid (federal + state share),benefit,False,8316728.0
+1992,Medicaid (federal + state share),benefit,False,12299793.0
+1993,Medicaid (federal + state share),benefit,False,13692187.0
+1994,Medicaid (federal + state share),benefit,False,13816466.0
+1995,Medicaid (federal + state share),benefit,False,14695508.0
+1996,Medicaid (federal + state share),benefit,False,15997134.0
+1997,Medicaid (federal + state share),benefit,False,15743619.0
+1998,Medicaid (federal + state share),benefit,False,18859117.0
+1999,Medicaid (federal + state share),benefit,False,20619172.0
+2000,Medicaid (federal + state share),benefit,False,20408747.0
+2001,Medicaid (federal + state share),benefit,False,26243728.0
+2002,Medicaid (federal + state share),benefit,False,27104938.0
+2003,Medicaid (federal + state share),benefit,False,29849039.0
+2004,Medicaid (federal + state share),benefit,False,33146199.0
+2005,Medicaid (federal + state share),benefit,False,32764312.0
+2006,Medicaid (federal + state share),benefit,False,34409195.0
+2007,Medicaid (federal + state share),benefit,False,37419834.0
+2008,Medicaid (federal + state share),benefit,False,38538655.0
+2009,Medicaid (federal + state share),benefit,False,41859314.0
+2010,Medicaid (federal + state share),benefit,False,48794040.0
+2011,Medicaid (federal + state share),benefit,False,48291565.0
+2012,Medicaid (federal + state share),benefit,False,54017293.0
+2013,Medicaid (federal + state share),benefit,False,61186106.0
+2014,Medicaid (federal + state share),benefit,False,71575918.0
+2015,Medicaid (federal + state share),benefit,False,84837412.0
+2016,Medicaid (federal + state share),benefit,False,90061181.0
+2017,Medicaid (federal + state share),benefit,False,79259055.0
+2018,Medicaid (federal + state share),benefit,False,84870332.0
+2019,Medicaid (federal + state share),benefit,False,92209893.0
+2020,Medicaid (federal + state share),benefit,False,102673636.0
+2021,Medicaid (federal + state share),benefit,False,115083306.0
+2022,Medicaid (federal + state share),benefit,False,120730896.0
+2023,Medicaid (federal + state share),benefit,False,124707216.0
+2024,Medicaid (federal + state share),benefit,False,167672975.0
+2025,Medicaid (federal + state share),benefit,False,169775484.0
+1958,Supplemental Security Income,benefit,True,269336.0
+1959,Supplemental Security Income,benefit,True,266686.0
+1960,Supplemental Security Income,benefit,True,272831.0
+1961,Supplemental Security Income,benefit,True,268280.0
+1962,Supplemental Security Income,benefit,True,319496.0
+1963,Supplemental Security Income,benefit,True,354794.0
+1964,Supplemental Security Income,benefit,True,384965.0
+1965,Supplemental Security Income,benefit,True,425154.0
+1966,Supplemental Security Income,benefit,True,471643.0
+1967,Supplemental Security Income,benefit,True,525992.0
+1968,Supplemental Security Income,benefit,True,562074.0
+1969,Supplemental Security Income,benefit,True,645064.0
+1970,Supplemental Security Income,benefit,True,735480.0
+1971,Supplemental Security Income,benefit,True,761300.0
+1972,Supplemental Security Income,benefit,True,775288.0
+1973,Supplemental Security Income,benefit,True,793616.0
+1974,Supplemental Security Income,benefit,True,1102115.0
+1975,Supplemental Security Income,benefit,True,1241019.0
+1976,Supplemental Security Income,benefit,True,1318424.0
+1977,Supplemental Security Income,benefit,True,1404149.0
+1978,Supplemental Security Income,benefit,True,1478928.0
+1979,Supplemental Security Income,benefit,True,1637943.0
+1980,Supplemental Security Income,benefit,True,1942996.0
+1981,Supplemental Security Income,benefit,True,2035925.0
+1982,Supplemental Security Income,benefit,True,2102442.0
+1983,Supplemental Security Income,benefit,True,2087990.0
+1984,Supplemental Security Income,benefit,True,2268764.0
+1985,Supplemental Security Income,benefit,True,2483504.0
+1986,Supplemental Security Income,benefit,True,2770003.0
+1987,Supplemental Security Income,benefit,True,3162344.0
+1988,Supplemental Security Income,benefit,True,3369833.0
+1989,Supplemental Security Income,benefit,True,3760568.0
+1990,Supplemental Security Income,benefit,True,4300154.0
+1991,Supplemental Security Income,benefit,True,4566803.0
+1992,Supplemental Security Income,benefit,True,5078486.0
+1993,Supplemental Security Income,benefit,True,5150324.0
+1994,Supplemental Security Income,benefit,True,5244158.0
+1995,Supplemental Security Income,benefit,True,5422291.0
+1996,Supplemental Security Income,benefit,True,5535296.0
+1997,Supplemental Security Income,benefit,True,5522834.0
+1998,Supplemental Security Income,benefit,True,5869186.0
+1999,Supplemental Security Income,benefit,True,6238926.0
+2000,Supplemental Security Income,benefit,True,6447935.0
+2001,Supplemental Security Income,benefit,True,6742457.0
+2002,Supplemental Security Income,benefit,True,7290078.0
+2003,Supplemental Security Income,benefit,True,7623976.0
+2004,Supplemental Security Income,benefit,True,7910004.0
+2005,Supplemental Security Income,benefit,True,8200054.0
+2006,Supplemental Security Income,benefit,True,8375236.0
+2007,Supplemental Security Income,benefit,True,8799285.0
+2008,Supplemental Security Income,benefit,True,8796553.0
+2009,Supplemental Security Income,benefit,True,9052548.0
+2010,Supplemental Security Income,benefit,True,8744969.0
+2011,Supplemental Security Income,benefit,True,8905633.0
+2012,Supplemental Security Income,benefit,True,9098841.0
+2013,Supplemental Security Income,benefit,True,9267876.0
+2014,Supplemental Security Income,benefit,True,9662673.0
+2015,Supplemental Security Income,benefit,True,9750586.0
+2016,Supplemental Security Income,benefit,True,9662565.0
+2017,Supplemental Security Income,benefit,True,9633054.0
+2018,Supplemental Security Income,benefit,True,9581665.0
+2019,Supplemental Security Income,benefit,True,9593867.0
+2020,Supplemental Security Income,benefit,True,9532251.0
+2021,Supplemental Security Income,benefit,True,9258502.0
+2022,Supplemental Security Income,benefit,True,9897104.0
+2023,Supplemental Security Income,benefit,True,10646756.0
+2024,Supplemental Security Income,benefit,True,11152527.0
+2025,Supplemental Security Income,benefit,True,11387732.0
+1961,SNAP (food stamps),benefit,True,0.0
+1962,SNAP (food stamps),benefit,True,0.0
+1963,SNAP (food stamps),benefit,True,65.0
+1964,SNAP (food stamps),benefit,True,52.0
+1965,SNAP (food stamps),benefit,True,99.0
+1966,SNAP (food stamps),benefit,True,4118.0
+1967,SNAP (food stamps),benefit,True,8159.0
+1968,SNAP (food stamps),benefit,True,15191.0
+1969,SNAP (food stamps),benefit,True,26514.0
+1970,SNAP (food stamps),benefit,True,116916.0
+1971,SNAP (food stamps),benefit,True,209305.0
+1972,SNAP (food stamps),benefit,True,209105.0
+1973,SNAP (food stamps),benefit,True,214266.0
+1974,SNAP (food stamps),benefit,True,311910.0
+1975,SNAP (food stamps),benefit,True,383830.0
+1976,SNAP (food stamps),benefit,True,373740.0
+1977,SNAP (food stamps),benefit,True,324431.0
+1978,SNAP (food stamps),benefit,True,349302.0
+1979,SNAP (food stamps),benefit,True,461049.0
+1980,SNAP (food stamps),benefit,True,536896.0
+1981,SNAP (food stamps),benefit,True,631407.0
+1982,SNAP (food stamps),benefit,True,618081.0
+1983,SNAP (food stamps),benefit,True,700349.0
+1984,SNAP (food stamps),benefit,True,654416.0
+1985,SNAP (food stamps),benefit,True,635316.0
+1986,SNAP (food stamps),benefit,True,624359.0
+1987,SNAP (food stamps),benefit,True,624029.0
+1988,SNAP (food stamps),benefit,True,720232.0
+1989,SNAP (food stamps),benefit,True,796686.0
+1990,SNAP (food stamps),benefit,True,1026715.0
+1991,SNAP (food stamps),benefit,True,1423007.0
+1992,SNAP (food stamps),benefit,True,1843118.0
+1993,SNAP (food stamps),benefit,True,2160142.0
+1994,SNAP (food stamps),benefit,True,2440908.0
+1995,SNAP (food stamps),benefit,True,2480349.0
+1996,SNAP (food stamps),benefit,True,2530389.0
+1997,SNAP (food stamps),benefit,True,2290985.0
+1998,SNAP (food stamps),benefit,True,1965035.0
+1999,SNAP (food stamps),benefit,True,1743905.0
+2000,SNAP (food stamps),benefit,True,1576137.0
+2001,SNAP (food stamps),benefit,True,1602992.0
+2002,SNAP (food stamps),benefit,True,1707234.0
+2003,SNAP (food stamps),benefit,True,1832139.0
+2004,SNAP (food stamps),benefit,True,2106256.0
+2005,SNAP (food stamps),benefit,True,2328572.0
+2006,SNAP (food stamps),benefit,True,2401037.0
+2007,SNAP (food stamps),benefit,True,2622781.0
+2008,SNAP (food stamps),benefit,True,3198299.0
+2009,SNAP (food stamps),benefit,True,4803726.0
+2010,SNAP (food stamps),benefit,True,5893005.0
+2011,SNAP (food stamps),benefit,True,6741107.0
+2012,SNAP (food stamps),benefit,True,7172102.0
+2013,SNAP (food stamps),benefit,True,7578546.0
+2014,SNAP (food stamps),benefit,True,7942524.0
+2015,SNAP (food stamps),benefit,True,7973775.0
+2016,SNAP (food stamps),benefit,True,7119645.0
+2017,SNAP (food stamps),benefit,True,6615962.0
+2018,SNAP (food stamps),benefit,True,6248474.0
+2019,SNAP (food stamps),benefit,True,5946546.0
+2020,SNAP (food stamps),benefit,True,10675571.0
+2021,SNAP (food stamps),benefit,True,18401906.0
+2022,SNAP (food stamps),benefit,True,17155840.0
+2023,SNAP (food stamps),benefit,True,13793739.0
+2024,SNAP (food stamps),benefit,True,12746354.0
+2025,SNAP (food stamps),benefit,True,12853793.0
+1976,Earned Income Tax Credit,benefit,True,118803.0
+1977,Earned Income Tax Credit,benefit,True,124736.0
+1978,Earned Income Tax Credit,benefit,True,112521.0
+1979,Earned Income Tax Credit,benefit,True,109598.0
+1980,Earned Income Tax Credit,benefit,True,203382.0
+1981,Earned Income Tax Credit,benefit,True,196732.0
+1982,Earned Income Tax Credit,benefit,True,193820.0
+1983,Earned Income Tax Credit,benefit,True,193793.0
+1984,Earned Income Tax Credit,benefit,True,187325.0
+1985,Earned Income Tax Credit,benefit,True,185849.0
+1986,Earned Income Tax Credit,benefit,True,243158.0
+1987,Earned Income Tax Credit,benefit,True,257498.0
+1988,Earned Income Tax Credit,benefit,True,450393.0
+1989,Earned Income Tax Credit,benefit,True,717098.0
+1990,Earned Income Tax Credit,benefit,True,856679.0
+1991,Earned Income Tax Credit,benefit,True,1028127.0
+1992,Earned Income Tax Credit,benefit,True,1537567.0
+1993,Earned Income Tax Credit,benefit,True,1767345.0
+1994,Earned Income Tax Credit,benefit,True,2053769.0
+1995,Earned Income Tax Credit,benefit,True,2740060.0
+1996,Earned Income Tax Credit,benefit,True,3144123.0
+1997,Earned Income Tax Credit,benefit,True,3363208.0
+1998,Earned Income Tax Credit,benefit,True,3580045.0
+1999,Earned Income Tax Credit,benefit,True,3735682.0
+2000,Earned Income Tax Credit,benefit,True,3741021.0
+2001,Earned Income Tax Credit,benefit,True,3595534.0
+2002,Earned Income Tax Credit,benefit,True,3746305.0
+2003,Earned Income Tax Credit,benefit,True,4174159.0
+2004,Earned Income Tax Credit,benefit,True,4219601.0
+2005,Earned Income Tax Credit,benefit,True,4293466.0
+2006,Earned Income Tax Credit,benefit,True,4410303.0
+2007,Earned Income Tax Credit,benefit,True,4661101.0
+2008,Earned Income Tax Credit,benefit,True,5091532.0
+2009,Earned Income Tax Credit,benefit,True,5283789.0
+2010,Earned Income Tax Credit,benefit,True,6657988.0
+2011,Earned Income Tax Credit,benefit,True,6907324.0
+2012,Earned Income Tax Credit,benefit,True,7204227.0
+2013,Earned Income Tax Credit,benefit,True,7440797.0
+2014,Earned Income Tax Credit,benefit,True,7865138.0
+2015,Earned Income Tax Credit,benefit,True,7971882.0
+2016,Earned Income Tax Credit,benefit,True,7924951.0
+2017,Earned Income Tax Credit,benefit,True,7571112.0
+2018,Earned Income Tax Credit,benefit,True,7334986.0
+2019,Earned Income Tax Credit,benefit,True,7146369.0
+2020,Earned Income Tax Credit,benefit,True,6997135.0
+2021,Earned Income Tax Credit,benefit,True,6697889.0
+2022,Earned Income Tax Credit,benefit,True,7780778.0
+2023,Earned Income Tax Credit,benefit,True,6205121.0
+2024,Earned Income Tax Credit,benefit,True,6804344.0
+2025,Earned Income Tax Credit,benefit,True,7480313.0
+1948,Unemployment insurance (state + federal),benefit,False,190163.0
+1949,Unemployment insurance (state + federal),benefit,False,289102.0
+1950,Unemployment insurance (state + federal),benefit,False,187693.0
+1951,Unemployment insurance (state + federal),benefit,False,97925.0
+1952,Unemployment insurance (state + federal),benefit,False,104505.0
+1953,Unemployment insurance (state + federal),benefit,False,103961.0
+1954,Unemployment insurance (state + federal),benefit,False,156979.0
+1955,Unemployment insurance (state + federal),benefit,False,114228.0
+1956,Unemployment insurance (state + federal),benefit,False,108991.0
+1957,Unemployment insurance (state + federal),benefit,False,167897.0
+1958,Unemployment insurance (state + federal),benefit,False,388926.0
+1959,Unemployment insurance (state + federal),benefit,False,249723.0
+1960,Unemployment insurance (state + federal),benefit,False,414343.0
+1961,Unemployment insurance (state + federal),benefit,False,586698.0
+1962,Unemployment insurance (state + federal),benefit,False,488302.0
+1963,Unemployment insurance (state + federal),benefit,False,523730.0
+1964,Unemployment insurance (state + federal),benefit,False,545523.0
+1965,Unemployment insurance (state + federal),benefit,False,568294.0
+1966,Unemployment insurance (state + federal),benefit,False,435212.0
+1967,Unemployment insurance (state + federal),benefit,False,484025.0
+1968,Unemployment insurance (state + federal),benefit,False,435018.0
+1969,Unemployment insurance (state + federal),benefit,False,451878.0
+1970,Unemployment insurance (state + federal),benefit,False,724339.0
+1971,Unemployment insurance (state + federal),benefit,False,916948.0
+1972,Unemployment insurance (state + federal),benefit,False,810743.0
+1973,Unemployment insurance (state + federal),benefit,False,674803.0
+1974,Unemployment insurance (state + federal),benefit,False,982742.0
+1975,Unemployment insurance (state + federal),benefit,False,2025165.0
+1976,Unemployment insurance (state + federal),benefit,False,2075536.0
+1977,Unemployment insurance (state + federal),benefit,False,1555847.0
+1978,Unemployment insurance (state + federal),benefit,False,1264168.0
+1979,Unemployment insurance (state + federal),benefit,False,1013674.0
+1980,Unemployment insurance (state + federal),benefit,False,1633068.0
+1981,Unemployment insurance (state + federal),benefit,False,1758867.0
+1982,Unemployment insurance (state + federal),benefit,False,2743492.0
+1983,Unemployment insurance (state + federal),benefit,False,3005913.0
+1984,Unemployment insurance (state + federal),benefit,False,2042146.0
+1985,Unemployment insurance (state + federal),benefit,False,2084903.0
+1986,Unemployment insurance (state + federal),benefit,False,2179712.0
+1987,Unemployment insurance (state + federal),benefit,False,1810921.0
+1988,Unemployment insurance (state + federal),benefit,False,1640036.0
+1989,Unemployment insurance (state + federal),benefit,False,1636601.0
+1990,Unemployment insurance (state + federal),benefit,False,2197807.0
+1991,Unemployment insurance (state + federal),benefit,False,3537920.0
+1992,Unemployment insurance (state + federal),benefit,False,5579919.0
+1993,Unemployment insurance (state + federal),benefit,False,5825774.0
+1994,Unemployment insurance (state + federal),benefit,False,3892321.0
+1995,Unemployment insurance (state + federal),benefit,False,3199337.0
+1996,Unemployment insurance (state + federal),benefit,False,3041737.0
+1997,Unemployment insurance (state + federal),benefit,False,2700477.0
+1998,Unemployment insurance (state + federal),benefit,False,2633802.0
+1999,Unemployment insurance (state + federal),benefit,False,2729089.0
+2000,Unemployment insurance (state + federal),benefit,False,2507562.0
+2001,Unemployment insurance (state + federal),benefit,False,3467115.0
+2002,Unemployment insurance (state + federal),benefit,False,7194766.0
+2003,Unemployment insurance (state + federal),benefit,False,7290038.0
+2004,Unemployment insurance (state + federal),benefit,False,5216005.0
+2005,Unemployment insurance (state + federal),benefit,False,4525400.0
+2006,Unemployment insurance (state + federal),benefit,False,4358565.0
+2007,Unemployment insurance (state + federal),benefit,False,5036130.0
+2008,Unemployment insurance (state + federal),benefit,False,7984025.0
+2009,Unemployment insurance (state + federal),benefit,False,19154032.0
+2010,Unemployment insurance (state + federal),benefit,False,22179960.0
+2011,Unemployment insurance (state + federal),benefit,False,17563901.0
+2012,Unemployment insurance (state + federal),benefit,False,13894286.0
+2013,Unemployment insurance (state + federal),benefit,False,10729816.0
+2014,Unemployment insurance (state + federal),benefit,False,6081846.0
+2015,Unemployment insurance (state + federal),benefit,False,5332548.0
+2016,Unemployment insurance (state + federal),benefit,False,5311393.0
+2017,Unemployment insurance (state + federal),benefit,False,5381174.0
+2018,Unemployment insurance (state + federal),benefit,False,5009188.0
+2019,Unemployment insurance (state + federal),benefit,False,4975782.0
+2020,Unemployment insurance (state + federal),benefit,False,106556811.0
+2021,Unemployment insurance (state + federal),benefit,False,68161048.0
+2022,Unemployment insurance (state + federal),benefit,False,4819877.0
+2023,Unemployment insurance (state + federal),benefit,False,6716029.0
+2024,Unemployment insurance (state + federal),benefit,False,6602512.0
+2025,Unemployment insurance (state + federal),benefit,False,6276811.0
+1948,Veterans' benefits,benefit,True,342638.0
+1949,Veterans' benefits,benefit,True,322369.0
+1950,Veterans' benefits,benefit,True,561532.0
+1951,Veterans' benefits,benefit,True,338311.0
+1952,Veterans' benefits,benefit,True,327554.0
+1953,Veterans' benefits,benefit,True,327785.0
+1954,Veterans' benefits,benefit,True,337319.0
+1955,Veterans' benefits,benefit,True,366574.0
+1956,Veterans' benefits,benefit,True,374357.0
+1957,Veterans' benefits,benefit,True,389027.0
+1958,Veterans' benefits,benefit,True,397497.0
+1959,Veterans' benefits,benefit,True,392700.0
+1960,Veterans' benefits,benefit,True,388792.0
+1961,Veterans' benefits,benefit,True,416035.0
+1962,Veterans' benefits,benefit,True,400296.0
+1963,Veterans' benefits,benefit,True,420842.0
+1964,Veterans' benefits,benefit,True,407408.0
+1965,Veterans' benefits,benefit,True,422041.0
+1966,Veterans' benefits,benefit,True,423101.0
+1967,Veterans' benefits,benefit,True,506972.0
+1968,Veterans' benefits,benefit,True,549126.0
+1969,Veterans' benefits,benefit,True,635965.0
+1970,Veterans' benefits,benefit,True,760112.0
+1971,Veterans' benefits,benefit,True,880387.0
+1972,Veterans' benefits,benefit,True,984667.0
+1973,Veterans' benefits,benefit,True,1093609.0
+1974,Veterans' benefits,benefit,True,1245929.0
+1975,Veterans' benefits,benefit,True,1586110.0
+1976,Veterans' benefits,benefit,True,1503027.0
+1977,Veterans' benefits,benefit,True,1357071.0
+1978,Veterans' benefits,benefit,True,1344327.0
+1979,Veterans' benefits,benefit,True,1347915.0
+1980,Veterans' benefits,benefit,True,1379633.0
+1981,Veterans' benefits,benefit,True,1467127.0
+1982,Veterans' benefits,benefit,True,1469910.0
+1983,Veterans' benefits,benefit,True,1450817.0
+1984,Veterans' benefits,benefit,True,1392117.0
+1985,Veterans' benefits,benefit,True,1423463.0
+1986,Veterans' benefits,benefit,True,1436724.0
+1987,Veterans' benefits,benefit,True,1436244.0
+1988,Veterans' benefits,benefit,True,1463467.0
+1989,Veterans' benefits,benefit,True,1513375.0
+1990,Veterans' benefits,benefit,True,1526379.0
+1991,Veterans' benefits,benefit,True,1550511.0
+1992,Veterans' benefits,benefit,True,1562265.0
+1993,Veterans' benefits,benefit,True,1587065.0
+1994,Veterans' benefits,benefit,True,1647821.0
+1995,Veterans' benefits,benefit,True,1707180.0
+1996,Veterans' benefits,benefit,True,1783773.0
+1997,Veterans' benefits,benefit,True,1869042.0
+1998,Veterans' benefits,benefit,True,1960954.0
+1999,Veterans' benefits,benefit,True,2055669.0
+2000,Veterans' benefits,benefit,True,2120056.0
+2001,Veterans' benefits,benefit,True,2247995.0
+2002,Veterans' benefits,benefit,True,2478739.0
+2003,Veterans' benefits,benefit,True,2721458.0
+2004,Veterans' benefits,benefit,True,2915090.0
+2005,Veterans' benefits,benefit,True,3113793.0
+2006,Veterans' benefits,benefit,True,3288859.0
+2007,Veterans' benefits,benefit,True,3495835.0
+2008,Veterans' benefits,benefit,True,3718297.0
+2009,Veterans' benefits,benefit,True,4273008.0
+2010,Veterans' benefits,benefit,True,5030887.0
+2011,Veterans' benefits,benefit,True,5591498.0
+2012,Veterans' benefits,benefit,True,6298576.0
+2013,Veterans' benefits,benefit,True,7377152.0
+2014,Veterans' benefits,benefit,True,7849798.0
+2015,Veterans' benefits,benefit,True,8671098.0
+2016,Veterans' benefits,benefit,True,8965851.0
+2017,Veterans' benefits,benefit,True,10176254.0
+2018,Veterans' benefits,benefit,True,10796443.0
+2019,Veterans' benefits,benefit,True,11527478.0
+2020,Veterans' benefits,benefit,True,12620649.0
+2021,Veterans' benefits,benefit,True,12957933.0
+2022,Veterans' benefits,benefit,True,14058555.0
+2023,Veterans' benefits,benefit,True,16184478.0
+2024,Veterans' benefits,benefit,True,18745733.0
+2025,Veterans' benefits,benefit,True,21047407.0
+1967,Military medical insurance,benefit,True,25395.0
+1968,Military medical insurance,benefit,True,36412.0
+1969,Military medical insurance,benefit,True,46687.0
+1970,Military medical insurance,benefit,True,58028.0
+1971,Military medical insurance,benefit,True,67067.0
+1972,Military medical insurance,benefit,True,77840.0
+1973,Military medical insurance,benefit,True,85133.0
+1974,Military medical insurance,benefit,True,85969.0
+1975,Military medical insurance,benefit,True,88831.0
+1976,Military medical insurance,benefit,True,87425.0
+1977,Military medical insurance,benefit,True,95541.0
+1978,Military medical insurance,benefit,True,104536.0
+1979,Military medical insurance,benefit,True,118886.0
+1980,Military medical insurance,benefit,True,129173.0
+1981,Military medical insurance,benefit,True,151655.0
+1982,Military medical insurance,benefit,True,174746.0
+1983,Military medical insurance,benefit,True,198157.0
+1984,Military medical insurance,benefit,True,210278.0
+1985,Military medical insurance,benefit,True,246258.0
+1986,Military medical insurance,benefit,True,323960.0
+1987,Military medical insurance,benefit,True,377574.0
+1988,Military medical insurance,benefit,True,434870.0
+1989,Military medical insurance,benefit,True,399353.0
+1990,Military medical insurance,benefit,True,440112.0
+1991,Military medical insurance,benefit,True,463254.0
+1992,Military medical insurance,benefit,True,505971.0
+1993,Military medical insurance,benefit,True,467482.0
+1994,Military medical insurance,benefit,True,409930.0
+1995,Military medical insurance,benefit,True,365170.0
+1996,Military medical insurance,benefit,True,319955.0
+1997,Military medical insurance,benefit,True,286684.0
+1998,Military medical insurance,benefit,True,284780.0
+1999,Military medical insurance,benefit,True,288252.0
+2000,Military medical insurance,benefit,True,316530.0
+2001,Military medical insurance,benefit,True,352990.0
+2002,Military medical insurance,benefit,True,390109.0
+2003,Military medical insurance,benefit,True,520727.0
+2004,Military medical insurance,benefit,True,600833.0
+2005,Military medical insurance,benefit,True,638625.0
+2006,Military medical insurance,benefit,True,782519.0
+2007,Military medical insurance,benefit,True,844486.0
+2008,Military medical insurance,benefit,True,941653.0
+2009,Military medical insurance,benefit,True,1053132.0
+2010,Military medical insurance,benefit,True,1087327.0
+2011,Military medical insurance,benefit,True,1133512.0
+2012,Military medical insurance,benefit,True,1194550.0
+2013,Military medical insurance,benefit,True,1084928.0
+2014,Military medical insurance,benefit,True,1133258.0
+2015,Military medical insurance,benefit,True,1178799.0
+2016,Military medical insurance,benefit,True,1085389.0
+2017,Military medical insurance,benefit,True,1094553.0
+2018,Military medical insurance,benefit,True,1084299.0
+2019,Military medical insurance,benefit,True,1174613.0
+2020,Military medical insurance,benefit,True,1213146.0
+2021,Military medical insurance,benefit,True,1307075.0
+2022,Military medical insurance,benefit,True,1377315.0
+2023,Military medical insurance,benefit,True,1406201.0
+2024,Military medical insurance,benefit,True,1470121.0
+2025,Military medical insurance,benefit,True,1523442.0
+1948,Other government benefits (mixed levels),benefit,False,236864.0
+1949,Other government benefits (mixed levels),benefit,False,339451.0
+1950,Other government benefits (mixed levels),benefit,False,401170.0
+1951,Other government benefits (mixed levels),benefit,False,400860.0
+1952,Other government benefits (mixed levels),benefit,False,424379.0
+1953,Other government benefits (mixed levels),benefit,False,432747.0
+1954,Other government benefits (mixed levels),benefit,False,458293.0
+1955,Other government benefits (mixed levels),benefit,False,467157.0
+1956,Other government benefits (mixed levels),benefit,False,489504.0
+1957,Other government benefits (mixed levels),benefit,False,529059.0
+1958,Other government benefits (mixed levels),benefit,False,342361.0
+1959,Other government benefits (mixed levels),benefit,False,387273.0
+1960,Other government benefits (mixed levels),benefit,False,450121.0
+1961,Other government benefits (mixed levels),benefit,False,527361.0
+1962,Other government benefits (mixed levels),benefit,False,597341.0
+1963,Other government benefits (mixed levels),benefit,False,700353.0
+1964,Other government benefits (mixed levels),benefit,False,821973.0
+1965,Other government benefits (mixed levels),benefit,False,931466.0
+1966,Other government benefits (mixed levels),benefit,False,1159672.0
+1967,Other government benefits (mixed levels),benefit,False,1402609.0
+1968,Other government benefits (mixed levels),benefit,False,1702430.0
+1969,Other government benefits (mixed levels),benefit,False,2147174.0
+1970,Other government benefits (mixed levels),benefit,False,1607546.0
+1971,Other government benefits (mixed levels),benefit,False,1911509.0
+1972,Other government benefits (mixed levels),benefit,False,2082865.0
+1973,Other government benefits (mixed levels),benefit,False,2136103.0
+1974,Other government benefits (mixed levels),benefit,False,2399782.0
+1975,Other government benefits (mixed levels),benefit,False,2984323.0
+1976,Other government benefits (mixed levels),benefit,False,3154728.0
+1977,Other government benefits (mixed levels),benefit,False,3744110.0
+1978,Other government benefits (mixed levels),benefit,False,4013739.0
+1979,Other government benefits (mixed levels),benefit,False,4239890.0
+1980,Other government benefits (mixed levels),benefit,False,5082798.0
+1981,Other government benefits (mixed levels),benefit,False,5937755.0
+1982,Other government benefits (mixed levels),benefit,False,6310501.0
+1983,Other government benefits (mixed levels),benefit,False,6778060.0
+1984,Other government benefits (mixed levels),benefit,False,7067041.0
+1985,Other government benefits (mixed levels),benefit,False,7914397.0
+1986,Other government benefits (mixed levels),benefit,False,8556493.0
+1987,Other government benefits (mixed levels),benefit,False,9067577.0
+1988,Other government benefits (mixed levels),benefit,False,9664364.0
+1989,Other government benefits (mixed levels),benefit,False,10913549.0
+1990,Other government benefits (mixed levels),benefit,False,12944517.0
+1991,Other government benefits (mixed levels),benefit,False,14336776.0
+1992,Other government benefits (mixed levels),benefit,False,15576503.0
+1993,Other government benefits (mixed levels),benefit,False,14966094.0
+1994,Other government benefits (mixed levels),benefit,False,15288442.0
+1995,Other government benefits (mixed levels),benefit,False,15207706.0
+1996,Other government benefits (mixed levels),benefit,False,15047847.0
+1997,Other government benefits (mixed levels),benefit,False,14153111.0
+1998,Other government benefits (mixed levels),benefit,False,14584745.0
+1999,Other government benefits (mixed levels),benefit,False,15432759.0
+2000,Other government benefits (mixed levels),benefit,False,16329902.0
+2001,Other government benefits (mixed levels),benefit,False,17607299.0
+2002,Other government benefits (mixed levels),benefit,False,19457028.0
+2003,Other government benefits (mixed levels),benefit,False,21165888.0
+2004,Other government benefits (mixed levels),benefit,False,23388055.0
+2005,Other government benefits (mixed levels),benefit,False,25023990.0
+2006,Other government benefits (mixed levels),benefit,False,25671880.0
+2007,Other government benefits (mixed levels),benefit,False,25303056.0
+2008,Other government benefits (mixed levels),benefit,False,36638020.0
+2009,Other government benefits (mixed levels),benefit,False,32915566.0
+2010,Other government benefits (mixed levels),benefit,False,40531465.0
+2011,Other government benefits (mixed levels),benefit,False,39959760.0
+2012,Other government benefits (mixed levels),benefit,False,32640177.0
+2013,Other government benefits (mixed levels),benefit,False,32135121.0
+2014,Other government benefits (mixed levels),benefit,False,36134229.0
+2015,Other government benefits (mixed levels),benefit,False,37910523.0
+2016,Other government benefits (mixed levels),benefit,False,39102239.0
+2017,Other government benefits (mixed levels),benefit,False,41715397.0
+2018,Other government benefits (mixed levels),benefit,False,44117711.0
+2019,Other government benefits (mixed levels),benefit,False,47914989.0
+2020,Other government benefits (mixed levels),benefit,False,87559646.0
+2021,Other government benefits (mixed levels),benefit,False,132437656.0
+2022,Other government benefits (mixed levels),benefit,False,83782003.0
+2023,Other government benefits (mixed levels),benefit,False,61641809.0
+2024,Other government benefits (mixed levels),benefit,False,65128391.0
+2025,Other government benefits (mixed levels),benefit,False,71517283.0
+1958,Federal civilian pay,pay,True,1590219.0
+1959,Federal civilian pay,pay,True,1661525.0
+1960,Federal civilian pay,pay,True,1743194.0
+1961,Federal civilian pay,pay,True,1871603.0
+1962,Federal civilian pay,pay,True,1990398.0
+1963,Federal civilian pay,pay,True,2082551.0
+1964,Federal civilian pay,pay,True,2179541.0
+1965,Federal civilian pay,pay,True,2293857.0
+1966,Federal civilian pay,pay,True,2589506.0
+1967,Federal civilian pay,pay,True,2916201.0
+1968,Federal civilian pay,pay,True,3209192.0
+1969,Federal civilian pay,pay,True,3526129.0
+1970,Federal civilian pay,pay,True,3987078.0
+1971,Federal civilian pay,pay,True,4445289.0
+1972,Federal civilian pay,pay,True,4711556.0
+1973,Federal civilian pay,pay,True,4931175.0
+1974,Federal civilian pay,pay,True,5401936.0
+1975,Federal civilian pay,pay,True,5970748.0
+1976,Federal civilian pay,pay,True,6379903.0
+1977,Federal civilian pay,pay,True,6762176.0
+1978,Federal civilian pay,pay,True,7314118.0
+1979,Federal civilian pay,pay,True,7740619.0
+1980,Federal civilian pay,pay,True,8475004.0
+1981,Federal civilian pay,pay,True,9321221.0
+1982,Federal civilian pay,pay,True,9732599.0
+1983,Federal civilian pay,pay,True,10299121.0
+1984,Federal civilian pay,pay,True,10957003.0
+1985,Federal civilian pay,pay,True,11640470.0
+1986,Federal civilian pay,pay,True,11826729.0
+1987,Federal civilian pay,pay,True,11997656.0
+1988,Federal civilian pay,pay,True,12934793.0
+1989,Federal civilian pay,pay,True,13541644.0
+1990,Federal civilian pay,pay,True,14376637.0
+1991,Federal civilian pay,pay,True,14939043.0
+1992,Federal civilian pay,pay,True,15716241.0
+1993,Federal civilian pay,pay,True,15848562.0
+1994,Federal civilian pay,pay,True,16217640.0
+1995,Federal civilian pay,pay,True,15868425.0
+1996,Federal civilian pay,pay,True,15700621.0
+1997,Federal civilian pay,pay,True,15588626.0
+1998,Federal civilian pay,pay,True,15960565.0
+1999,Federal civilian pay,pay,True,16275924.0
+2000,Federal civilian pay,pay,True,17108147.0
+2001,Federal civilian pay,pay,True,16722828.0
+2002,Federal civilian pay,pay,True,17869497.0
+2003,Federal civilian pay,pay,True,18758812.0
+2004,Federal civilian pay,pay,True,19792737.0
+2005,Federal civilian pay,pay,True,20704730.0
+2006,Federal civilian pay,pay,True,20931014.0
+2007,Federal civilian pay,pay,True,21547116.0
+2008,Federal civilian pay,pay,True,22294848.0
+2009,Federal civilian pay,pay,True,23413676.0
+2010,Federal civilian pay,pay,True,25736811.0
+2011,Federal civilian pay,pay,True,26083446.0
+2012,Federal civilian pay,pay,True,26157969.0
+2013,Federal civilian pay,pay,True,25771225.0
+2014,Federal civilian pay,pay,True,26450856.0
+2015,Federal civilian pay,pay,True,27477720.0
+2016,Federal civilian pay,pay,True,28337175.0
+2017,Federal civilian pay,pay,True,29073247.0
+2018,Federal civilian pay,pay,True,30340685.0
+2019,Federal civilian pay,pay,True,30890265.0
+2020,Federal civilian pay,pay,True,33016293.0
+2021,Federal civilian pay,pay,True,33632736.0
+2022,Federal civilian pay,pay,True,34903561.0
+2023,Federal civilian pay,pay,True,37369883.0
+2024,Federal civilian pay,pay,True,39614903.0
+2025,Federal civilian pay,pay,True,39705073.0
+1958,Military pay,pay,True,1616191.0
+1959,Military pay,pay,True,1664459.0
+1960,Military pay,pay,True,1684609.0
+1961,Military pay,pay,True,1669773.0
+1962,Military pay,pay,True,1776559.0
+1963,Military pay,pay,True,1908958.0
+1964,Military pay,pay,True,1986297.0
+1965,Military pay,pay,True,2199317.0
+1966,Military pay,pay,True,2668729.0
+1967,Military pay,pay,True,2858963.0
+1968,Military pay,pay,True,3196705.0
+1969,Military pay,pay,True,3370688.0
+1970,Military pay,pay,True,3559448.0
+1971,Military pay,pay,True,3650147.0
+1972,Military pay,pay,True,3996689.0
+1973,Military pay,pay,True,4066470.0
+1974,Military pay,pay,True,4227238.0
+1975,Military pay,pay,True,4292622.0
+1976,Military pay,pay,True,4309566.0
+1977,Military pay,pay,True,4428543.0
+1978,Military pay,pay,True,4678256.0
+1979,Military pay,pay,True,4917781.0
+1980,Military pay,pay,True,5419081.0
+1981,Military pay,pay,True,6392969.0
+1982,Military pay,pay,True,7232466.0
+1983,Military pay,pay,True,7637188.0
+1984,Military pay,pay,True,8239984.0
+1985,Military pay,pay,True,8758764.0
+1986,Military pay,pay,True,9222055.0
+1987,Military pay,pay,True,9524138.0
+1988,Military pay,pay,True,9883847.0
+1989,Military pay,pay,True,10201799.0
+1990,Military pay,pay,True,10260497.0
+1991,Military pay,pay,True,10599797.0
+1992,Military pay,pay,True,10616042.0
+1993,Military pay,pay,True,9693580.0
+1994,Military pay,pay,True,8842749.0
+1995,Military pay,pay,True,8219284.0
+1996,Military pay,pay,True,7630449.0
+1997,Military pay,pay,True,7293258.0
+1998,Military pay,pay,True,7251852.0
+1999,Military pay,pay,True,7331164.0
+2000,Military pay,pay,True,7660686.0
+2001,Military pay,pay,True,8264613.0
+2002,Military pay,pay,True,9306436.0
+2003,Military pay,pay,True,10978400.0
+2004,Military pay,pay,True,11933874.0
+2005,Military pay,pay,True,12360281.0
+2006,Military pay,pay,True,12811803.0
+2007,Military pay,pay,True,13446594.0
+2008,Military pay,pay,True,14559589.0
+2009,Military pay,pay,True,15579137.0
+2010,Military pay,pay,True,16264393.0
+2011,Military pay,pay,True,16063118.0
+2012,Military pay,pay,True,15933613.0
+2013,Military pay,pay,True,15354084.0
+2014,Military pay,pay,True,15071769.0
+2015,Military pay,pay,True,14952018.0
+2016,Military pay,pay,True,16333621.0
+2017,Military pay,pay,True,16101002.0
+2018,Military pay,pay,True,15238777.0
+2019,Military pay,pay,True,15560927.0
+2020,Military pay,pay,True,16624100.0
+2021,Military pay,pay,True,17861480.0
+2022,Military pay,pay,True,17613670.0
+2023,Military pay,pay,True,18059725.0
+2024,Military pay,pay,True,19329293.0
+2025,Military pay,pay,True,20799875.0
