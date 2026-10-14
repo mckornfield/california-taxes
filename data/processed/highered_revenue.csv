@@ -1,0 +1,591 @@
+fy,system,source,amount_k
+2004,CSU,Tuition and fees,948400.078
+2004,UC,Tuition and fees,1333445.247
+2005,CSU,Tuition and fees,1089445.581
+2005,Community colleges,Tuition and fees,576065.222
+2005,UC,Tuition and fees,1513823.02
+2006,CSU,Tuition and fees,1181181.952
+2006,Community colleges,Tuition and fees,565844.668
+2006,UC,Tuition and fees,1616303.048
+2007,CSU,Tuition and fees,1232555.381
+2007,Community colleges,Tuition and fees,554853.608
+2007,UC,Tuition and fees,1687304.878
+2008,CSU,Tuition and fees,1357916.401
+2008,Community colleges,Tuition and fees,549518.358
+2008,UC,Tuition and fees,1868262.141
+2009,CSU,Tuition and fees,1458450.988
+2009,Community colleges,Tuition and fees,606625.645
+2009,UC,Tuition and fees,2073705.386
+2010,CSU,Tuition and fees,1677373.68
+2010,Community colleges,Tuition and fees,664299.459
+2010,UC,Tuition and fees,2345634.783
+2011,CSU,Tuition and fees,1746409.998
+2011,Community colleges,Tuition and fees,645002.916
+2011,UC,Tuition and fees,2788036.695
+2012,CSU,Tuition and fees,2061999.273
+2012,Community colleges,Tuition and fees,691182.474
+2012,UC,Tuition and fees,3240822.983
+2013,CSU,Tuition and fees,2077582.726
+2013,Community colleges,Tuition and fees,757004.093
+2013,UC,Tuition and fees,3406997.071
+2014,CSU,Tuition and fees,2125166.99
+2014,Community colleges,Tuition and fees,781705.25
+2014,UC,Tuition and fees,3588162.807
+2015,CSU,Tuition and fees,2152835.129
+2015,Community colleges,Tuition and fees,816104.586
+2015,UC,Tuition and fees,3781278.462
+2016,CSU,Tuition and fees,2209093.106
+2016,Community colleges,Tuition and fees,831585.023
+2016,UC,Tuition and fees,4123453.221
+2017,CSU,Tuition and fees,2188960.726
+2017,Community colleges,Tuition and fees,874892.79
+2017,UC,Tuition and fees,4466648.963
+2018,CSU,Tuition and fees,2223816.639
+2018,Community colleges,Tuition and fees,881289.066
+2018,UC,Tuition and fees,4825355.392
+2019,CSU,Tuition and fees,2197271.45
+2019,Community colleges,Tuition and fees,880328.949
+2019,UC,Tuition and fees,5192146.06
+2020,CSU,Tuition and fees,2166627.271
+2020,Community colleges,Tuition and fees,803353.051
+2020,UC,Tuition and fees,5322840.631
+2021,CSU,Tuition and fees,2280116.796
+2021,Community colleges,Tuition and fees,707821.151
+2021,UC,Tuition and fees,5125766.854
+2022,CSU,Tuition and fees,2322071.653
+2022,Community colleges,Tuition and fees,658524.075
+2022,UC,Tuition and fees,5465262.202
+2023,CSU,Tuition and fees,2308683.958
+2023,Community colleges,Tuition and fees,706257.342
+2023,UC,Tuition and fees,5542723.634
+2004,CSU,State appropriations,2421525.087
+2004,UC,State appropriations,2670903.537
+2005,CSU,State appropriations,2305584.574
+2005,Community colleges,State appropriations,2378936.082
+2005,UC,State appropriations,2502253.358
+2006,CSU,State appropriations,2379270.337
+2006,Community colleges,State appropriations,2684318.802
+2006,UC,State appropriations,2634512.729
+2007,CSU,State appropriations,2595005.292
+2007,Community colleges,State appropriations,3163011.143
+2007,UC,State appropriations,2859603.799
+2008,CSU,State appropriations,2748747.813
+2008,Community colleges,State appropriations,3373471.183
+2008,UC,State appropriations,3041250.541
+2009,CSU,State appropriations,1990198.673
+2009,Community colleges,State appropriations,3481482.054
+2009,UC,State appropriations,2498697.912
+2010,CSU,State appropriations,2099758.803
+2010,Community colleges,State appropriations,3294742.163
+2010,UC,State appropriations,2853012.011
+2011,CSU,State appropriations,2359579.807
+2011,Community colleges,State appropriations,3630851.275
+2011,UC,State appropriations,2779086.103
+2012,CSU,State appropriations,1782008.876
+2012,Community colleges,State appropriations,2945547.973
+2012,UC,State appropriations,2170790.901
+2013,CSU,State appropriations,1816500.944
+2013,Community colleges,State appropriations,2643220.795
+2013,UC,State appropriations,2373206.024
+2014,CSU,State appropriations,2097394.614
+2014,Community colleges,State appropriations,2942539.028
+2014,UC,State appropriations,2547164.122
+2015,CSU,State appropriations,2288395.336
+2015,Community colleges,State appropriations,3029086.618
+2015,UC,State appropriations,2653328.315
+2016,CSU,State appropriations,2448535.886
+2016,Community colleges,State appropriations,3475483.212
+2016,UC,State appropriations,2912768.243
+2017,CSU,State appropriations,2735269.966
+2017,Community colleges,State appropriations,3207827.541
+2017,UC,State appropriations,3099844.556
+2018,CSU,State appropriations,4130110.964
+2018,Community colleges,State appropriations,3352570.584
+2018,UC,State appropriations,2887183.442
+2019,CSU,State appropriations,3498419.719
+2019,Community colleges,State appropriations,3671463.137
+2019,UC,State appropriations,3160987.437
+2020,CSU,State appropriations,4194307.068
+2020,Community colleges,State appropriations,3792314.986
+2020,UC,State appropriations,3350631.934
+2021,CSU,State appropriations,3505919.529
+2021,Community colleges,State appropriations,3526475.731
+2021,UC,State appropriations,2775714.454
+2022,CSU,State appropriations,4640153.03
+2022,Community colleges,State appropriations,3774681.91
+2022,UC,State appropriations,4113021.989
+2023,CSU,State appropriations,5565446.542
+2023,Community colleges,State appropriations,4390842.688
+2023,UC,State appropriations,4269921.067
+2004,CSU,State grants and contracts,161931.208
+2004,UC,State grants and contracts,307616.0
+2005,CSU,State grants and contracts,183451.501
+2005,Community colleges,State grants and contracts,646885.985
+2005,UC,State grants and contracts,311173.0
+2006,CSU,State grants and contracts,193403.518
+2006,Community colleges,State grants and contracts,632584.215
+2006,UC,State grants and contracts,339027.0
+2007,CSU,State grants and contracts,199737.129
+2007,Community colleges,State grants and contracts,812499.003
+2007,UC,State grants and contracts,369883.0
+2008,CSU,State grants and contracts,217340.11
+2008,Community colleges,State grants and contracts,822562.048
+2008,UC,State grants and contracts,417832.125
+2009,CSU,State grants and contracts,226216.065
+2009,Community colleges,State grants and contracts,811883.902
+2009,UC,State grants and contracts,448517.253
+2010,CSU,State grants and contracts,280166.41
+2010,Community colleges,State grants and contracts,631085.75
+2010,UC,State grants and contracts,504231.477
+2011,CSU,State grants and contracts,317195.447
+2011,Community colleges,State grants and contracts,602763.092
+2011,UC,State grants and contracts,489049.791
+2012,CSU,State grants and contracts,406235.954
+2012,Community colleges,State grants and contracts,584836.288
+2012,UC,State grants and contracts,489272.255
+2013,CSU,State grants and contracts,448152.05
+2013,Community colleges,State grants and contracts,640607.442
+2013,UC,State grants and contracts,408209.154
+2014,CSU,State grants and contracts,531502.685
+2014,Community colleges,State grants and contracts,753761.81
+2014,UC,State grants and contracts,423848.559
+2015,CSU,State grants and contracts,658129.357
+2015,Community colleges,State grants and contracts,1073808.208
+2015,UC,State grants and contracts,412890.52
+2016,CSU,State grants and contracts,681559.857
+2016,Community colleges,State grants and contracts,1635970.081
+2016,UC,State grants and contracts,414100.451
+2017,CSU,State grants and contracts,734311.081
+2017,Community colleges,State grants and contracts,1725361.983
+2017,UC,State grants and contracts,405550.026
+2018,CSU,State grants and contracts,819847.797
+2018,Community colleges,State grants and contracts,1850136.066
+2018,UC,State grants and contracts,516484.0
+2019,CSU,State grants and contracts,840832.097
+2019,Community colleges,State grants and contracts,2171046.666
+2019,UC,State grants and contracts,481551.0
+2020,CSU,State grants and contracts,902414.58
+2020,Community colleges,State grants and contracts,2282897.176
+2020,UC,State grants and contracts,476237.0
+2021,CSU,State grants and contracts,919048.667
+2021,Community colleges,State grants and contracts,2567174.37
+2021,UC,State grants and contracts,553225.0
+2022,CSU,State grants and contracts,869717.54
+2022,Community colleges,State grants and contracts,2559220.951
+2022,UC,State grants and contracts,699367.892
+2023,CSU,State grants and contracts,1198095.144
+2023,Community colleges,State grants and contracts,3154356.384
+2023,UC,State grants and contracts,730211.912
+2004,CSU,Local property taxes (community colleges),0.0
+2004,UC,Local property taxes (community colleges),0.0
+2005,CSU,Local property taxes (community colleges),0.0
+2005,Community colleges,Local property taxes (community colleges),1856451.65
+2005,UC,Local property taxes (community colleges),0.0
+2006,CSU,Local property taxes (community colleges),0.0
+2006,Community colleges,Local property taxes (community colleges),1940763.543
+2006,UC,Local property taxes (community colleges),0.0
+2007,CSU,Local property taxes (community colleges),0.0
+2007,Community colleges,Local property taxes (community colleges),2060876.39
+2007,UC,Local property taxes (community colleges),0.0
+2008,CSU,Local property taxes (community colleges),0.0
+2008,Community colleges,Local property taxes (community colleges),2151501.687
+2008,UC,Local property taxes (community colleges),0.0
+2009,CSU,Local property taxes (community colleges),0.0
+2009,Community colleges,Local property taxes (community colleges),2259975.724
+2009,UC,Local property taxes (community colleges),0.0
+2010,CSU,Local property taxes (community colleges),0.0
+2010,Community colleges,Local property taxes (community colleges),2203094.017
+2010,UC,Local property taxes (community colleges),0.0
+2011,CSU,Local property taxes (community colleges),0.0
+2011,Community colleges,Local property taxes (community colleges),2238121.175
+2011,UC,Local property taxes (community colleges),0.0
+2012,CSU,Local property taxes (community colleges),0.0
+2012,Community colleges,Local property taxes (community colleges),2267657.031
+2012,UC,Local property taxes (community colleges),0.0
+2013,CSU,Local property taxes (community colleges),0.0
+2013,Community colleges,Local property taxes (community colleges),2567238.291
+2013,UC,Local property taxes (community colleges),0.0
+2014,CSU,Local property taxes (community colleges),0.0
+2014,Community colleges,Local property taxes (community colleges),2620969.943
+2014,UC,Local property taxes (community colleges),0.0
+2015,CSU,Local property taxes (community colleges),0.0
+2015,Community colleges,Local property taxes (community colleges),2734540.89
+2015,UC,Local property taxes (community colleges),0.0
+2016,CSU,Local property taxes (community colleges),0.0
+2016,Community colleges,Local property taxes (community colleges),3277436.201
+2016,UC,Local property taxes (community colleges),0.0
+2017,CSU,Local property taxes (community colleges),0.0
+2017,Community colleges,Local property taxes (community colleges),3459698.591
+2017,UC,Local property taxes (community colleges),0.0
+2018,CSU,Local property taxes (community colleges),0.0
+2018,Community colleges,Local property taxes (community colleges),3592005.278
+2018,UC,Local property taxes (community colleges),0.0
+2019,CSU,Local property taxes (community colleges),0.0
+2019,Community colleges,Local property taxes (community colleges),3715327.404
+2019,UC,Local property taxes (community colleges),0.0
+2020,CSU,Local property taxes (community colleges),0.0
+2020,Community colleges,Local property taxes (community colleges),3931503.54
+2020,UC,Local property taxes (community colleges),0.0
+2021,CSU,Local property taxes (community colleges),0.0
+2021,Community colleges,Local property taxes (community colleges),4196159.543
+2021,UC,Local property taxes (community colleges),0.0
+2022,CSU,Local property taxes (community colleges),0.0
+2022,Community colleges,Local property taxes (community colleges),4292819.283
+2022,UC,Local property taxes (community colleges),0.0
+2023,CSU,Local property taxes (community colleges),0.0
+2023,Community colleges,Local property taxes (community colleges),4731495.127
+2023,UC,Local property taxes (community colleges),0.0
+2004,CSU,"Federal grants, contracts and Pell",410742.163
+2004,UC,"Federal grants, contracts and Pell",2594191.836
+2005,CSU,"Federal grants, contracts and Pell",411994.167
+2005,Community colleges,"Federal grants, contracts and Pell",859465.765
+2005,UC,"Federal grants, contracts and Pell",2712197.01
+2006,CSU,"Federal grants, contracts and Pell",417383.806
+2006,Community colleges,"Federal grants, contracts and Pell",872568.443
+2006,UC,"Federal grants, contracts and Pell",2785763.404
+2007,CSU,"Federal grants, contracts and Pell",441127.729
+2007,Community colleges,"Federal grants, contracts and Pell",868643.098
+2007,UC,"Federal grants, contracts and Pell",2852772.436
+2008,CSU,"Federal grants, contracts and Pell",470284.935
+2008,Community colleges,"Federal grants, contracts and Pell",1062938.903
+2008,UC,"Federal grants, contracts and Pell",2907133.498
+2009,CSU,"Federal grants, contracts and Pell",528064.84
+2009,Community colleges,"Federal grants, contracts and Pell",1393917.413
+2009,UC,"Federal grants, contracts and Pell",3160023.241
+2010,CSU,"Federal grants, contracts and Pell",706794.192
+2010,Community colleges,"Federal grants, contracts and Pell",1915567.812
+2010,UC,"Federal grants, contracts and Pell",3420979.558
+2011,CSU,"Federal grants, contracts and Pell",812936.766
+2011,Community colleges,"Federal grants, contracts and Pell",2352243.086
+2011,UC,"Federal grants, contracts and Pell",3729777.703
+2012,CSU,"Federal grants, contracts and Pell",859315.788
+2012,Community colleges,"Federal grants, contracts and Pell",2166485.028
+2012,UC,"Federal grants, contracts and Pell",3672252.64
+2013,CSU,"Federal grants, contracts and Pell",872402.086
+2013,Community colleges,"Federal grants, contracts and Pell",2084939.297
+2013,UC,"Federal grants, contracts and Pell",3573854.788
+2014,CSU,"Federal grants, contracts and Pell",927903.662
+2014,Community colleges,"Federal grants, contracts and Pell",2107943.245
+2014,UC,"Federal grants, contracts and Pell",3521474.794
+2015,CSU,"Federal grants, contracts and Pell",994741.83
+2015,Community colleges,"Federal grants, contracts and Pell",2115965.401
+2015,UC,"Federal grants, contracts and Pell",3531859.21
+2016,CSU,"Federal grants, contracts and Pell",1032031.945
+2016,Community colleges,"Federal grants, contracts and Pell",2014143.527
+2016,UC,"Federal grants, contracts and Pell",3591565.426
+2017,CSU,"Federal grants, contracts and Pell",1030526.253
+2017,Community colleges,"Federal grants, contracts and Pell",1922364.889
+2017,UC,"Federal grants, contracts and Pell",3610051.703
+2018,CSU,"Federal grants, contracts and Pell",1124563.787
+2018,Community colleges,"Federal grants, contracts and Pell",2061513.367
+2018,UC,"Federal grants, contracts and Pell",3706186.018
+2019,CSU,"Federal grants, contracts and Pell",1155579.559
+2019,Community colleges,"Federal grants, contracts and Pell",1974074.275
+2019,UC,"Federal grants, contracts and Pell",3940745.339
+2020,CSU,"Federal grants, contracts and Pell",1415020.664
+2020,Community colleges,"Federal grants, contracts and Pell",2325602.141
+2020,UC,"Federal grants, contracts and Pell",4809050.895
+2021,CSU,"Federal grants, contracts and Pell",2045228.893
+2021,Community colleges,"Federal grants, contracts and Pell",2818424.521
+2021,UC,"Federal grants, contracts and Pell",5113776.224
+2022,CSU,"Federal grants, contracts and Pell",2818335.171
+2022,Community colleges,"Federal grants, contracts and Pell",3737651.852
+2022,UC,"Federal grants, contracts and Pell",5374623.059
+2023,CSU,"Federal grants, contracts and Pell",1397413.881
+2023,Community colleges,"Federal grants, contracts and Pell",2942970.376
+2023,UC,"Federal grants, contracts and Pell",4996085.966
+2004,CSU,"Hospitals, clinics and professional fees",0.0
+2004,UC,"Hospitals, clinics and professional fees",3679835.0
+2005,CSU,"Hospitals, clinics and professional fees",0.0
+2005,Community colleges,"Hospitals, clinics and professional fees",0.0
+2005,UC,"Hospitals, clinics and professional fees",3962860.0
+2006,CSU,"Hospitals, clinics and professional fees",0.0
+2006,Community colleges,"Hospitals, clinics and professional fees",0.0
+2006,UC,"Hospitals, clinics and professional fees",4205635.0
+2007,CSU,"Hospitals, clinics and professional fees",0.0
+2007,Community colleges,"Hospitals, clinics and professional fees",0.0
+2007,UC,"Hospitals, clinics and professional fees",3591448.842
+2008,CSU,"Hospitals, clinics and professional fees",32523.345
+2008,Community colleges,"Hospitals, clinics and professional fees",2949.079
+2008,UC,"Hospitals, clinics and professional fees",4917236.0
+2009,CSU,"Hospitals, clinics and professional fees",33972.034
+2009,Community colleges,"Hospitals, clinics and professional fees",4799.134
+2009,UC,"Hospitals, clinics and professional fees",5496077.0
+2010,CSU,"Hospitals, clinics and professional fees",26987.104
+2010,Community colleges,"Hospitals, clinics and professional fees",4594.921
+2010,UC,"Hospitals, clinics and professional fees",5882230.946
+2011,CSU,"Hospitals, clinics and professional fees",33214.87
+2011,Community colleges,"Hospitals, clinics and professional fees",6707.198
+2011,UC,"Hospitals, clinics and professional fees",8288125.343
+2012,CSU,"Hospitals, clinics and professional fees",35406.341
+2012,Community colleges,"Hospitals, clinics and professional fees",8830.198
+2012,UC,"Hospitals, clinics and professional fees",8845069.495
+2013,CSU,"Hospitals, clinics and professional fees",35355.301
+2013,Community colleges,"Hospitals, clinics and professional fees",10443.439
+2013,UC,"Hospitals, clinics and professional fees",9618331.502
+2014,CSU,"Hospitals, clinics and professional fees",42226.844
+2014,Community colleges,"Hospitals, clinics and professional fees",6910.676
+2014,UC,"Hospitals, clinics and professional fees",10433606.25
+2015,CSU,"Hospitals, clinics and professional fees",41797.458
+2015,Community colleges,"Hospitals, clinics and professional fees",8575.876
+2015,UC,"Hospitals, clinics and professional fees",11712424.089
+2016,CSU,"Hospitals, clinics and professional fees",48868.675
+2016,Community colleges,"Hospitals, clinics and professional fees",7431.359
+2016,UC,"Hospitals, clinics and professional fees",13208346.481
+2017,CSU,"Hospitals, clinics and professional fees",48197.898
+2017,Community colleges,"Hospitals, clinics and professional fees",7625.601
+2017,UC,"Hospitals, clinics and professional fees",14573445.376
+2018,CSU,"Hospitals, clinics and professional fees",52403.316
+2018,Community colleges,"Hospitals, clinics and professional fees",5804.686
+2018,UC,"Hospitals, clinics and professional fees",15734662.109
+2019,CSU,"Hospitals, clinics and professional fees",47655.068
+2019,Community colleges,"Hospitals, clinics and professional fees",7637.766
+2019,UC,"Hospitals, clinics and professional fees",17216529.015
+2020,CSU,"Hospitals, clinics and professional fees",39923.284
+2020,Community colleges,"Hospitals, clinics and professional fees",4260.369
+2020,UC,"Hospitals, clinics and professional fees",18397515.784
+2021,CSU,"Hospitals, clinics and professional fees",19102.702
+2021,Community colleges,"Hospitals, clinics and professional fees",2708.421
+2021,UC,"Hospitals, clinics and professional fees",20330234.807
+2022,CSU,"Hospitals, clinics and professional fees",38579.793
+2022,Community colleges,"Hospitals, clinics and professional fees",3003.266
+2022,UC,"Hospitals, clinics and professional fees",22796016.972
+2023,CSU,"Hospitals, clinics and professional fees",60458.585
+2023,Community colleges,"Hospitals, clinics and professional fees",3850.03
+2023,UC,"Hospitals, clinics and professional fees",25031623.835
+2004,CSU,"Housing, dining and other sales",258210.595
+2004,UC,"Housing, dining and other sales",2009104.135
+2005,CSU,"Housing, dining and other sales",283799.95
+2005,Community colleges,"Housing, dining and other sales",303701.111
+2005,UC,"Housing, dining and other sales",2156062.98
+2006,CSU,"Housing, dining and other sales",347570.796
+2006,Community colleges,"Housing, dining and other sales",311981.942
+2006,UC,"Housing, dining and other sales",2280142.901
+2007,CSU,"Housing, dining and other sales",369001.892
+2007,Community colleges,"Housing, dining and other sales",344592.1
+2007,UC,"Housing, dining and other sales",3464507.719
+2008,CSU,"Housing, dining and other sales",376302.39
+2008,Community colleges,"Housing, dining and other sales",445992.772
+2008,UC,"Housing, dining and other sales",2972605.683
+2009,CSU,"Housing, dining and other sales",488094.21
+2009,Community colleges,"Housing, dining and other sales",409956.698
+2009,UC,"Housing, dining and other sales",2919114.719
+2010,CSU,"Housing, dining and other sales",488356.442
+2010,Community colleges,"Housing, dining and other sales",357292.468
+2010,UC,"Housing, dining and other sales",3039096.093
+2011,CSU,"Housing, dining and other sales",534314.753
+2011,Community colleges,"Housing, dining and other sales",344799.773
+2011,UC,"Housing, dining and other sales",1518279.599
+2012,CSU,"Housing, dining and other sales",568270.907
+2012,Community colleges,"Housing, dining and other sales",314398.965
+2012,UC,"Housing, dining and other sales",1662180.58
+2013,CSU,"Housing, dining and other sales",589662.953
+2013,Community colleges,"Housing, dining and other sales",256486.714
+2013,UC,"Housing, dining and other sales",1755326.891
+2014,CSU,"Housing, dining and other sales",599657.874
+2014,Community colleges,"Housing, dining and other sales",258880.463
+2014,UC,"Housing, dining and other sales",1820499.137
+2015,CSU,"Housing, dining and other sales",652445.15
+2015,Community colleges,"Housing, dining and other sales",259091.478
+2015,UC,"Housing, dining and other sales",1969375.715
+2016,CSU,"Housing, dining and other sales",686673.245
+2016,Community colleges,"Housing, dining and other sales",251887.711
+2016,UC,"Housing, dining and other sales",2048640.683
+2017,CSU,"Housing, dining and other sales",716299.623
+2017,Community colleges,"Housing, dining and other sales",287692.929
+2017,UC,"Housing, dining and other sales",2315153.06
+2018,CSU,"Housing, dining and other sales",755893.235
+2018,Community colleges,"Housing, dining and other sales",263862.451
+2018,UC,"Housing, dining and other sales",2277600.761
+2019,CSU,"Housing, dining and other sales",819452.661
+2019,Community colleges,"Housing, dining and other sales",260317.254
+2019,UC,"Housing, dining and other sales",2413830.521
+2020,CSU,"Housing, dining and other sales",705629.753
+2020,Community colleges,"Housing, dining and other sales",279447.16
+2020,UC,"Housing, dining and other sales",2128419.138
+2021,CSU,"Housing, dining and other sales",357988.225
+2021,Community colleges,"Housing, dining and other sales",241415.378
+2021,UC,"Housing, dining and other sales",1144597.922
+2022,CSU,"Housing, dining and other sales",889863.735
+2022,Community colleges,"Housing, dining and other sales",216490.882
+2022,UC,"Housing, dining and other sales",2337723.213
+2023,CSU,"Housing, dining and other sales",1068715.429
+2023,Community colleges,"Housing, dining and other sales",462817.733
+2023,UC,"Housing, dining and other sales",2602349.068
+2004,CSU,Gifts and private grants,40433.256
+2004,UC,Gifts and private grants,1311229.014
+2005,CSU,Gifts and private grants,48436.639
+2005,Community colleges,Gifts and private grants,158565.225
+2005,UC,Gifts and private grants,1296761.401
+2006,CSU,Gifts and private grants,51209.848
+2006,Community colleges,Gifts and private grants,168376.787
+2006,UC,Gifts and private grants,1467398.502
+2007,CSU,Gifts and private grants,76692.133
+2007,Community colleges,Gifts and private grants,155669.712
+2007,UC,Gifts and private grants,1604185.3
+2008,CSU,Gifts and private grants,69863.933
+2008,Community colleges,Gifts and private grants,163038.423
+2008,UC,Gifts and private grants,1758542.967
+2009,CSU,Gifts and private grants,74761.609
+2009,Community colleges,Gifts and private grants,144481.691
+2009,UC,Gifts and private grants,1839123.418
+2010,CSU,Gifts and private grants,69736.065
+2010,Community colleges,Gifts and private grants,139164.371
+2010,UC,Gifts and private grants,2006546.27
+2011,CSU,Gifts and private grants,55952.913
+2011,Community colleges,Gifts and private grants,124901.578
+2011,UC,Gifts and private grants,2055625.558
+2012,CSU,Gifts and private grants,70947.346
+2012,Community colleges,Gifts and private grants,122345.053
+2012,UC,Gifts and private grants,2101104.932
+2013,CSU,Gifts and private grants,90118.834
+2013,Community colleges,Gifts and private grants,113440.014
+2013,UC,Gifts and private grants,2119581.547
+2014,CSU,Gifts and private grants,85292.608
+2014,Community colleges,Gifts and private grants,122848.892
+2014,UC,Gifts and private grants,2271479.769
+2015,CSU,Gifts and private grants,96770.036
+2015,Community colleges,Gifts and private grants,131414.225
+2015,UC,Gifts and private grants,2450432.307
+2016,CSU,Gifts and private grants,117910.879
+2016,Community colleges,Gifts and private grants,117498.9
+2016,UC,Gifts and private grants,2629499.666
+2017,CSU,Gifts and private grants,105131.869
+2017,Community colleges,Gifts and private grants,114146.144
+2017,UC,Gifts and private grants,2793642.344
+2018,CSU,Gifts and private grants,118387.835
+2018,Community colleges,Gifts and private grants,171200.995
+2018,UC,Gifts and private grants,3152174.959
+2019,CSU,Gifts and private grants,116447.429
+2019,Community colleges,Gifts and private grants,163198.299
+2019,UC,Gifts and private grants,3283593.25
+2020,CSU,Gifts and private grants,113028.955
+2020,Community colleges,Gifts and private grants,175631.815
+2020,UC,Gifts and private grants,3429503.285
+2021,CSU,Gifts and private grants,116612.874
+2021,Community colleges,Gifts and private grants,210645.675
+2021,UC,Gifts and private grants,2316837.076
+2022,CSU,Gifts and private grants,121419.197
+2022,Community colleges,Gifts and private grants,183398.565
+2022,UC,Gifts and private grants,3880345.645
+2023,CSU,Gifts and private grants,125939.902
+2023,Community colleges,Gifts and private grants,183938.912
+2023,UC,Gifts and private grants,4211999.218
+2004,CSU,Capital appropriations and grants,306567.926
+2004,UC,Capital appropriations and grants,525711.729
+2005,CSU,Capital appropriations and grants,321205.832
+2005,Community colleges,Capital appropriations and grants,378009.133
+2005,UC,Capital appropriations and grants,404094.553
+2006,CSU,Capital appropriations and grants,412884.618
+2006,Community colleges,Capital appropriations and grants,427610.133
+2006,UC,Capital appropriations and grants,387346.505
+2007,CSU,Capital appropriations and grants,256401.017
+2007,Community colleges,Capital appropriations and grants,427789.951
+2007,UC,Capital appropriations and grants,517264.759
+2008,CSU,Capital appropriations and grants,664130.832
+2008,Community colleges,Capital appropriations and grants,363684.585
+2008,UC,Capital appropriations and grants,639477.346
+2009,CSU,Capital appropriations and grants,49412.417
+2009,Community colleges,Capital appropriations and grants,538892.99
+2009,UC,Capital appropriations and grants,416982.314
+2010,CSU,Capital appropriations and grants,141962.73
+2010,Community colleges,Capital appropriations and grants,486734.032
+2010,UC,Capital appropriations and grants,348217.934
+2011,CSU,Capital appropriations and grants,214649.512
+2011,Community colleges,Capital appropriations and grants,575879.425
+2011,UC,Capital appropriations and grants,438338.196
+2012,CSU,Capital appropriations and grants,134941.617
+2012,Community colleges,Capital appropriations and grants,433663.536
+2012,UC,Capital appropriations and grants,331689.443
+2013,CSU,Capital appropriations and grants,86014.139
+2013,Community colleges,Capital appropriations and grants,329477.466
+2013,UC,Capital appropriations and grants,382132.947
+2014,CSU,Capital appropriations and grants,273626.228
+2014,Community colleges,Capital appropriations and grants,253396.741
+2014,UC,Capital appropriations and grants,505094.389
+2015,CSU,Capital appropriations and grants,68599.706
+2015,Community colleges,Capital appropriations and grants,288324.395
+2015,UC,Capital appropriations and grants,191756.0
+2016,CSU,Capital appropriations and grants,109481.822
+2016,Community colleges,Capital appropriations and grants,294170.087
+2016,UC,Capital appropriations and grants,252927.0
+2017,CSU,Capital appropriations and grants,90261.95
+2017,Community colleges,Capital appropriations and grants,282430.822
+2017,UC,Capital appropriations and grants,274091.472
+2018,CSU,Capital appropriations and grants,76327.087
+2018,Community colleges,Capital appropriations and grants,395250.42
+2018,UC,Capital appropriations and grants,407217.554
+2019,CSU,Capital appropriations and grants,95032.709
+2019,Community colleges,Capital appropriations and grants,430910.455
+2019,UC,Capital appropriations and grants,191461.64
+2020,CSU,Capital appropriations and grants,63901.272
+2020,Community colleges,Capital appropriations and grants,452343.174
+2020,UC,Capital appropriations and grants,242226.292
+2021,CSU,Capital appropriations and grants,102371.084
+2021,Community colleges,Capital appropriations and grants,472439.306
+2021,UC,Capital appropriations and grants,230098.745
+2022,CSU,Capital appropriations and grants,132148.856
+2022,Community colleges,Capital appropriations and grants,652936.861
+2022,UC,Capital appropriations and grants,328208.084
+2023,CSU,Capital appropriations and grants,71809.536
+2023,Community colleges,Capital appropriations and grants,848924.651
+2023,UC,Capital appropriations and grants,450350.131
+2004,CSU,Investment income and other,138370.005
+2004,UC,Investment income and other,688858.573
+2005,CSU,Investment income and other,145270.201
+2005,Community colleges,Investment income and other,334003.049
+2005,UC,Investment income and other,882125.117
+2006,CSU,Investment income and other,144535.686
+2006,Community colleges,Investment income and other,407595.102
+2006,UC,Investment income and other,948027.174
+2007,CSU,Investment income and other,169065.672
+2007,Community colleges,Investment income and other,579135.927
+2007,UC,Investment income and other,587551.766
+2008,CSU,Investment income and other,186517.964
+2008,Community colleges,Investment income and other,566167.662
+2008,UC,Investment income and other,1025312.399
+2009,CSU,Investment income and other,366170.765
+2009,Community colleges,Investment income and other,460491.93
+2009,UC,Investment income and other,922119.201
+2010,CSU,Investment income and other,538555.432
+2010,Community colleges,Investment income and other,317594.949
+2010,UC,Investment income and other,860434.905
+2011,CSU,Investment income and other,221566.816
+2011,Community colleges,Investment income and other,507492.913
+2011,UC,Investment income and other,1403543.091
+2012,CSU,Investment income and other,114984.677
+2012,Community colleges,Investment income and other,396696.126
+2012,UC,Investment income and other,1955814.377
+2013,CSU,Investment income and other,124929.582
+2013,Community colleges,Investment income and other,421614.432
+2013,UC,Investment income and other,1483658.271
+2014,CSU,Investment income and other,136273.364
+2014,Community colleges,Investment income and other,470150.87
+2014,UC,Investment income and other,1938089.126
+2015,CSU,Investment income and other,128546.394
+2015,Community colleges,Investment income and other,491994.642
+2015,UC,Investment income and other,1853004.461
+2016,CSU,Investment income and other,252565.319
+2016,Community colleges,Investment income and other,557986.065
+2016,UC,Investment income and other,1238169.492
+2017,CSU,Investment income and other,267348.459
+2017,Community colleges,Investment income and other,733295.324
+2017,UC,Investment income and other,1126015.757
+2018,CSU,Investment income and other,445355.856
+2018,Community colleges,Investment income and other,693138.578
+2018,UC,Investment income and other,1793362.143
+2019,CSU,Investment income and other,508191.924
+2019,Community colleges,Investment income and other,803901.761
+2019,UC,Investment income and other,1515505.101
+2020,CSU,Investment income and other,848624.598
+2020,Community colleges,Investment income and other,778230.977
+2020,UC,Investment income and other,1987905.901
+2021,CSU,Investment income and other,794785.27
+2021,Community colleges,Investment income and other,782126.117
+2021,UC,Investment income and other,5815770.049
+2022,CSU,Investment income and other,121239.288
+2022,Community colleges,Investment income and other,862082.127
+2022,UC,Investment income and other,1395172.065
+2023,CSU,Investment income and other,625268.744
+2023,Community colleges,Investment income and other,1092497.817
+2023,UC,Investment income and other,1280135.552

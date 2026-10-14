@@ -12,6 +12,10 @@
   school_enrollment.csv   fy, enrollment   (fall enrollment, sum of districts)
   sacs_spending.csv       fy, group, category, amount_k   (K-12 spending by object, CDE SACS, FY2004+; see ca_taxes.school)
   sacs_function_group.csv fy, function_group, group, amount_k   (same spending by function x object group)
+  highered_expenses.csv   fy, system (UC|CSU|Community colleges), function, amount_k, salaries_k   (IPEDS, FY2004+, FY2005+ for community colleges)
+  highered_natural.csv    fy, system, group (Salaries and wages|Fringe benefits|Everything else), amount_k
+  highered_revenue.csv    fy, system, source, amount_k
+  highered_fte.csv        fy, system, fte, institutions   (12-month full-time-equivalent students, IPEDS)
   boe_assessed.csv        lien_year, county, land_k, improvements_k, personal_k, exemptions_k, net_k   (BOE Table 5, 2000+)
   boe_summary.csv         lien_year, agency, net_k, levies_k, avg_rate_pct   (BOE Table 4, statewide, 2009+)
   boe_allocations.csv     lien_year, county, recipient, amount_k, net_taxable_k   (BOE, 2012+)
@@ -27,6 +31,7 @@ Real/per-capita values are derived in notebooks via ca_taxes.deflate.
 import pandas as pd
 
 from ca_taxes.io import PROCESSED, RAW
+from ca_taxes.highered import FUNCTION_COLUMNS, RESIDUAL, REVENUE_GROUPS
 from ca_taxes.local import is_tax_category, revenue_group, spending_group, tax_type
 from ca_taxes.school import EXCLUDED_FUNDS, function_group, object_category, object_group
 from ca_taxes.state import classify, spending_area
@@ -387,6 +392,39 @@ def school_finance() -> tuple[pd.DataFrame, pd.DataFrame]:
     return long[["kind", "fy", "group", "amount_k"]], enr
 
 
+def higher_ed() -> dict[str, pd.DataFrame]:
+    """UC, CSU and community college spending, revenue and enrollment from IPEDS (see fetch_ipeds.py), $ thousands.
+
+    Community colleges in FY2004: only 77 of about 110 colleges filed the GASB form, so that system-year is dropped.
+    """
+    d = pd.read_csv(RAW / "ipeds" / "ca_public_higher_ed.csv")
+    d = d[~((d.system == "Community colleges") & (d.fy == 2004))]
+    d = d[d.F1C191 > 0]  # one filer reports zero/negative totals
+    num = d.drop(columns=["institution"]).groupby(["fy", "system"]).sum(numeric_only=True)
+    exp = []
+    for col, label in FUNCTION_COLUMNS.items():
+        sal = num[col[:-1] + "2"] if col[:-1] + "2" in num and col != "F1C081" else 0
+        exp.append(pd.DataFrame({"function": label, "amount_k": num[col] / 1e3, "salaries_k": sal / 1e3 if col != "F1C081" else 0}))
+    exp = pd.concat(exp).reset_index()
+    resid = (num.F1C191 - num[list(FUNCTION_COLUMNS)].sum(axis=1)) / 1e3
+    assert (resid > -1).all(), "functions add up to more than total expenses"
+    exp = pd.concat([exp, resid.rename("amount_k").reset_index().assign(function=RESIDUAL, salaries_k=0.0)])
+    exp = exp[exp.amount_k.abs() > 0.5]
+    exp["salaries_k"] = exp.salaries_k.astype(float).fillna(0.0)
+    nat = pd.concat([
+        (num.F1C192 / 1e3).rename("amount_k").reset_index().assign(group="Salaries and wages"),
+        (num.F1C193 / 1e3).rename("amount_k").reset_index().assign(group="Fringe benefits"),
+        ((num.F1C191 - num.F1C192 - num.F1C193) / 1e3).rename("amount_k").reset_index().assign(group="Everything else"),
+    ])
+    rev = pd.concat([
+        (num[cols].sum(axis=1) / 1e3).rename("amount_k").reset_index().assign(source=label) for label, cols in REVENUE_GROUPS.items()])
+    tot = num[[c for cols in REVENUE_GROUPS.values() for c in cols]].sum(axis=1)
+    assert ((tot - num.F1B25).abs() / num.F1B25 < 0.001).all(), "revenue groups do not add up to total revenues"
+    fte = num.fte.rename("fte").reset_index().merge(d.groupby(["fy", "system"]).size().rename("institutions").reset_index())
+    return {"highered_expenses": exp[["fy", "system", "function", "amount_k", "salaries_k"]], "highered_natural": nat[["fy", "system", "group", "amount_k"]],
+            "highered_revenue": rev[["fy", "system", "source", "amount_k"]], "highered_fte": fte}
+
+
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
     sf, se = school_finance()
@@ -394,6 +432,7 @@ def main():
     state_exp = state_expenditures()
     state_exp.to_csv(PROCESSED / "state_expenditures.csv", index=False)  # federal_govt_receipts reads it
     boe = boe_tables()
+    boe = {**boe, **higher_ed()}
     for name, df in [("sacs_spending", sp), ("sacs_function_group", sfn), *boe.items(), ("federal_collections", federal_collections()), ("federal_benefits", federal_benefits()),
                      ("federal_govt_receipts", federal_govt_receipts(sf)),
                      ("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),

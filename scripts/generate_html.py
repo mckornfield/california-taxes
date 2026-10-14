@@ -63,6 +63,7 @@ SECTIONS = [
         "07_local_spending.ipynb",
         "08_school_districts.ipynb",
         "08b_school_spending_detail.ipynb",
+        "08c_higher_education.ipynb",
         "09_county_maps.ipynb",
     ]),
     ("Putting it together", [

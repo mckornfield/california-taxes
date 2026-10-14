@@ -1,0 +1,578 @@
+fy,system,function,amount_k,salaries_k
+2004,CSU,Instruction,1730018.794,1211129.828
+2004,UC,Instruction,2834125.136,2178650.431
+2005,CSU,Instruction,1688610.272,1174834.192
+2005,Community colleges,Instruction,2584141.117,1964554.399
+2005,UC,Instruction,3024738.654,2245236.825
+2006,CSU,Instruction,1819277.91,1271122.823
+2006,Community colleges,Instruction,2847600.75,2150001.964
+2006,UC,Instruction,3190392.714,2367498.468
+2007,CSU,Instruction,1930549.74,1365069.888
+2007,Community colleges,Instruction,3078406.51,2330529.044
+2007,UC,Instruction,3467284.633,2568631.13
+2008,CSU,Instruction,2519271.171,1470396.42
+2008,Community colleges,Instruction,3383622.07,2470118.524
+2008,UC,Instruction,3794283.966,2774645.094
+2009,CSU,Instruction,2600751.976,1485293.368
+2009,Community colleges,Instruction,3439586.51,2552607.091
+2009,UC,Instruction,3894353.56,2869682.086
+2010,CSU,Instruction,2329854.122,1286894.246
+2010,Community colleges,Instruction,3745639.633,2433164.797
+2010,UC,Instruction,4122517.889,2833188.806
+2011,CSU,Instruction,2555330.281,1374359.388
+2011,Community colleges,Instruction,4017045.511,2495457.978
+2011,UC,Instruction,4470237.172,3031297.341
+2012,CSU,Instruction,2622559.626,1394981.739
+2012,Community colleges,Instruction,3924141.848,2323756.708
+2012,UC,Instruction,4827032.06,3200477.872
+2013,CSU,Instruction,2672051.065,1390767.691
+2013,Community colleges,Instruction,3889286.583,2302439.609
+2013,UC,Instruction,5151380.969,3393263.439
+2014,CSU,Instruction,2797512.556,1454460.836
+2014,Community colleges,Instruction,4091001.937,2420436.489
+2014,UC,Instruction,5568131.538,3598857.492
+2015,CSU,Instruction,2900163.516,1562558.899
+2015,Community colleges,Instruction,4388180.008,2561088.461
+2015,UC,Instruction,6176597.006,3838297.512
+2016,CSU,Instruction,3075752.061,1623416.503
+2016,Community colleges,Instruction,4611222.597,2788212.257
+2016,UC,Instruction,6465068.181,4076914.356
+2017,CSU,Instruction,3029103.029,1775999.512
+2017,Community colleges,Instruction,4895603.948,2853876.008
+2017,UC,Instruction,7028176.277,4546318.585
+2018,CSU,Instruction,3167041.406,1889902.937
+2018,Community colleges,Instruction,5051970.296,2941067.206
+2018,UC,Instruction,6733804.334,4760827.253
+2019,CSU,Instruction,3291417.586,1946325.842
+2019,Community colleges,Instruction,5184487.907,3052246.688
+2019,UC,Instruction,7274009.056,5117291.56
+2020,CSU,Instruction,3376019.07,2026766.926
+2020,Community colleges,Instruction,5120281.309,3129294.424
+2020,UC,Instruction,7873178.541,5559657.509
+2021,CSU,Instruction,3181585.11,1884081.848
+2021,Community colleges,Instruction,4852620.834,3061145.77
+2021,UC,Instruction,8285573.444,5586601.165
+2022,CSU,Instruction,3493501.791,2167419.011
+2022,Community colleges,Instruction,4812989.963,3095725.764
+2022,UC,Instruction,9035274.812,5918531.573
+2023,CSU,Instruction,3610226.116,2194224.712
+2023,Community colleges,Instruction,5222426.086,3310711.845
+2023,UC,Instruction,9376132.977,6364117.881
+2004,CSU,Research,21905.298,6912.367
+2004,UC,Research,2683074.0,1469160.0
+2005,CSU,Research,24187.489,7170.797
+2005,Community colleges,Research,10059.493,7620.649
+2005,UC,Research,2802922.0,1515030.0
+2006,CSU,Research,29013.344,10196.98
+2006,Community colleges,Research,11345.026,8729.636
+2006,UC,Research,2922990.0,1571137.0
+2007,CSU,Research,35941.992,13891.351
+2007,Community colleges,Research,4012.923,2498.089
+2007,UC,Research,3042957.0,1641395.0
+2008,CSU,Research,32609.987,11536.346
+2008,Community colleges,Research,4236.477,2425.707
+2008,UC,Research,3219506.0,1716287.0
+2009,CSU,Research,33234.59,12184.132
+2009,Community colleges,Research,6923.928,3537.761
+2009,UC,Research,3442498.0,1800301.0
+2010,CSU,Research,54816.171,20030.908
+2010,Community colleges,Research,6919.238,3982.762
+2010,UC,Research,4143333.1,1895513.563
+2011,CSU,Research,55270.961,22060.635
+2011,Community colleges,Research,5430.252,3274.249
+2011,UC,Research,4383397.0,1921663.0
+2012,CSU,Research,53037.129,20382.629
+2012,Community colleges,Research,6123.198,3746.676
+2012,UC,Research,4574782.0,1956792.0
+2013,CSU,Research,53180.135,20788.025
+2013,Community colleges,Research,5830.942,3351.457
+2013,UC,Research,4593045.658,1959772.792
+2014,CSU,Research,56749.921,20427.169
+2014,Community colleges,Research,6470.089,3565.118
+2014,UC,Research,4648773.254,2002955.399
+2015,CSU,Research,58913.224,23346.397
+2015,Community colleges,Research,6933.614,3880.575
+2015,UC,Research,4817727.169,2076646.309
+2016,CSU,Research,64752.271,24114.85
+2016,Community colleges,Research,8777.943,4388.833
+2016,UC,Research,4976838.524,2017253.115
+2017,CSU,Research,63528.009,28337.579
+2017,Community colleges,Research,8299.694,5008.343
+2017,UC,Research,5151388.877,2240377.748
+2018,CSU,Research,68819.113,31361.865
+2018,Community colleges,Research,10021.239,5282.797
+2018,UC,Research,5084334.223,2340204.611
+2019,CSU,Research,72684.744,29221.085
+2019,Community colleges,Research,10357.52,6004.53
+2019,UC,Research,5162528.64,2447409.748
+2020,CSU,Research,71994.919,30970.608
+2020,Community colleges,Research,9789.14,5342.168
+2020,UC,Research,5336776.071,2596220.295
+2021,CSU,Research,69742.742,31436.601
+2021,Community colleges,Research,9052.921,5323.851
+2021,UC,Research,5813452.604,2624374.992
+2022,CSU,Research,71937.113,32243.104
+2022,Community colleges,Research,10012.802,5752.729
+2022,UC,Research,6500993.215,2826046.564
+2023,CSU,Research,94565.268,44225.114
+2023,Community colleges,Research,10544.661,6314.968
+2023,UC,Research,6657118.978,3027557.518
+2004,CSU,Public service,71475.629,22709.526
+2004,UC,Public service,273842.9,152844.994
+2005,CSU,Public service,70446.943,30379.861
+2005,Community colleges,Public service,77520.568,43056.489
+2005,UC,Public service,280751.03,153262.079
+2006,CSU,Public service,66282.093,30357.62
+2006,Community colleges,Public service,88225.406,47806.139
+2006,UC,Public service,298357.701,163688.043
+2007,CSU,Public service,78465.856,30991.953
+2007,Community colleges,Public service,93007.27,50551.037
+2007,UC,Public service,315866.695,174194.0
+2008,CSU,Public service,66824.161,23109.401
+2008,Community colleges,Public service,99493.095,50352.508
+2008,UC,Public service,336341.754,182332.2
+2009,CSU,Public service,71777.665,26692.042
+2009,Community colleges,Public service,98964.155,51017.849
+2009,UC,Public service,346060.178,195721.305
+2010,CSU,Public service,79307.613,30126.995
+2010,Community colleges,Public service,109698.514,48549.049
+2010,UC,Public service,395967.284,207130.351
+2011,CSU,Public service,79616.711,32502.219
+2011,Community colleges,Public service,142372.327,67148.865
+2011,UC,Public service,444191.821,221517.2
+2012,CSU,Public service,83561.289,31585.13
+2012,Community colleges,Public service,164809.054,70170.136
+2012,UC,Public service,483540.239,233471.497
+2013,CSU,Public service,81060.343,31449.422
+2013,Community colleges,Public service,134452.834,55320.424
+2013,UC,Public service,498199.447,238324.906
+2014,CSU,Public service,66886.426,29523.294
+2014,Community colleges,Public service,126086.118,52304.9
+2014,UC,Public service,507441.832,216488.951
+2015,CSU,Public service,68113.637,29634.178
+2015,Community colleges,Public service,134644.523,53192.779
+2015,UC,Public service,484587.715,226734.045
+2016,CSU,Public service,70420.811,28878.329
+2016,Community colleges,Public service,129335.888,56918.495
+2016,UC,Public service,527108.943,222749.005
+2017,CSU,Public service,58383.336,27511.761
+2017,Community colleges,Public service,141277.959,66035.354
+2017,UC,Public service,582958.313,265764.27
+2018,CSU,Public service,62140.91,28705.939
+2018,Community colleges,Public service,160966.364,66848.408
+2018,UC,Public service,594547.625,285905.42
+2019,CSU,Public service,65122.226,29726.863
+2019,Community colleges,Public service,170969.952,70511.339
+2019,UC,Public service,597212.269,296580.303
+2020,CSU,Public service,62878.208,29261.234
+2020,Community colleges,Public service,153317.341,69477.459
+2020,UC,Public service,641629.584,328755.761
+2021,CSU,Public service,50386.454,24376.865
+2021,Community colleges,Public service,142792.908,64140.773
+2021,UC,Public service,782045.303,339117.144
+2022,CSU,Public service,50322.473,23221.866
+2022,Community colleges,Public service,166081.297,73360.232
+2022,UC,Public service,874782.918,422788.692
+2023,CSU,Public service,63812.628,25487.895
+2023,Community colleges,Public service,179092.889,78582.562
+2023,UC,Public service,933276.079,470307.515
+2004,CSU,"Academic support (libraries, deans, museums)",458988.39,267815.8
+2004,UC,"Academic support (libraries, deans, museums)",983889.178,667718.018
+2005,CSU,"Academic support (libraries, deans, museums)",441168.063,251280.073
+2005,Community colleges,"Academic support (libraries, deans, museums)",511152.349,338340.322
+2005,UC,"Academic support (libraries, deans, museums)",952877.912,657928.232
+2006,CSU,"Academic support (libraries, deans, museums)",472530.195,268089.288
+2006,Community colleges,"Academic support (libraries, deans, museums)",560756.893,373008.811
+2006,UC,"Academic support (libraries, deans, museums)",1043171.82,708912.11
+2007,CSU,"Academic support (libraries, deans, museums)",502972.608,285410.971
+2007,Community colleges,"Academic support (libraries, deans, museums)",599270.341,400835.795
+2007,UC,"Academic support (libraries, deans, museums)",1122504.973,764956.754
+2008,CSU,"Academic support (libraries, deans, museums)",632949.432,306013.465
+2008,Community colleges,"Academic support (libraries, deans, museums)",682993.172,444806.249
+2008,UC,"Academic support (libraries, deans, museums)",1274175.925,837823.845
+2009,CSU,"Academic support (libraries, deans, museums)",663359.828,312837.005
+2009,Community colleges,"Academic support (libraries, deans, museums)",730626.459,473759.166
+2009,UC,"Academic support (libraries, deans, museums)",1303632.929,896428.723
+2010,CSU,"Academic support (libraries, deans, museums)",605100.663,279710.01
+2010,Community colleges,"Academic support (libraries, deans, museums)",825259.551,468657.235
+2010,UC,"Academic support (libraries, deans, museums)",1522058.182,872637.93
+2011,CSU,"Academic support (libraries, deans, museums)",659120.425,299819.544
+2011,Community colleges,"Academic support (libraries, deans, museums)",854499.907,472772.03
+2011,UC,"Academic support (libraries, deans, museums)",1704118.296,927400.773
+2012,CSU,"Academic support (libraries, deans, museums)",667950.659,303042.093
+2012,Community colleges,"Academic support (libraries, deans, museums)",811799.656,425728.633
+2012,UC,"Academic support (libraries, deans, museums)",1929473.682,990392.311
+2013,CSU,"Academic support (libraries, deans, museums)",704467.196,303313.865
+2013,Community colleges,"Academic support (libraries, deans, museums)",854507.555,449463.501
+2013,UC,"Academic support (libraries, deans, museums)",2080395.324,1022832.407
+2014,CSU,"Academic support (libraries, deans, museums)",742362.124,318955.923
+2014,Community colleges,"Academic support (libraries, deans, museums)",880344.72,461072.54
+2014,UC,"Academic support (libraries, deans, museums)",2105745.86,1077174.844
+2015,CSU,"Academic support (libraries, deans, museums)",829721.98,356053.201
+2015,Community colleges,"Academic support (libraries, deans, museums)",892988.207,476315.645
+2015,UC,"Academic support (libraries, deans, museums)",2178591.847,1081357.387
+2016,CSU,"Academic support (libraries, deans, museums)",900008.803,367258.867
+2016,Community colleges,"Academic support (libraries, deans, museums)",958408.453,532894.009
+2016,UC,"Academic support (libraries, deans, museums)",2486514.631,1291361.375
+2017,CSU,"Academic support (libraries, deans, museums)",835863.015,392735.911
+2017,Community colleges,"Academic support (libraries, deans, museums)",1010288.155,532349.63
+2017,UC,"Academic support (libraries, deans, museums)",2610595.505,1193686.568
+2018,CSU,"Academic support (libraries, deans, museums)",862761.319,423678.504
+2018,Community colleges,"Academic support (libraries, deans, museums)",1081391.227,563379.882
+2018,UC,"Academic support (libraries, deans, museums)",2767235.756,1320271.373
+2019,CSU,"Academic support (libraries, deans, museums)",911457.637,435461.987
+2019,Community colleges,"Academic support (libraries, deans, museums)",1150344.204,586230.509
+2019,UC,"Academic support (libraries, deans, museums)",2881167.022,1390623.866
+2020,CSU,"Academic support (libraries, deans, museums)",935920.376,459091.508
+2020,Community colleges,"Academic support (libraries, deans, museums)",1112762.57,605543.51
+2020,UC,"Academic support (libraries, deans, museums)",3311211.121,1544123.187
+2021,CSU,"Academic support (libraries, deans, museums)",879624.836,445204.96
+2021,Community colleges,"Academic support (libraries, deans, museums)",1134248.105,616215.639
+2021,UC,"Academic support (libraries, deans, museums)",3402973.217,1503868.422
+2022,CSU,"Academic support (libraries, deans, museums)",926038.075,443318.797
+2022,Community colleges,"Academic support (libraries, deans, museums)",1160558.021,650524.318
+2022,UC,"Academic support (libraries, deans, museums)",3397409.516,1613748.421
+2023,CSU,"Academic support (libraries, deans, museums)",998209.485,497846.875
+2023,Community colleges,"Academic support (libraries, deans, museums)",1238471.389,676184.393
+2023,UC,"Academic support (libraries, deans, museums)",3610671.612,1788422.054
+2004,CSU,"Student services (admissions, advising, aid administration)",390023.831,237210.824
+2004,UC,"Student services (admissions, advising, aid administration)",400405.932,226893.068
+2005,CSU,"Student services (admissions, advising, aid administration)",398884.947,236272.956
+2005,Community colleges,"Student services (admissions, advising, aid administration)",730756.02,484124.831
+2005,UC,"Student services (admissions, advising, aid administration)",423743.056,229814.081
+2006,CSU,"Student services (admissions, advising, aid administration)",441755.211,257712.865
+2006,Community colleges,"Student services (admissions, advising, aid administration)",760791.696,516177.929
+2006,UC,"Student services (admissions, advising, aid administration)",453526.265,244833.934
+2007,CSU,"Student services (admissions, advising, aid administration)",499768.28,287880.976
+2007,Community colleges,"Student services (admissions, advising, aid administration)",849897.414,582648.188
+2007,UC,"Student services (admissions, advising, aid administration)",484197.243,265797.907
+2008,CSU,"Student services (admissions, advising, aid administration)",649454.529,314669.192
+2008,Community colleges,"Student services (admissions, advising, aid administration)",935571.465,625427.316
+2008,UC,"Student services (admissions, advising, aid administration)",551664.797,288442.893
+2009,CSU,"Student services (admissions, advising, aid administration)",689215.116,330654.485
+2009,Community colleges,"Student services (admissions, advising, aid administration)",980261.6,657913.148
+2009,UC,"Student services (admissions, advising, aid administration)",561601.876,305101.416
+2010,CSU,"Student services (admissions, advising, aid administration)",679426.648,300330.669
+2010,Community colleges,"Student services (admissions, advising, aid administration)",1056193.265,622726.038
+2010,UC,"Student services (admissions, advising, aid administration)",625477.591,298674.078
+2011,CSU,"Student services (admissions, advising, aid administration)",745017.074,322546.594
+2011,Community colleges,"Student services (admissions, advising, aid administration)",1079589.177,617854.482
+2011,UC,"Student services (admissions, advising, aid administration)",681895.021,301201.413
+2012,CSU,"Student services (admissions, advising, aid administration)",770101.38,324830.53
+2012,Community colleges,"Student services (admissions, advising, aid administration)",1094110.691,588567.319
+2012,UC,"Student services (admissions, advising, aid administration)",768593.782,322399.736
+2013,CSU,"Student services (admissions, advising, aid administration)",806053.366,326061.323
+2013,Community colleges,"Student services (admissions, advising, aid administration)",1080803.951,579912.287
+2013,UC,"Student services (admissions, advising, aid administration)",829344.426,343267.01
+2014,CSU,"Student services (admissions, advising, aid administration)",856163.961,343832.187
+2014,Community colleges,"Student services (admissions, advising, aid administration)",1137704.286,616401.478
+2014,UC,"Student services (admissions, advising, aid administration)",947280.883,369499.46
+2015,CSU,"Student services (admissions, advising, aid administration)",894987.523,370380.48
+2015,Community colleges,"Student services (admissions, advising, aid administration)",1299130.946,686345.0
+2015,UC,"Student services (admissions, advising, aid administration)",1045977.745,403691.901
+2016,CSU,"Student services (admissions, advising, aid administration)",993909.102,394439.865
+2016,Community colleges,"Student services (admissions, advising, aid administration)",1468168.703,821539.403
+2016,UC,"Student services (admissions, advising, aid administration)",1118888.306,427340.728
+2017,CSU,"Student services (admissions, advising, aid administration)",947025.977,416051.831
+2017,Community colleges,"Student services (admissions, advising, aid administration)",1631861.212,884262.052
+2017,UC,"Student services (admissions, advising, aid administration)",1224517.815,467819.302
+2018,CSU,"Student services (admissions, advising, aid administration)",982538.547,450497.385
+2018,Community colleges,"Student services (admissions, advising, aid administration)",1732443.803,932287.054
+2018,UC,"Student services (admissions, advising, aid administration)",1213126.354,485698.711
+2019,CSU,"Student services (admissions, advising, aid administration)",1031526.481,465588.492
+2019,Community colleges,"Student services (admissions, advising, aid administration)",1720609.772,962661.508
+2019,UC,"Student services (admissions, advising, aid administration)",1287349.702,509965.342
+2020,CSU,"Student services (admissions, advising, aid administration)",1042794.29,490728.067
+2020,Community colleges,"Student services (admissions, advising, aid administration)",1797834.514,1039691.332
+2020,UC,"Student services (admissions, advising, aid administration)",1296746.941,538963.168
+2021,CSU,"Student services (admissions, advising, aid administration)",1181330.155,459885.01
+2021,Community colleges,"Student services (admissions, advising, aid administration)",1761200.374,1013962.842
+2021,UC,"Student services (admissions, advising, aid administration)",1254233.657,500484.573
+2022,CSU,"Student services (admissions, advising, aid administration)",1329958.73,481165.417
+2022,Community colleges,"Student services (admissions, advising, aid administration)",1759832.916,1040936.528
+2022,UC,"Student services (admissions, advising, aid administration)",1409364.313,534865.157
+2023,CSU,"Student services (admissions, advising, aid administration)",1507036.256,558742.678
+2023,Community colleges,"Student services (admissions, advising, aid administration)",1981752.614,1165392.103
+2023,UC,"Student services (admissions, advising, aid administration)",1515636.451,592539.08
+2004,CSU,Institutional support (administration),582161.471,286684.261
+2004,UC,Institutional support (administration),531005.251,439366.55
+2005,CSU,Institutional support (administration),460944.078,237653.545
+2005,Community colleges,Institutional support (administration),817890.736,421152.664
+2005,UC,Institutional support (administration),553569.401,451141.352
+2006,CSU,Institutional support (administration),477895.12,256351.717
+2006,Community colleges,Institutional support (administration),876359.245,442371.861
+2006,UC,Institutional support (administration),630643.607,506255.008
+2007,CSU,Institutional support (administration),502132.791,279981.299
+2007,Community colleges,Institutional support (administration),976138.833,481558.172
+2007,UC,Institutional support (administration),712376.102,566281.744
+2008,CSU,Institutional support (administration),691634.995,313202.982
+2008,Community colleges,Institutional support (administration),1100481.997,510123.46
+2008,UC,Institutional support (administration),765871.98,627336.815
+2009,CSU,Institutional support (administration),696202.536,318030.673
+2009,Community colleges,Institutional support (administration),1091993.324,532154.105
+2009,UC,Institutional support (administration),801376.791,645434.249
+2010,CSU,Institutional support (administration),633848.772,280515.399
+2010,Community colleges,Institutional support (administration),1220323.755,502567.112
+2010,UC,Institutional support (administration),857997.913,584387.26
+2011,CSU,Institutional support (administration),699373.751,292308.24
+2011,Community colleges,Institutional support (administration),1315539.506,535029.818
+2011,UC,Institutional support (administration),894503.181,577629.384
+2012,CSU,Institutional support (administration),690984.297,295675.935
+2012,Community colleges,Institutional support (administration),1302716.598,490171.439
+2012,UC,Institutional support (administration),1115353.88,685681.88
+2013,CSU,Institutional support (administration),702286.636,293623.691
+2013,Community colleges,Institutional support (administration),1279424.561,469871.958
+2013,UC,Institutional support (administration),1159400.368,709799.181
+2014,CSU,Institutional support (administration),747451.469,310073.715
+2014,Community colleges,Institutional support (administration),1302230.302,494106.899
+2014,UC,Institutional support (administration),1309505.934,708405.826
+2015,CSU,Institutional support (administration),790485.227,331074.27
+2015,Community colleges,Institutional support (administration),1382663.93,506121.402
+2015,UC,Institutional support (administration),1370124.972,838022.977
+2016,CSU,Institutional support (administration),862477.885,359341.185
+2016,Community colleges,Institutional support (administration),1509480.023,586470.755
+2016,UC,Institutional support (administration),1573281.256,1025350.457
+2017,CSU,Institutional support (administration),835417.467,371181.899
+2017,Community colleges,Institutional support (administration),1632507.013,654634.364
+2017,UC,Institutional support (administration),1626412.364,1138699.272
+2018,CSU,Institutional support (administration),843602.506,390565.479
+2018,Community colleges,Institutional support (administration),1637054.708,687385.93
+2018,UC,Institutional support (administration),1431728.584,1209010.272
+2019,CSU,Institutional support (administration),895035.508,400850.255
+2019,Community colleges,Institutional support (administration),1791247.861,738446.523
+2019,UC,Institutional support (administration),1615791.872,1270087.578
+2020,CSU,Institutional support (administration),951780.233,423500.738
+2020,Community colleges,Institutional support (administration),1858821.033,765091.356
+2020,UC,Institutional support (administration),1819611.27,1248286.367
+2021,CSU,Institutional support (administration),949895.982,431341.994
+2021,Community colleges,Institutional support (administration),1836610.044,757369.784
+2021,UC,Institutional support (administration),2049175.012,1305596.821
+2022,CSU,Institutional support (administration),1127491.065,407721.754
+2022,Community colleges,Institutional support (administration),1971345.722,784936.072
+2022,UC,Institutional support (administration),1944985.173,1340006.43
+2023,CSU,Institutional support (administration),1116352.372,484846.525
+2023,Community colleges,Institutional support (administration),2090221.991,820259.771
+2023,UC,Institutional support (administration),2025038.788,1428379.232
+2004,CSU,Scholarships and fellowships,427042.475,0.0
+2004,UC,Scholarships and fellowships,357039.602,0.0
+2005,CSU,Scholarships and fellowships,470582.238,0.0
+2005,Community colleges,Scholarships and fellowships,570630.401,0.0
+2005,UC,Scholarships and fellowships,367960.038,0.0
+2006,CSU,Scholarships and fellowships,466118.4,0.0
+2006,Community colleges,Scholarships and fellowships,556497.001,0.0
+2006,UC,Scholarships and fellowships,361964.912,0.0
+2007,CSU,Scholarships and fellowships,479063.252,0.0
+2007,Community colleges,Scholarships and fellowships,567172.4,0.0
+2007,UC,Scholarships and fellowships,369616.349,0.0
+2008,CSU,Scholarships and fellowships,517515.684,0.0
+2008,Community colleges,Scholarships and fellowships,609222.382,0.0
+2008,UC,Scholarships and fellowships,425017.089,0.0
+2009,CSU,Scholarships and fellowships,583046.771,0.0
+2009,Community colleges,Scholarships and fellowships,773684.869,0.0
+2009,UC,Scholarships and fellowships,464372.589,0.0
+2010,CSU,Scholarships and fellowships,742229.973,0.0
+2010,Community colleges,Scholarships and fellowships,1226829.955,0.0
+2010,UC,Scholarships and fellowships,544138.334,0.0
+2011,CSU,Scholarships and fellowships,801896.732,0.0
+2011,Community colleges,Scholarships and fellowships,1531174.607,0.0
+2011,UC,Scholarships and fellowships,600649.78,0.0
+2012,CSU,Scholarships and fellowships,834689.268,0.0
+2012,Community colleges,Scholarships and fellowships,1465020.601,0.0
+2012,UC,Scholarships and fellowships,600761.942,0.0
+2013,CSU,Scholarships and fellowships,826302.596,0.0
+2013,Community colleges,Scholarships and fellowships,1386919.499,0.0
+2013,UC,Scholarships and fellowships,603409.219,0.0
+2014,CSU,Scholarships and fellowships,858321.722,0.0
+2014,Community colleges,Scholarships and fellowships,1462172.175,0.0
+2014,UC,Scholarships and fellowships,580741.085,0.0
+2015,CSU,Scholarships and fellowships,887487.252,0.0
+2015,Community colleges,Scholarships and fellowships,1537759.963,0.0
+2015,UC,Scholarships and fellowships,552884.537,0.0
+2016,CSU,Scholarships and fellowships,880615.013,0.0
+2016,Community colleges,Scholarships and fellowships,1564252.376,0.0
+2016,UC,Scholarships and fellowships,647396.691,0.0
+2017,CSU,Scholarships and fellowships,843138.477,0.0
+2017,Community colleges,Scholarships and fellowships,1530080.535,0.0
+2017,UC,Scholarships and fellowships,719010.241,0.0
+2018,CSU,Scholarships and fellowships,890156.547,0.0
+2018,Community colleges,Scholarships and fellowships,1645592.629,0.0
+2018,UC,Scholarships and fellowships,749817.15,0.0
+2019,CSU,Scholarships and fellowships,913523.046,0.0
+2019,Community colleges,Scholarships and fellowships,1664143.136,0.0
+2019,UC,Scholarships and fellowships,835585.11,0.0
+2020,CSU,Scholarships and fellowships,1195011.716,0.0
+2020,Community colleges,Scholarships and fellowships,1922008.172,0.0
+2020,UC,Scholarships and fellowships,1018914.979,0.0
+2021,CSU,Scholarships and fellowships,1334151.153,0.0
+2021,Community colleges,Scholarships and fellowships,1991381.314,0.0
+2021,UC,Scholarships and fellowships,1098508.692,0.0
+2022,CSU,Scholarships and fellowships,1705064.688,0.0
+2022,Community colleges,Scholarships and fellowships,2378573.165,0.0
+2022,UC,Scholarships and fellowships,1164285.788,0.0
+2023,CSU,Scholarships and fellowships,1241692.048,0.0
+2023,Community colleges,Scholarships and fellowships,2056166.565,0.0
+2023,UC,Scholarships and fellowships,863777.95,0.0
+2004,CSU,"Auxiliary enterprises (housing, dining, bookstores)",179190.995,49752.958
+2004,UC,"Auxiliary enterprises (housing, dining, bookstores)",649923.878,215808.101
+2005,CSU,"Auxiliary enterprises (housing, dining, bookstores)",208783.177,57550.354
+2005,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",432886.067,146938.878
+2005,UC,"Auxiliary enterprises (housing, dining, bookstores)",699725.335,226749.01
+2006,CSU,"Auxiliary enterprises (housing, dining, bookstores)",220865.581,56784.997
+2006,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",438624.254,151661.679
+2006,UC,"Auxiliary enterprises (housing, dining, bookstores)",724281.39,238920.826
+2007,CSU,"Auxiliary enterprises (housing, dining, bookstores)",196548.445,52595.716
+2007,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",471490.243,164739.207
+2007,UC,"Auxiliary enterprises (housing, dining, bookstores)",810099.826,263231.301
+2008,CSU,"Auxiliary enterprises (housing, dining, bookstores)",260075.997,56041.007
+2008,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",457509.168,174981.894
+2008,UC,"Auxiliary enterprises (housing, dining, bookstores)",923965.527,297945.35
+2009,CSU,"Auxiliary enterprises (housing, dining, bookstores)",310600.57,62306.671
+2009,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",498225.635,186713.958
+2009,UC,"Auxiliary enterprises (housing, dining, bookstores)",934007.41,312501.28
+2010,CSU,"Auxiliary enterprises (housing, dining, bookstores)",283254.254,59353.103
+2010,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",530287.904,183118.698
+2010,UC,"Auxiliary enterprises (housing, dining, bookstores)",1550606.192,314223.28
+2011,CSU,"Auxiliary enterprises (housing, dining, bookstores)",297799.503,62944.365
+2011,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",524439.901,184232.234
+2011,UC,"Auxiliary enterprises (housing, dining, bookstores)",1654463.847,321116.476
+2012,CSU,"Auxiliary enterprises (housing, dining, bookstores)",333337.767,65202.02
+2012,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",506245.192,180523.299
+2012,UC,"Auxiliary enterprises (housing, dining, bookstores)",1775381.309,333835.566
+2013,CSU,"Auxiliary enterprises (housing, dining, bookstores)",355860.284,66456.413
+2013,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",466454.558,158935.34
+2013,UC,"Auxiliary enterprises (housing, dining, bookstores)",1891069.183,362711.727
+2014,CSU,"Auxiliary enterprises (housing, dining, bookstores)",386392.996,69185.293
+2014,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",448258.02,159169.178
+2014,UC,"Auxiliary enterprises (housing, dining, bookstores)",1919289.32,376104.8
+2015,CSU,"Auxiliary enterprises (housing, dining, bookstores)",406510.675,72591.012
+2015,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",447401.784,161200.377
+2015,UC,"Auxiliary enterprises (housing, dining, bookstores)",1982529.247,395917.909
+2016,CSU,"Auxiliary enterprises (housing, dining, bookstores)",449505.757,76645.135
+2016,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",446854.481,165667.146
+2016,UC,"Auxiliary enterprises (housing, dining, bookstores)",2086870.154,408243.156
+2017,CSU,"Auxiliary enterprises (housing, dining, bookstores)",452950.848,81839.697
+2017,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",479336.238,174719.862
+2017,UC,"Auxiliary enterprises (housing, dining, bookstores)",2211222.305,532797.446
+2018,CSU,"Auxiliary enterprises (housing, dining, bookstores)",483794.94,91472.479
+2018,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",528567.085,173600.026
+2018,UC,"Auxiliary enterprises (housing, dining, bookstores)",2173769.636,549166.746
+2019,CSU,"Auxiliary enterprises (housing, dining, bookstores)",506121.844,89172.117
+2019,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",532043.188,179724.598
+2019,UC,"Auxiliary enterprises (housing, dining, bookstores)",2264718.167,563810.082
+2020,CSU,"Auxiliary enterprises (housing, dining, bookstores)",517617.17,92090.507
+2020,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",500262.999,171759.872
+2020,UC,"Auxiliary enterprises (housing, dining, bookstores)",2311571.677,584458.756
+2021,CSU,"Auxiliary enterprises (housing, dining, bookstores)",559041.861,67828.973
+2021,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",418158.891,143204.512
+2021,UC,"Auxiliary enterprises (housing, dining, bookstores)",1976204.717,455006.242
+2022,CSU,"Auxiliary enterprises (housing, dining, bookstores)",705469.71,91831.916
+2022,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",396887.605,160630.904
+2022,UC,"Auxiliary enterprises (housing, dining, bookstores)",2509539.417,526145.253
+2023,CSU,"Auxiliary enterprises (housing, dining, bookstores)",902654.097,110293.491
+2023,Community colleges,"Auxiliary enterprises (housing, dining, bookstores)",411727.714,182204.947
+2023,UC,"Auxiliary enterprises (housing, dining, bookstores)",2915442.579,615547.166
+2004,UC,Hospitals and clinical care,3352535.0,1450258.0
+2005,UC,Hospitals and clinical care,3586742.0,1574623.0
+2006,UC,Hospitals and clinical care,3718643.0,1696248.0
+2007,UC,Hospitals and clinical care,4080607.0,1924207.0
+2008,UC,Hospitals and clinical care,4514746.0,2140451.0
+2009,UC,Hospitals and clinical care,4912639.0,2312344.0
+2010,UC,Hospitals and clinical care,5286240.66,2426271.419
+2011,UC,Hospitals and clinical care,5643725.0,2573378.0
+2012,UC,Hospitals and clinical care,6292381.0,2859619.0
+2013,UC,Hospitals and clinical care,6776123.895,3039690.932
+2014,UC,Hospitals and clinical care,7511394.864,3226925.336
+2015,UC,Hospitals and clinical care,8132663.232,3547947.701
+2016,UC,Hospitals and clinical care,9797318.232,3864750.099
+2017,UC,Hospitals and clinical care,10657038.035,4516145.889
+2018,UC,Hospitals and clinical care,10229006.917,4727396.974
+2019,UC,Hospitals and clinical care,11843933.771,5112579.379
+2020,UC,Hospitals and clinical care,13389348.708,5732858.179
+2021,UC,Hospitals and clinical care,14409579.932,5879812.019
+2022,UC,Hospitals and clinical care,16132922.103,6505282.494
+2023,UC,Hospitals and clinical care,16858784.967,7372918.786
+2004,UC,"Other, unassigned (grows after FY2016)",62015.0,0.0
+2005,Community colleges,"Other, unassigned (grows after FY2016)",316491.268,41040.876
+2005,UC,"Other, unassigned (grows after FY2016)",73343.0,0.0
+2006,Community colleges,"Other, unassigned (grows after FY2016)",279635.232,48757.232
+2006,UC,"Other, unassigned (grows after FY2016)",86146.775,0.0
+2007,Community colleges,"Other, unassigned (grows after FY2016)",364296.161,52701.313
+2007,UC,"Other, unassigned (grows after FY2016)",121208.0,1.0
+2008,Community colleges,"Other, unassigned (grows after FY2016)",460242.07,62146.156
+2008,UC,"Other, unassigned (grows after FY2016)",77279.0,467.0
+2009,CSU,"Other, unassigned (grows after FY2016)",20360.337,0.0
+2009,Community colleges,"Other, unassigned (grows after FY2016)",580954.714,65720.964
+2009,UC,"Other, unassigned (grows after FY2016)",106928.0,1235.0
+2010,CSU,"Other, unassigned (grows after FY2016)",2039.028,0.0
+2010,Community colleges,"Other, unassigned (grows after FY2016)",711017.623,69704.023
+2010,UC,"Other, unassigned (grows after FY2016)",195707.76,23153.176
+2011,CSU,"Other, unassigned (grows after FY2016)",24681.204,0.0
+2011,Community colleges,"Other, unassigned (grows after FY2016)",903455.243,87382.572
+2011,UC,"Other, unassigned (grows after FY2016)",752451.0,0.0
+2012,CSU,"Other, unassigned (grows after FY2016)",82.318,0.0
+2012,Community colleges,"Other, unassigned (grows after FY2016)",790489.758,74092.741
+2012,UC,"Other, unassigned (grows after FY2016)",215997.139,0.0
+2013,CSU,"Other, unassigned (grows after FY2016)",764.146,0.0
+2013,Community colleges,"Other, unassigned (grows after FY2016)",719789.991,66074.354
+2013,UC,"Other, unassigned (grows after FY2016)",197243.634,0.0
+2014,CSU,"Other, unassigned (grows after FY2016)",1901.677,0.0
+2014,Community colleges,"Other, unassigned (grows after FY2016)",745666.063,67169.763
+2014,UC,"Other, unassigned (grows after FY2016)",343421.048,0.004
+2015,CSU,"Other, unassigned (grows after FY2016)",2000.415,0.0
+2015,Community colleges,"Other, unassigned (grows after FY2016)",783639.557,90994.159
+2015,UC,"Other, unassigned (grows after FY2016)",157991.441,0.005
+2016,CSU,"Other, unassigned (grows after FY2016)",10209.769,0.0
+2016,Community colleges,"Other, unassigned (grows after FY2016)",1051896.155,172379.183
+2016,UC,"Other, unassigned (grows after FY2016)",435802.733,0.001
+2017,CSU,"Other, unassigned (grows after FY2016)",860753.587,0.0
+2017,Community colleges,"Other, unassigned (grows after FY2016)",1209624.181,142743.48
+2017,UC,"Other, unassigned (grows after FY2016)",685662.155,0.0
+2018,CSU,"Other, unassigned (grows after FY2016)",2332813.354,0.0
+2018,Community colleges,"Other, unassigned (grows after FY2016)",1561048.962,146586.372
+2018,UC,"Other, unassigned (grows after FY2016)",2486710.75,0.0
+2019,CSU,"Other, unassigned (grows after FY2016)",1965945.669,0.0
+2019,Community colleges,"Other, unassigned (grows after FY2016)",2039574.771,158539.433
+2019,UC,"Other, unassigned (grows after FY2016)",3592831.663,0.0
+2020,CSU,"Other, unassigned (grows after FY2016)",2525416.259,0.0
+2020,Community colleges,"Other, unassigned (grows after FY2016)",2439718.612,175596.515
+2020,UC,"Other, unassigned (grows after FY2016)",2862103.383,0.663
+2021,CSU,"Other, unassigned (grows after FY2016)",2035538.295,110721.663
+2021,Community colleges,"Other, unassigned (grows after FY2016)",2729210.4,219443.341
+2021,UC,"Other, unassigned (grows after FY2016)",786920.516,0.0
+2022,CSU,"Other, unassigned (grows after FY2016)",1265727.239,0.004
+2022,Community colleges,"Other, unassigned (grows after FY2016)",2300793.537,218803.447
+2022,UC,"Other, unassigned (grows after FY2016)",5857802.183,0.0
+2023,CSU,"Other, unassigned (grows after FY2016)",1226924.295,0.006
+2023,Community colleges,"Other, unassigned (grows after FY2016)",2708247.927,257765.146
+2023,UC,"Other, unassigned (grows after FY2016)",4845350.466,0.0
+2004,CSU,Plant operation and maintenance (own line to FY2015),295735.009,0.0
+2004,UC,Plant operation and maintenance (own line to FY2015),384920.992,0.0
+2005,CSU,Plant operation and maintenance (own line to FY2015),368742.431,0.0
+2005,Community colleges,Plant operation and maintenance (own line to FY2015),447570.528,0.0
+2005,UC,Plant operation and maintenance (own line to FY2015),409627.762,0.0
+2006,CSU,Plant operation and maintenance (own line to FY2015),398230.509,0.0
+2006,Community colleges,Plant operation and maintenance (own line to FY2015),469819.084,0.0
+2006,UC,Plant operation and maintenance (own line to FY2015),448680.778,0.0
+2007,CSU,Plant operation and maintenance (own line to FY2015),420747.825,0.0
+2007,Community colleges,Plant operation and maintenance (own line to FY2015),504744.106,0.0
+2007,UC,Plant operation and maintenance (own line to FY2015),470961.721,0.0
+2008,Community colleges,Plant operation and maintenance (own line to FY2015),435005.542,0.0
+2008,UC,Plant operation and maintenance (own line to FY2015),520207.906,0.0
+2009,Community colleges,Plant operation and maintenance (own line to FY2015),425963.878,0.0
+2009,UC,Plant operation and maintenance (own line to FY2015),519708.039,0.0
+2004,CSU,"Depreciation, interest and other (own line to FY2009)",317821.654,0.0
+2004,UC,"Depreciation, interest and other (own line to FY2009)",1046609.356,0.0
+2005,CSU,"Depreciation, interest and other (own line to FY2009)",323722.382,0.0
+2005,Community colleges,"Depreciation, interest and other (own line to FY2009)",326897.62,0.0
+2005,UC,"Depreciation, interest and other (own line to FY2009)",1045029.22,0.0
+2006,CSU,"Depreciation, interest and other (own line to FY2009)",351736.414,0.0
+2006,Community colleges,"Depreciation, interest and other (own line to FY2009)",397052.908,0.0
+2006,UC,"Depreciation, interest and other (own line to FY2009)",1078934.801,0.0
+2007,CSU,"Depreciation, interest and other (own line to FY2009)",344548.93,0.0
+2007,Community colleges,"Depreciation, interest and other (own line to FY2009)",544422.655,0.0
+2007,UC,"Depreciation, interest and other (own line to FY2009)",1599040.723,0.0
+2008,CSU,"Depreciation, interest and other (own line to FY2009)",99404.855,0.0
+2008,Community colleges,"Depreciation, interest and other (own line to FY2009)",627898.328,0.0
+2008,UC,"Depreciation, interest and other (own line to FY2009)",1201601.544,0.0
+2009,Community colleges,"Depreciation, interest and other (own line to FY2009)",583666.507,0.0
+2009,UC,"Depreciation, interest and other (own line to FY2009)",1277258.867,0.0
