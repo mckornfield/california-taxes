@@ -16,6 +16,7 @@
   highered_natural.csv    fy, system, group (Salaries and wages|Fringe benefits|Everything else), amount_k
   highered_revenue.csv    fy, system, source, amount_k
   highered_fte.csv        fy, system, fte, institutions   (12-month full-time-equivalent students, IPEDS)
+  highered_institutions.csv  fy, system, unitid, institution, fte, total_k, core_k, hospital_k, state_k, local_tax_k, tuition_k, salaries_k, benefits_k   (one row per campus/college/district as filed)
   boe_assessed.csv        lien_year, county, land_k, improvements_k, personal_k, exemptions_k, net_k   (BOE Table 5, 2000+)
   boe_summary.csv         lien_year, agency, net_k, levies_k, avg_rate_pct   (BOE Table 4, statewide, 2009+)
   boe_allocations.csv     lien_year, county, recipient, amount_k, net_taxable_k   (BOE, 2012+)
@@ -31,7 +32,7 @@ Real/per-capita values are derived in notebooks via ca_taxes.deflate.
 import pandas as pd
 
 from ca_taxes.io import PROCESSED, RAW
-from ca_taxes.highered import FUNCTION_COLUMNS, RESIDUAL, REVENUE_GROUPS
+from ca_taxes.highered import CORE, FUNCTION_COLUMNS, RESIDUAL, REVENUE_GROUPS
 from ca_taxes.local import is_tax_category, revenue_group, spending_group, tax_type
 from ca_taxes.school import EXCLUDED_FUNDS, function_group, object_category, object_group
 from ca_taxes.state import classify, spending_area
@@ -425,6 +426,20 @@ def higher_ed() -> dict[str, pd.DataFrame]:
             "highered_revenue": rev[["fy", "system", "source", "amount_k"]], "highered_fte": fte}
 
 
+def higher_ed_institutions() -> pd.DataFrame:
+    """Per-institution (campus, college or district, as filed with IPEDS) spending, public support and tuition, $ thousands."""
+    d = pd.read_csv(RAW / "ipeds" / "ca_public_higher_ed.csv")
+    d = d[~((d.system == "Community colleges") & (d.fy == 2004)) & (d.F1C191 > 0)].copy()
+    core_cols = [c for c, label in FUNCTION_COLUMNS.items() if label in CORE]
+    latest = d.sort_values("fy").groupby("unitid").institution.last()
+    out = pd.DataFrame({
+        "fy": d.fy, "system": d.system, "unitid": d.unitid, "institution": d.unitid.map(latest).str.strip(),
+        "fte": d.fte, "total_k": d.F1C191 / 1e3, "core_k": d[core_cols].sum(axis=1) / 1e3, "hospital_k": d.F1C121 / 1e3,
+        "state_k": (d.F1B11 + d.F1B03 + d.F1B14) / 1e3, "local_tax_k": (d.F1B12 + d.F1B15) / 1e3, "tuition_k": d.F1B01 / 1e3,
+        "salaries_k": d.F1C192 / 1e3, "benefits_k": d.F1C193 / 1e3})
+    return out.sort_values(["system", "institution", "fy"])
+
+
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
     sf, se = school_finance()
@@ -432,7 +447,7 @@ def main():
     state_exp = state_expenditures()
     state_exp.to_csv(PROCESSED / "state_expenditures.csv", index=False)  # federal_govt_receipts reads it
     boe = boe_tables()
-    boe = {**boe, **higher_ed()}
+    boe = {**boe, **higher_ed(), "highered_institutions": higher_ed_institutions()}
     for name, df in [("sacs_spending", sp), ("sacs_function_group", sfn), *boe.items(), ("federal_collections", federal_collections()), ("federal_benefits", federal_benefits()),
                      ("federal_govt_receipts", federal_govt_receipts(sf)),
                      ("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),

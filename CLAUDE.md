@@ -18,7 +18,7 @@ Interactive Plotly charts of California taxes: where state and local revenue com
 ## Notebook Pipeline
 Run in order; each reads `data/processed/`.
 1. `01_state_data_overview`, `02_state_revenue`, `03_state_spending`, `03b_state_spending_detail` (by type and department), `04_state_revenue_vs_spending`
-2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `08b_school_spending_detail` (K-12 by object and function, CDE SACS), `08c_higher_education` (UC, CSU, community colleges, IPEDS), `09_county_maps`
+2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `08b_school_spending_detail` (K-12 by object and function, CDE SACS), `08c_higher_education` (UC, CSU, community colleges, IPEDS), `08d_higher_ed_campuses` (by campus / college, per student), `09_county_maps`
 3. `10_tax_burden` (state + city + county + school-district taxes, real per person and as a share of personal income)
 4. `11_property_assessed_values` (BOE assessed value vs home prices, levies, allocations, county maps)
 5. `12_federal_dollars` (IRS taxes out vs BEA benefits/pay and federal funds to governments)
