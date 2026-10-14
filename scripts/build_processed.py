@@ -10,6 +10,8 @@
   local_entities.csv      kind (City|County), entity, county, fy, population, revenue_total_k, tax_k, spending_total_k, population_repaired
   school_finance.csv      kind (revenue|spending), fy, group, amount_k   (K-12 districts, Census; FY1994 omitted)
   school_enrollment.csv   fy, enrollment   (fall enrollment, sum of districts)
+  sacs_spending.csv       fy, group, category, amount_k   (K-12 spending by object, CDE SACS, FY2004+; see ca_taxes.school)
+  sacs_function_group.csv fy, function_group, group, amount_k   (same spending by function x object group)
   boe_assessed.csv        lien_year, county, land_k, improvements_k, personal_k, exemptions_k, net_k   (BOE Table 5, 2000+)
   boe_summary.csv         lien_year, agency, net_k, levies_k, avg_rate_pct   (BOE Table 4, statewide, 2009+)
   boe_allocations.csv     lien_year, county, recipient, amount_k, net_taxable_k   (BOE, 2012+)
@@ -26,6 +28,7 @@ import pandas as pd
 
 from ca_taxes.io import PROCESSED, RAW
 from ca_taxes.local import is_tax_category, revenue_group, spending_group, tax_type
+from ca_taxes.school import EXCLUDED_FUNDS, function_group, object_category, object_group
 from ca_taxes.state import classify, spending_area
 
 
@@ -321,6 +324,33 @@ def federal_govt_receipts(school_fin: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(parts)[["fy", "recipient", "amount_k"]]
 
 
+def sacs_spending() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """K-12 spending by object and function from CDE's SACS statewide totals ($ thousands).
+
+    Drops pass-through, internal and fiduciary funds, transfers between agencies and funds, and any
+    non-expenditure objects (see ca_taxes.school). Prints the result against Census' school spending as a
+    cross-check: Census leaves out debt principal, SACS includes it, so the gap should be small after adding it back.
+    """
+    d = pd.read_csv(RAW / "cde" / "sacs_state_totals.csv", dtype={"fund": str, "function": str, "object": str})
+    d = d[~d.fund.isin(EXCLUDED_FUNDS)]
+    d["group"] = d.object.map(object_group)
+    d = d.dropna(subset=["group"]).copy()
+    d["category"] = d.object.map(object_category)
+    d["function_group"] = d.function.map(function_group)
+    d["amount_k"] = d.amount / 1e3
+    spend = d.groupby(["fy", "group", "category"], as_index=False).amount_k.sum()
+    func = d.groupby(["fy", "function_group", "group"], as_index=False).amount_k.sum()
+    tot = d.groupby("fy").amount_k.sum()
+    principal = d[d.object.isin(["7433", "7439"])].groupby("fy").amount_k.sum()
+    cen = pd.read_csv(RAW / "census" / "schools" / "ca_school_districts.csv").groupby("fy")[["TOTALEXP", "Q11"]].sum()
+    cen = cen.TOTALEXP - cen.Q11
+    chk = pd.DataFrame({"sacs_b": tot / 1e6, "sacs_ex_principal_b": (tot - principal.reindex(tot.index).fillna(0)) / 1e6, "census_b": cen.reindex(tot.index) / 1e6})
+    chk["ratio"] = chk.sacs_ex_principal_b / chk.census_b
+    print("  SACS vs Census school spending ($B; ratio = SACS excl. principal / Census):")
+    print("  " + chk.round(2).to_string().replace("\n", "\n  "))
+    return spend, func
+
+
 PARTIAL_SCHOOL_YEARS = {1994}  # Census' FY1994 file covers only 258 of ~1,080 California districts
 
 
@@ -360,10 +390,11 @@ def school_finance() -> tuple[pd.DataFrame, pd.DataFrame]:
 def main():
     PROCESSED.mkdir(parents=True, exist_ok=True)
     sf, se = school_finance()
+    sp, sfn = sacs_spending()
     state_exp = state_expenditures()
     state_exp.to_csv(PROCESSED / "state_expenditures.csv", index=False)  # federal_govt_receipts reads it
     boe = boe_tables()
-    for name, df in [*boe.items(), ("federal_collections", federal_collections()), ("federal_benefits", federal_benefits()),
+    for name, df in [("sacs_spending", sp), ("sacs_function_group", sfn), *boe.items(), ("federal_collections", federal_collections()), ("federal_benefits", federal_benefits()),
                      ("federal_govt_receipts", federal_govt_receipts(sf)),
                      ("school_finance", sf), ("school_enrollment", se), ("macro", macro()), ("local_revenue", local_revenue()), ("local_taxes", local_taxes()),
                      ("local_spending", local_spending()), ("local_sd_activity", local_sd_activity()),

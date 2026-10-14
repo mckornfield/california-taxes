@@ -1,0 +1,297 @@
+code,title
+1100,Certificated Teachers' Salaries
+1200,Certificated Pupil Support Salaries
+1300,Certificated Supervisors' and Administrators' Salaries
+1900,Other Certificated Salaries
+2100,Classified Instructional Salaries
+2200,Classified Support Salaries
+2300,Classified Supervisors' and Administrators' Salaries
+2400,"Clerical, Technical, and Office Staff Salaries"
+2900,Other Classified Salaries
+3100,(Obsolete) State Teachers' Retirement System
+3101,"State Teachers' Retirement System, certificated positions"
+3102,"State Teachers' Retirement System, classified positions"
+3200,(Obsolete) Public Employees' Retirement System
+3201,"Public Employees' Retirement System, certificated positions"
+3202,"Public Employees' Retirement System, classified positions"
+3300,(Obsolete) Social Security/Medicare/Alternative
+3301,"OASDI/Medicare/Alternative, certificated positions"
+3302,"OASDI/Medicare/Alternative, classified positions"
+3400,(Obsolete) Health & Welfare Benefits
+3401,"Health & Welfare Benefits, certificated positions"
+3402,"Health & Welfare Benefits, classified positions"
+3500,(Obsolete) State Unemployment Insurance
+3501,"State Unemployment Insurance, certificated positions"
+3502,"State Unemployment Insurance, classified positions"
+3600,(Obsolete) Worker's Compensation Insurance
+3601,"Workers' Compensation Insurance, certificated positions"
+3602,"Workers' Compensation Insurance, classified positions"
+3700,(Obsolete) Retiree Benefits
+3701,"OPEB, Allocated, certificated positions"
+3702,"OPEB, Allocated, classified positions"
+3751,"OPEB, Active Employees, certificated positions"
+3752,"OPEB, Active Employees, classified positions"
+3800,(Obsolete) PERS Reduction
+3801,"PERS Reduction, certificated positions"
+3802,"PERS Reduction, classified positions"
+3900,(Obsolete) Other Benefits
+3901,"Other Benefits, certificated positions"
+3902,"Other Benefits, classified positions"
+4100,Approved Textbooks and Core Curricula Materials
+4200,Books and Other Reference Materials
+4300,Materials and Supplies
+4400,Noncapitalized Equipment
+4700,Food
+5100,Subagreements for Services
+5200,Travel and Conferences
+5300,Dues and Memberships
+5400,Insurance
+5440,Pupil Insurance
+5450,Other Insurance
+5500,Operations and Housekeeping Services
+5600,"Rentals, Leases, Repairs, and Noncapitalized Improvements"
+5710,Transfers of Direct Costs
+5750,Transfers of Direct Costs - Interfund
+5800,Professional/Consulting Services and Operating Expenditures
+5900,Communications
+6100,Land
+6170,Land Improvements
+6200,Buildings and Improvements of Buildings
+6300,Books and Media for New School Libraries or Major Expansion of School Libraries
+6400,Equipment
+6500,Equipment Replacement
+6600,Lease Assets
+6700,Subscription Assets
+6900,Depreciation Expense
+6910,Amortization Expense-Lease Assets
+6920,Amortization Expense-Subscription Assets
+7110,Tuition for Instruction Under Interdistrict Attendance Agreements
+7130,State Special Schools
+7141,"Other Tuition, Excess Costs, and/or Deficit Payments to Districts or Charter Schools"
+7142,"Other Tuition, Excess Costs, and/or Deficit Payments to County Offices"
+7143,"Other Tuition, Excess Costs, and/or Deficit Payments to JPAs"
+7211,Transfers of Pass-Through Revenues to Districts or Charter Schools
+7212,Transfers of Pass-Through Revenues to County Offices
+7213,Transfers of Pass-Through Revenues to JPAs
+7221,Transfers of Apportionments to Districts or Charter Schools
+7222,Transfers of Apportionments to County Offices
+7223,Transfers of Apportionments to JPAs
+7280,(Obsolete) Transfers to Charter Schools in Lieu of Property Taxes
+7281,All Other Transfers to Districts or Charter Schools
+7282,All Other Transfers to County Offices
+7283,All Other Transfers to JPAs
+7299,All Other Transfers Out to All Others
+7310,Transfers of Indirect Costs
+7350,Transfers of Indirect Costs - Interfund
+7370,Transfers of Direct Support Costs
+7380,Transfers of Direct Support Costs - Interfund
+7432,State School Building Repayments
+7433,Bond Redemptions
+7434,Bond Interest and Other Service Charges
+7435,Repayment of State School Building Fund Aid - Proceeds from Bonds
+7436,Payments to Original District for Acquisition of Property
+7438,Debt Service - Interest
+7439,Other Debt Service - Principal
+7500,Funds Distributed to Others
+7611,From General Fund to Child Development Fund
+7612,Between General Fund and Special Reserve Fund
+7613,To State School Building Fund/County School Facilities Fund from All Other Funds of the District
+7614,From Bond Interest and Redemption Fund to General Fund
+7615,"From General, Special Reserve, and Building Funds to Deferred Maintenance Fund"
+7616,From General Fund to Cafeteria Fund
+7619,Other Authorized Interfund Transfers Out
+7632,(Obsolete) State School Building Repayment
+7633,(Obsolete) Bond Redemptions
+7634,(Obsolete) Bond Interest and Other Service Charges
+7635,(Obsolete) Repayment of State School Building Fund Aid - Proceeds from Bonds
+7636,(Obsolete) Payments to Original District for Acquisition of Property
+7638,(Obsolete) Debt Service - Interest
+7639,(Obsolete) Other Debt Service - Principal
+7641,(Obsolete) Long-Term Loan Repayments
+7649,(Obsolete) Other Loan Repayments
+7651,Transfers of Funds from Lapsed/Reorganized LEAs
+7699,All Other Financing Uses
+8011,LCFF State Aid - Current Year
+8012,Education Protection Account State Aid - Current Year
+8015,Charter Schools General Purpose Entitlement - State Aid
+8019,LCFF State Aid - Prior Years
+8021,Homeowners' Exemptions
+8022,Timber Yield Tax
+8029,Other Subventions/In-Lieu Taxes
+8030,(Obsolete) Trailer Coach Fees
+8041,Secured Roll Taxes
+8042,Unsecured Roll Taxes
+8043,Prior Years' Taxes
+8044,Supplemental Taxes
+8045,Education Revenue Augmentation Fund (ERAF)
+8046,Supplemental Educational Revenue Augmentation Fund (SERAF)
+8047,Community Redevelopment Funds
+8048,Penalties and Interest from Delinquent Taxes
+8070,Receipts from County Board of Supervisors
+8081,Royalties and Bonuses
+8082,Other In-Lieu Taxes
+8089,Less: Non-LCFF (50 Percent) Adjustment
+8091,LCFF Transfers - Current Year
+8092,PERS Reduction Transfer
+8096,Transfers to Charter Schools in Lieu of Property Taxes
+8097,Property Taxes Transfers
+8099,LCFF Transfers - Prior Years
+8110,Maintenance and Operations (Public Law 81-874)
+8181,Special Education - Entitlement
+8182,Special Education - Discretionary Grants
+8220,Child Nutrition Programs
+8221,Donated Food Commodities
+8260,Forest Reserve Funds
+8270,Flood Control Funds
+8280,U.S. Wildlife Reserve Funds
+8281,FEMA
+8285,Interagency Contracts Between LEAs
+8287,Pass-Through Revenues from Federal Sources
+8290,All Other Federal Revenue
+8311,Other State Apportionments - Current Year
+8319,Other State Apportionments - Prior Years
+8425,Year-Round School Incentive
+8434,"Class Size Reduction, Grades K-3"
+8435,"(Obsolete) Class Size Reduction, Grade Nine"
+8480,Charter Schools Categorical Block Grant
+8520,Child Nutrition
+8530,Child Development Apportionments
+8540,Deferred Maintenance Allowance
+8545,School Facilities Apportionments
+8550,Mandated Cost Reimbursements
+8560,State Lottery Revenue
+8571,"Voted Indebtedness Levies, Homeowners' Exemptions"
+8572,"Voted Indebtedness Levies, Other Subventions/In-Lieu Taxes"
+8575,"Other Restricted Levies, Homeowners' Exemptions"
+8576,"Other Restricted Levies, Other Subventions/In-Lieu Taxes"
+8587,Pass-Through Revenues from State Sources
+8590,All Other State Revenue
+8611,"Voted Indebtedness Levies, Secured Roll"
+8612,"Voted Indebtedness Levies, Unsecured Roll"
+8613,"Voted Indebtedness Levies, Prior Years' Taxes"
+8614,"Voted Indebtedness Levies, Supplemental Taxes"
+8615,"Other Restricted Levies, Secured Roll"
+8616,"Other Restricted Levies, Unsecured Roll"
+8617,"Other Restricted Levies, Prior Years' Taxes"
+8618,"Other Restricted Levies, Supplemental Taxes"
+8621,Parcel Taxes
+8622,Other Non-Ad Valorem Taxes
+8625,Community Redevelopment Funds Not Subject to LCFF Deduction
+8629,Penalties and Interest from Delinquent Non-LCFF Taxes
+8631,Sale of Equipment and Supplies
+8632,Sale of Publications
+8634,Food Service Sales
+8639,All Other Sales
+8650,Leases and Rentals
+8660,Interest
+8662,Net Increase (Decrease) in the Fair Value of Investments
+8671,Adult Education Fees
+8672,Nonresident Student Fees
+8673,Child Development Parent Fees
+8674,In-District Premiums/Contributions
+8675,Transportation Fees from Individuals
+8677,Interagency Services Between LEAs
+8681,Mitigation/Developer Fees
+8689,All Other Fees and Contracts
+8691,Plus: Miscellaneous Funds Non-LCFF (50 Percent) Adjustment
+8697,Pass-Through Revenue from Local Sources
+8699,All Other Local Revenue
+8710,Tuition
+8780,(Obsolete) Transfers from Sponsoring LEAs to Charter Schools in Lieu of Property Taxes
+8781,All Other Transfers from Districts or Charter Schools
+8782,All Other Transfers from County Offices
+8783,All Other Transfers from JPAs
+8791,Transfers of Apportionments from Districts or Charter Schools
+8792,Transfers of Apportionments from County Offices
+8793,Transfers of Apportionments from JPAs
+8799,Other Transfers In from All Others
+8800,Funds Collected for Others
+8911,To Child Development Fund from General Fund
+8912,Between General Fund and Special Reserve Fund
+8913,To State School Building Fund/County School Facilities Fund from All Other Funds
+8914,To General Fund from Bond Interest and Redemption Fund
+8915,"To Deferred Maintenance Fund from General, Special Reserve and Building Funds"
+8916,To Cafeteria Fund from General Fund
+8919,Other Authorized Interfund Transfers In
+8931,Emergency Apportionments
+8935,(Obsolete) School Facilities Apportionments
+8951,Proceeds from Sale of Bonds
+8953,Proceeds from Disposal of Capital Assets
+8961,County School Building Aid
+8965,Transfers from Funds of Lapsed/Reorganized LEAs
+8971,Proceeds from Certificates of Participation
+8972,Proceeds from Leases
+8973,Proceeds from Lease Revenue Bonds
+8974,Proceeds from SBITAs
+8979,All Other Financing Sources
+8980,Contributions from Unrestricted Revenues
+8990,Contributions from Restricted Revenues
+8995,Categorical Education Block Grant Transfers
+8997,Transfers of Restricted Balances
+8998,Categorical Flexibility Transfers
+9110,Cash in County Treasury
+9111,Fair Value Adjustment to Cash in County Treasury
+9120,Cash in Bank(s)
+9130,Revolving Cash Account
+9135,Cash with a Fiscal Agent/Trustee
+9140,Cash Collections Awaiting Deposit
+9150,Investments
+9200,Accounts Receivable
+9290,Due from Grantor Governments
+9310,Due from Other Funds
+9320,Stores
+9330,Prepaid Expenditures (Expenses)
+9340,Other Current Assets
+9380,Lease Receivable
+9410,Land
+9420,Land Improvements
+9425,Accumulated Depreciation - Land Improvements
+9430,Buildings
+9435,Accumulated Depreciation - Buildings
+9440,Equipment
+9445,Accumulated Depreciation - Equipment
+9450,Work in Progress
+9460,Lease Assets
+9465,Accumulated Amortization-Lease Assets
+9470,Subscription Assets
+9475,Accumulated Amortization-Subscription Assets
+9490,Deferred Outflows of Resources
+9500,Accounts Payable (Current Liabilities)
+9590,Due to Grantor Governments
+9610,Due to Other Funds
+9620,Due to Student Groups/Other Agencies
+9640,Current Loans
+9650,Unearned Revenue
+9660,Subscription Liability
+9661,General Obligation Bond Payable
+9662,State School Building Loans Payable
+9663,Net Pension Liability
+9664,Total/Net OPEB Liability
+9665,Compensated Absences Payable
+9666,Certificates of Participation (COPs) Payable
+9667,Leases Payable
+9668,Lease Revenue Bonds Payable
+9669,Other General Long-Term Debt
+9690,Deferred Inflows of Resources
+9711,Nonspendable Revolving Cash
+9712,Nonspendable Stores
+9713,Nonspendable Prepaid Items
+9719,All Other Nonspendable Assets
+9730,General Reserve
+9740,Restricted Balance
+9750,Stabilization Arrangements
+9760,Other Commitments
+9770,Designated for Economic Uncertainties
+9775,Designated for the Unrealized Gains of Investments and Cash in County Treasury
+9780,Other Assignments
+9789,Reserve for Economic Uncertainties
+9790,Unassigned/Unappropriated/Unrestricted Net Position
+9791,Beginning Fund Balance
+9793,Audit Adjustments
+9795,Other Restatements
+9796,Net Investment in Capital Assets
+9797,Restricted Net Position
+979Z,EFB (Calculated)
+9980,Amount Available
+9989,Amount to be Provided
+9990,Investment in General Fixed Assets

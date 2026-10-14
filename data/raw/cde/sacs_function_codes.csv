@@ -1,0 +1,80 @@
+code,title
+0000,Not Applicable (For use with revenues and balance sheet transactions only)
+1000,Instruction
+1110,Special Education: Separate Classes
+1120,Special Education: Resource Specialist Instruction
+1130,Special Education: Supplemental Aids & Services in Regular Classrooms
+1180,Special Education:  Nonpublic Agencies/Schools (NPA/S)
+1190,Special Education:  Other Specialized Instructional Services
+2100,Instructional Supervision and Administration
+2110,Instructional Supervision
+2120,Instructional Research
+2130,Curriculum Development
+2140,In-house Instructional Staff Development
+2150,Instructional Administration of Special Projects
+2200,Administrative Unit (AU) of a Multidistrict SELPA
+2420,"Instructional Library, Media, and Technology"
+2490,Other Instructional Resources
+2495,Parent Participation
+2700,School Administration
+3110,Guidance and Counseling Services
+3120,Psychological Services
+3130,Attendance and Social Work Services
+3140,Health Services
+3150,Speech Pathology and Audiology Services
+3160,Pupil Testing Services
+3170,(Obsolete) Assessment Costs
+3600,Pupil Transportation
+3700,Food Services
+3900,Other Pupil Services
+4000,Ancillary Services
+4100,School-Sponsored Co-curricular
+4200,School-Sponsored Athletics
+4900,Other Ancillary Services
+5000,Community Services
+5100,Community Recreation
+5400,Civic Services
+5900,Other Community Services
+6000,Enterprise
+7100,Board and Superintendent
+7110,Board
+7120,Staff Relations and Negotiations
+7150,Superintendent
+7180,Public Information
+7190,External Financial Audit - Single Audit
+7191,External Financial Audit - Other
+7200,Other General Administration
+7210,Indirect Cost Transfers
+7300,Fiscal Services
+7310,Budgeting
+7320,Accounts Receivable
+7330,Accounts Payable
+7340,Payroll
+7350,Financial Accounting
+7360,Project-Specific Accounting
+7370,Internal Auditing
+7380,Property Accounting
+7390,Other Fiscal Services
+7400,Personnel/Human Resources Services
+7410,Staff Development
+7430,Credentials
+7490,Other Personnel/Human Resources Services
+7500,Central Support
+7510,"Planning, Research, Development and Evaluation"
+7530,Purchasing
+7540,Warehousing and Distribution
+7550,"Printing, Publishing and Duplicating"
+7600,All Other General Administration
+7700,Centralized Data Processing
+8100,Plant Maintenance and Operations
+8110,Maintenance
+8200,Operations
+8300,Security
+8400,Other Plant Maintenance and Operations
+8500,Facilities Acquisition and Construction
+8700,Facilities Rents and Leases
+9000,(Obsolete) Other Outgo  - (Obsolete)
+9100,Debt Service
+9200,Transfers Between Agencies
+9300,Interfund Transfers
+9400,(Obsolete) Retiree Benefits-Unspecified

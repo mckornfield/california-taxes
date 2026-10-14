@@ -54,6 +54,7 @@ SECTIONS = [
         "01_state_data_overview.ipynb",
         "02_state_revenue.ipynb",
         "03_state_spending.ipynb",
+        "03b_state_spending_detail.ipynb",
         "04_state_revenue_vs_spending.ipynb",
     ]),
     ("Local government", [
@@ -61,6 +62,7 @@ SECTIONS = [
         "06_local_taxes.ipynb",
         "07_local_spending.ipynb",
         "08_school_districts.ipynb",
+        "08b_school_spending_detail.ipynb",
         "09_county_maps.ipynb",
     ]),
     ("Putting it together", [

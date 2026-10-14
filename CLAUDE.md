@@ -17,8 +17,8 @@ Interactive Plotly charts of California taxes: where state and local revenue com
 
 ## Notebook Pipeline
 Run in order; each reads `data/processed/`.
-1. `01_state_data_overview`, `02_state_revenue`, `03_state_spending`, `04_state_revenue_vs_spending`
-2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `09_county_maps`
+1. `01_state_data_overview`, `02_state_revenue`, `03_state_spending`, `03b_state_spending_detail` (by type and department), `04_state_revenue_vs_spending`
+2. `05_local_revenue`, `06_local_taxes`, `07_local_spending`, `08_school_districts`, `08b_school_spending_detail` (K-12 by object and function, CDE SACS), `09_county_maps`
 3. `10_tax_burden` (state + city + county + school-district taxes, real per person and as a share of personal income)
 4. `11_property_assessed_values` (BOE assessed value vs home prices, levies, allocations, county maps)
 5. `12_federal_dollars` (IRS taxes out vs BEA benefits/pay and federal funds to governments)
@@ -35,12 +35,14 @@ Run in order; each reads `data/processed/`.
 | BOE assessed values / levies / allocations (OData API) | `fetch_boe.py` | `data/raw/boe/` |
 | IRS Data Book Table 5, federal collections by state FY1998-2025 | `fetch_irs_collections.py` (.xls/.xlsx cached, gitignored; CA rows kept) | `data/raw/irs/` |
 | BEA SAINC35/SAINC6 (benefits, federal pay) | `fetch_bea.py` | `data/raw/bea/` |
+| CDE SACS school spending by object/function, school years 2003-04 on (statewide totals from Access databases) | `fetch_cde_sacs.py` (~0.9 GB gitignored cache; needs `access-parser`, ~5 GB RAM peak per year) | `data/raw/cde/` |
 | Census school-district finances FY1992-2024 | `fetch_census_schools.py` (~250 MB gitignored cache; keeps CA rows only) | `data/raw/census/schools/` |
 
 Known data issues (also in README):
 - LAO revenue taxonomy changes at FY2016-17; LAO 2018-19 rows are misaligned and are repaired from DOF Schedule 3.
 - SCO reporting format changes at FY2016-17 (series break drawn on charts).
 - SCO excludes K-12 districts and community colleges. K-12 comes from Census (FY1994 omitted, FY2019 charter-school break); community colleges are not covered anywhere. County revenue includes state aid, so do not add state and local revenue totals.
+- SACS: `ca_taxes.school` excludes pass-through, internal and fiduciary funds and transfers (fund 76 alone is ~$39B of 'funds distributed to others'); `build_processed.py` prints the result against Census as a check. The SACS .mdb Decimal amounts are decoded by hand and `access-parser` mis-splits text columns (see `fetch_cde_sacs.py`).
 - BOE Table 5 has a statewide Total row in 2000-2018 (dropped, with an assert against BOE's summary). Federal 'back in' series are partial and overlapping (see notebook 13 and README).
 - SCO city populations can be swapped between cities (Mt. Shasta / Mountain View); `repair_city_population` in `build_processed.py` fixes and flags them.
 - `.xlsx`/`.xls`/`.pdf` raw files are gitignored; the converted CSVs are committed.

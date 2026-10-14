@@ -92,3 +92,44 @@ def spending_area(agency: str, debt_service: str) -> str:
     if debt_service == "GO Debt Service":
         return "Debt service (GO bonds)"
     return _AGENCY.get(agency, agency)
+
+
+# LAO renames and reorganizes departments over the years (many names changed in FY2013-14). Successors of the
+# same function are chained so a drill-down by department does not show a department 'ending' when it was renamed.
+# Reorganizations that split or merge departments (e.g. Mental Health into State Hospitals and Health Care
+# Services) are not chained. Only departments that matter for the drill-down charts are listed.
+DEPARTMENT_CHAINS = {
+    "Department of Health Services": "Health Services / Health Care Services (Medi-Cal)",
+    "State Department of Health Care Services": "Health Services / Health Care Services (Medi-Cal)",
+    "Department of Corrections": "Corrections and Rehabilitation (prisons)",
+    "Department of Corrections & Rehabilitation": "Corrections and Rehabilitation (prisons)",
+    "Corrections and Rehabilitation": "Corrections and Rehabilitation (prisons)",
+    "Contributions to Teacher's Retirement Fund": "Teachers' retirement contributions",
+    "Teachers Retirement System Contributions": "Teachers' retirement contributions",
+    "Judiciary": "Courts (Judicial Branch)",
+    "Judicial Branch": "Courts (Judicial Branch)",
+    "California Highway Patrol": "California Highway Patrol",
+    "Dept of the California Highway Patrol": "California Highway Patrol",
+    "Shared Revenue - Nontransportation": "Shared revenues with local governments",
+    "Shared Revenue - Transportation": "Shared revenues with local governments",
+    "Shared Revenues": "Shared revenues with local governments",
+    "Department of Housing and Community Development": "Housing and Community Development",
+    "Dept of Housing Community Development": "Housing and Community Development",
+    "Department of Consumer Affairs - Regulatory Boards": "Consumer Affairs",
+    "Department of Consumer Affairs - Bureaus, Programs and Divisions": "Consumer Affairs",
+    "Department of Consumer Affairs": "Consumer Affairs",
+    "Department of Resources Recycling and Recovery": "Recycling and waste management",
+    "Resources Recycling and Recovery": "Recycling and waste management",
+    "California Integrated Waste Management Board": "Recycling and waste management",
+    "Department of Fish & Wildlife (formerly Fish & Game)": "Fish and Wildlife",
+    "Department of Fish and Wildlife": "Fish and Wildlife",
+    "Institute for Regenerative Medicine": "Institute for Regenerative Medicine",
+    "California Institute for Regenerative Medicine": "Institute for Regenerative Medicine",
+    "State/Local Realignment - Health": "1991 state-local realignment",
+    "State/Local Realignment - Social Services": "1991 state-local realignment",
+    "State-Local Realignment, 1991": "1991 state-local realignment",
+}
+
+
+def harmonize_department(name: str) -> str:
+    return DEPARTMENT_CHAINS.get(name, name)
